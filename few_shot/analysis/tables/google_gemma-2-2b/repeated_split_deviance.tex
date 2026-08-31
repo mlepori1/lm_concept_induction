@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:repeated-split-deviance-google-gemma-2-2b}Held-out predictive deviance across 100 stratified train-test splits for google_gemma-2-2b. $\Delta$ values are test deviance minus ADA proxy test deviance within each split; positive values indicate that ADA has lower deviance.}
+\centering
+\begin{tabular}[t]{lccccccc}
+\toprule
+Model & Mean test deviance & SD test deviance & Mean $\Delta$ from ADA & 95\% CI for $\Delta$ & ADA better & Wins & Mean RMSE\\
+\midrule
+ADA proxy & 7671.0 & 42.4 & -- & -- & -- & 100 / 100 & 3.327\\
+Combined Baseline & 7798.9 & 42.9 & 128.0 & {}[123.0, 133.0] & 1.00 & 0 / 100 & 3.475\\
+Prototype & 7923.7 & 44.1 & 252.7 & {}[248.5, 257.0] & 1.00 & 0 / 100 & 3.626\\
+Nearest Neighbor & 7951.1 & 44.2 & 280.1 & {}[275.9, 284.3] & 1.00 & 0 / 100 & 3.660\\
+Prior Probability & 8118.0 & 42.1 & 447.0 & {}[442.6, 451.4] & 1.00 & 0 / 100 & 3.876\\
+\bottomrule
+\end{tabular}
+\end{table}

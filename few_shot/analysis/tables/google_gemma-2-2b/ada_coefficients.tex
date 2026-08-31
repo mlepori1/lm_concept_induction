@@ -1,0 +1,15 @@
+\begin{table}
+
+\caption{\label{tab:ada-coefficients-google-gemma-2-2b}Standardized coefficient estimates from the ADA proxy regression for google_gemma-2-2b. Predictors are z-scored; coefficients indicate the expected change in observed $\log p_{\mathrm{LM}}(t \mid S)$ for a one-standard-deviation increase in each predictor.}
+\centering
+\begin{tabular}[t]{lcccc}
+\toprule
+Term & Estimate & SE & $t$ & $p$\\
+\midrule
+Intercept & -8.017 & 0.063 & -127.77 & $< .001$\\
+Target alignment & 1.523 & 0.076 & 20.12 & $< .001$\\
+Support-set alignment & 1.000 & 0.098 & 10.22 & $< .001$\\
+Feature salience & -0.220 & 0.106 & -2.07 & 0.038\\
+\bottomrule
+\end{tabular}
+\end{table}

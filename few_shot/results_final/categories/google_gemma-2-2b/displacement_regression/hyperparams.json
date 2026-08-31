@@ -1,0 +1,14 @@
+{
+  "model_name": "google/gemma-2-2b",
+  "cv_folds": 5,
+  "n_svd_components": 100,
+  "mlp_hidden_dim": 2304,
+  "mlp_max_epochs": 2000,
+  "mlp_patience": 50,
+  "mlp_lr": 0.001,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "seed": 19,
+  "leave_one_concept_out": true,
+  "save_all_A": true,
+  "external_A_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/letters/google_gemma-2-2b/displacement_regression/all_A.npy"
+}

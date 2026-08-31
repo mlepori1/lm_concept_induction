@@ -1,0 +1,6 @@
+{
+  "best_layer": 15,
+  "metric": "ridge_cv_cos",
+  "value": 0.48772663474082945,
+  "heldout_cos_ridge_at_best_layer": 0.39259666204452515
+}

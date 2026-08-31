@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:tab:model-correlations}Descriptive association between observed language model behavior and each candidate model's predictions for google_gemma-2-2b. Values show correlations between observed $\log p_{\mathrm{LM}}(t \mid S)$ and fitted predictions from each model on the full dataset.}
+\centering
+\begin{tabular}[t]{lcc}
+\toprule
+Model & Pearson $r$ & Spearman $\rho$\\
+\midrule
+ADA & 0.514 & 0.534\\
+Combined Baseline & 0.443 & 0.478\\
+Prototype & 0.352 & 0.391\\
+Nearest Neighbor & 0.329 & 0.356\\
+Prior Probability & 0.030 & 0.030\\
+\bottomrule
+\end{tabular}
+\end{table}

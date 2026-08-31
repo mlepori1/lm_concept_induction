@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:repeated-split-deviance-allenai-olmo-2-0425-1b}Held-out predictive deviance across 100 stratified train-test splits for allenai_OLMo-2-0425-1B. $\Delta$ values are test deviance minus ADA proxy test deviance within each split; positive values indicate that ADA has lower deviance.}
+\centering
+\begin{tabular}[t]{lccccccc}
+\toprule
+Model & Mean test deviance & SD test deviance & Mean $\Delta$ from ADA & 95\% CI for $\Delta$ & ADA better & Wins & Mean RMSE\\
+\midrule
+Combined Baseline & 5208.1 & 35.3 & -202.8 & {}[-207.6, -198.0] & 0.00 & 100 / 100 & 1.885\\
+Prototype & 5263.6 & 35.9 & -147.2 & {}[-151.7, -142.7] & 0.00 & 0 / 100 & 1.927\\
+ADA proxy & 5410.8 & 35.3 & -- & -- & -- & 0 / 100 & 2.042\\
+Nearest Neighbor & 5441.3 & 36.9 & 30.5 & {}[26.3, 34.6] & 0.93 & 0 / 100 & 2.067\\
+Prior Probability & 5810.8 & 33.7 & 399.9 & {}[395.2, 404.6] & 1.00 & 0 / 100 & 2.391\\
+\bottomrule
+\end{tabular}
+\end{table}

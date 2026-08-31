@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:tab:model-correlations}Descriptive association between observed language model behavior and each candidate model's predictions for allenai_OLMo-2-0425-1B. Values show correlations between observed $\log p_{\mathrm{LM}}(t \mid S)$ and fitted predictions from each model on the full dataset.}
+\centering
+\begin{tabular}[t]{lcc}
+\toprule
+Model & Pearson $r$ & Spearman $\rho$\\
+\midrule
+Combined Baseline & 0.624 & 0.635\\
+Prototype & 0.600 & 0.622\\
+ADA & 0.533 & 0.541\\
+Nearest Neighbor & 0.515 & 0.565\\
+Prior Probability & 0.130 & 0.109\\
+\bottomrule
+\end{tabular}
+\end{table}

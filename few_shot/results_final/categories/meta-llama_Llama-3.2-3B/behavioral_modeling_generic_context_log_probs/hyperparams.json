@@ -1,0 +1,10 @@
+{
+  "model_name": "meta-llama/Llama-3.2-3B",
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "fit_intercept": false,
+  "lbfgs_max_iter": 100,
+  "lbfgs_lr": 1.0,
+  "row_chunk_size": 256,
+  "leave_one_concept_out": true,
+  "baseline_log_probs_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories/meta-llama_Llama-3.2-3B/concept_list_data/generic_context_log_probs.pt"
+}

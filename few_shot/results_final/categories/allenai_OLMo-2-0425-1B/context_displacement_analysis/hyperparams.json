@@ -1,0 +1,10 @@
+{
+  "model_name": "allenai/OLMo-2-0425-1B",
+  "n_categories": 113,
+  "n_supports": 10,
+  "support_len": 4,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "seed": 19,
+  "data_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/data/categories_data.csv",
+  "n_permutations": 500
+}

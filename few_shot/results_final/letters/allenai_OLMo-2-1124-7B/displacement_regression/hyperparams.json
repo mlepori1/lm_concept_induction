@@ -1,0 +1,14 @@
+{
+  "model_name": "allenai/OLMo-2-1124-7B",
+  "cv_folds": 5,
+  "n_svd_components": 100,
+  "mlp_hidden_dim": 2304,
+  "mlp_max_epochs": 2000,
+  "mlp_patience": 50,
+  "mlp_lr": 0.001,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/letters",
+  "seed": 19,
+  "leave_one_concept_out": false,
+  "save_all_A": true,
+  "external_A_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories/allenai_OLMo-2-1124-7B/displacement_regression/all_A.npy"
+}

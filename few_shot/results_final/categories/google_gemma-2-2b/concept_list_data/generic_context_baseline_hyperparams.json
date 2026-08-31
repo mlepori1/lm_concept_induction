@@ -1,0 +1,8 @@
+{
+  "model_name": "google/gemma-2-2b",
+  "n_contexts": 10,
+  "support_len": 4,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "seed": 19,
+  "data_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/data/categories_data.csv"
+}

@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:repeated-split-deviance-meta-llama-llama-3-2-1b}Held-out predictive deviance across 100 stratified train-test splits for meta-llama_Llama-3.2-1B. $\Delta$ values are test deviance minus ADA proxy test deviance within each split; positive values indicate that ADA has lower deviance.}
+\centering
+\begin{tabular}[t]{lccccccc}
+\toprule
+Model & Mean test deviance & SD test deviance & Mean $\Delta$ from ADA & 95\% CI for $\Delta$ & ADA better & Wins & Mean RMSE\\
+\midrule
+ADA proxy & 5318.1 & 36.7 & -- & -- & -- & 100 / 100 & 1.969\\
+Combined Baseline & 5385.3 & 37.4 & 67.2 & {}[62.4, 72.0] & 1.00 & 0 / 100 & 2.021\\
+Prototype & 5400.4 & 36.8 & 82.3 & {}[77.6, 87.1] & 1.00 & 0 / 100 & 2.034\\
+Nearest Neighbor & 5533.7 & 36.6 & 215.6 & {}[211.3, 219.9] & 1.00 & 0 / 100 & 2.143\\
+Prior Probability & 5865.7 & 35.2 & 547.7 & {}[541.9, 553.4] & 1.00 & 0 / 100 & 2.443\\
+\bottomrule
+\end{tabular}
+\end{table}

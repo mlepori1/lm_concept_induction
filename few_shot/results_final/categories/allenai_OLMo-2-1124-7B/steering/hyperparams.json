@@ -1,0 +1,19 @@
+{
+  "model_name": "allenai/OLMo-2-1124-7B",
+  "n_categories": 113,
+  "n_supports": 5,
+  "support_len": 4,
+  "n_holdout_in_cat": 4,
+  "n_holdout_out_cat": 4,
+  "alpha": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "steer_layers": "4,7,11,15,18,22,26,30",
+  "context_displacement_dir": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories/allenai_OLMo-2-1124-7B/context_displacement_analysis",
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "seed": 19,
+  "data_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/data/categories_data.csv"
+}

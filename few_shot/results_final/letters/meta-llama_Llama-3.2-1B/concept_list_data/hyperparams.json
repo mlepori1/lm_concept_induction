@@ -1,0 +1,11 @@
+{
+  "model_name": "meta-llama/Llama-3.2-1B",
+  "n_categories": 113,
+  "n_train": 8,
+  "n_heldout": 5,
+  "n_supports": 4,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/letters",
+  "seed": 19,
+  "data_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/data/letter_data_meta-llama_Llama-3.2-1B.csv",
+  "embedding_scale": 1.0
+}

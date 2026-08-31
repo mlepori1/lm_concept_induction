@@ -1,0 +1,1208 @@
+category,support_id,split,context_tokens,target,log_p_target_given_context,log_p_target_bos,log_p_target_given_shuffled_context
+prime number,0,train,thirteen two seven nine,three,-2.359375,-17.5,
+prime number,1,train,three nine two thirteen,seven,-3.28125,-17.375,
+prime number,2,train,seven thirteen three nine,two,-2.8125,-17.25,
+prime number,3,train,thirteen seven three two,nine,-2.515625,-17.75,
+prime number,4,train,two seven three nine,thirteen,-6.59375,-18.625,
+prime number,0,heldout,seventeen one nineteen five,fifteen,-6.53125,-17.75,-7.53125
+prime number,1,heldout,one fifteen eleven five,seventeen,-5.28125,-17.375,-7.03125
+prime number,2,heldout,fifteen nineteen five eleven,seventeen,-4.15625,-17.375,-3.203125
+prime number,3,heldout,five seventeen one eleven,fifteen,-5.875,-17.75,-5.1875
+prime number,4,heldout,eleven seventeen one nineteen,fifteen,-4.90625,-17.75,-5.375
+alcoholic drink,0,train,spirits ale shots rum,cocktail,-4.9375,-14.8125,
+alcoholic drink,1,train,ale whiskey rum shots,cocktail,-5.09375,-14.8125,
+alcoholic drink,2,train,ale whiskey beer port,shots,-11.5,-16.375,
+alcoholic drink,3,train,whiskey port spirits rum,cocktail,-4.96875,-14.8125,
+alcoholic drink,4,train,cocktail spirits beer shots,whiskey,-4.25,-16.0,
+alcoholic drink,5,train,spirits port beer shots,whiskey,-3.71875,-16.0,
+alcoholic drink,6,train,shots whiskey spirits port,cocktail,-8.125,-14.8125,
+alcoholic drink,7,train,port shots cocktail whiskey,spirits,-6.25,-16.75,
+alcoholic drink,0,heldout,gin wine tonic vodka,cider,-6.03125,-16.75,-6.34375
+alcoholic drink,1,heldout,tiger cider wine tonic,bitter,-6.75,-16.75,-5.9375
+alcoholic drink,2,heldout,tiger vodka gin wine,bitter,-9.0625,-16.75,-8.625
+alcoholic drink,3,heldout,bitter wine cider vodka,tiger,-11.8125,-17.75,-12.4375
+alcoholic drink,4,heldout,vodka wine tonic tiger,gin,-5.40625,-15.5625,-6.40625
+healthcare profession,0,train,consultant gp therapist dental,dentist,-6.59375,-15.125,
+healthcare profession,1,train,consultant dental gp dentist,psychiatrist,-8.8125,-16.625,
+healthcare profession,2,train,nurse psychiatrist therapist dental,gp,-10.5625,-17.25,
+healthcare profession,3,train,psychiatrist dental nurse consultant,gp,-6.78125,-17.25,
+healthcare profession,4,train,psychiatrist therapist gp dentist,nurse,-3.3125,-15.1875,
+healthcare profession,5,train,psychiatrist dental consultant therapist,nurse,-5.0625,-15.1875,
+healthcare profession,6,train,nurse dentist gp dental,psychiatrist,-11.125,-16.625,
+healthcare profession,7,train,dentist dental psychiatrist nurse,consultant,-6.625,-16.75,
+healthcare profession,0,heldout,pharmacist doctor psychologist physician,technician,-7.0,-17.875,-6.5625
+healthcare profession,1,heldout,doctor physician psychologist technician,healer,-7.125,-17.75,-8.3125
+healthcare profession,2,heldout,healer psychologist technician surgeon,pharmacist,-5.59375,-16.75,-6.34375
+healthcare profession,3,heldout,physician psychologist technician surgeon,healer,-8.25,-17.75,-7.875
+healthcare profession,4,heldout,surgeon physician healer psychologist,pharmacist,-6.0625,-16.75,-6.53125
+fish,0,train,horse crab lobster bass,cod,-4.6875,-17.5,
+fish,1,train,cod lobster trout dolphin,bass,-4.84375,-15.375,
+fish,2,train,trout cod horse bass,dolphin,-5.78125,-15.5625,
+fish,3,train,bass horse crab cod,trout,-4.625,-17.625,
+fish,4,train,dolphin trout crab bass,horse,-7.53125,-15.875,
+fish,5,train,bass lobster horse dolphin,cod,-5.8125,-17.5,
+fish,6,train,trout horse dolphin crab,lobster,-3.765625,-16.125,
+fish,7,train,bass horse trout crab,dolphin,-7.40625,-15.5625,
+fish,0,heldout,squid tuna whale hack,salmon,-7.875,-17.0,-5.4375
+fish,1,heldout,hack whale shark salmon,carp,-8.5625,-15.75,-8.625
+fish,2,heldout,shrimp carp salmon shark,hack,-11.3125,-16.75,-11.625
+fish,3,heldout,salmon shrimp squid carp,hack,-11.0,-16.75,-12.0
+fish,4,heldout,shrimp hack whale shark,squid,-6.3125,-16.125,-5.8125
+fabric,0,train,latex cloth wool elastic,satin,-7.71875,-16.375,
+fabric,1,train,cloth satin fur wool,plastic,-7.28125,-15.9375,
+fabric,2,train,satin leather elastic plastic,wool,-10.5625,-16.0,
+fabric,3,train,fur latex leather denim,plastic,-6.25,-15.9375,
+fabric,4,train,wool fur elastic leather,cloth,-5.9375,-16.5,
+fabric,5,train,elastic denim wool leather,cloth,-6.625,-16.5,
+fabric,6,train,denim elastic leather cloth,latex,-7.3125,-16.25,
+fabric,7,train,plastic cloth latex elastic,satin,-9.5625,-16.375,
+fabric,0,heldout,polyester felt hemp linen,velvet,-5.34375,-17.375,-5.375
+fabric,1,heldout,velvet linen felt cotton,thread,-6.46875,-16.125,-6.375
+fabric,2,heldout,silk nylon thread polyester,velvet,-5.25,-17.375,-7.5625
+fabric,3,heldout,silk linen polyester hemp,cotton,-2.40625,-15.1875,-2.796875
+fabric,4,heldout,linen nylon polyester thread,silk,-5.53125,-15.25,-3.8125
+book genre,0,train,action novel factual reference,illustrated,-7.71875,-18.75,
+book genre,1,train,biography novel action factual,political,-6.03125,-15.4375,
+book genre,2,train,illustrated travel psychology drama,political,-7.5625,-15.4375,
+book genre,3,train,novel educational action reference,period,-9.1875,-16.875,
+book genre,4,train,travel classical period psychology,biography,-6.78125,-17.375,
+book genre,5,train,travel period history comedy,drama,-2.546875,-16.25,
+book genre,6,train,political history factual humour,drama,-8.125,-16.25,
+book genre,7,train,educational reference action drama,period,-6.5625,-16.875,
+book genre,0,heldout,comic historical horror contemporary,tragic,-7.6875,-15.25,-8.0625
+book genre,1,heldout,contemporary epic thriller engineering,science,-3.90625,-15.9375,-3.734375
+book genre,2,heldout,horror fiction tragic crime,politics,-7.625,-15.375,-7.46875
+book genre,3,heldout,crime fiction epic funny,comic,-8.5625,-16.5,-8.5625
+book genre,4,heldout,comic politics historical romance,crime,-5.28125,-18.125,-5.0
+unit of weight,0,train,gram big volume ounce,ton,-5.25,-17.25,
+unit of weight,1,train,gram ounce heavy big,ton,-6.875,-17.25,
+unit of weight,2,train,ton volume big heavy,gram,-12.3125,-16.375,
+unit of weight,3,train,ton gram ounce volume,heavy,-11.6875,-18.125,
+unit of weight,4,train,gram ton heavy ounce,volume,-7.28125,-16.75,
+unit of weight,5,train,big volume ton gram,ounce,-7.125,-15.125,
+unit of weight,6,train,ton gram big heavy,volume,-7.46875,-16.75,
+unit of weight,7,train,ounce gram ton big,heavy,-5.84375,-18.125,
+unit of weight,0,heldout,cups litre stone tablespoon,teaspoon,-2.578125,-15.8125,-4.3125
+unit of weight,1,heldout,teaspoon litre stone tablespoon,pound,-4.5625,-15.3125,-3.90625
+unit of weight,2,heldout,teaspoon tablespoon litre cups,pound,-7.03125,-15.3125,-6.71875
+unit of weight,3,heldout,litre teaspoon pound stone,cups,-7.84375,-17.5,-8.625
+unit of weight,4,heldout,cups pound stone litre,tablespoon,-5.21875,-15.4375,-5.5625
+musical instrument,0,train,percussion bass piano accordion,recorder,-5.46875,-18.25,
+musical instrument,1,train,recorder alto accordion piano,percussion,-5.40625,-17.0,
+musical instrument,2,train,percussion organ piano accordion,alto,-6.28125,-17.0,
+musical instrument,3,train,accordion bass piano recorder,trumpet,-2.59375,-17.875,
+musical instrument,4,train,percussion bass recorder organ,trumpet,-4.28125,-17.875,
+musical instrument,5,train,bass organ trumpet alto,accordion,-7.65625,-16.5,
+musical instrument,6,train,recorder trumpet piano percussion,bass,-3.90625,-15.375,
+musical instrument,7,train,recorder bass trumpet alto,organ,-7.875,-17.5,
+musical instrument,0,heldout,voice horn triangle guitar,drums,-7.8125,-17.0,-6.09375
+musical instrument,1,heldout,guitar drums horn violin,voice,-4.625,-19.0,-4.3125
+musical instrument,2,heldout,horn drums keyboard violin,voice,-5.0625,-19.0,-4.3125
+musical instrument,3,heldout,voice keyboard triangle violin,drums,-4.59375,-17.0,-5.53125
+musical instrument,4,heldout,keyboard voice drums triangle,violin,-5.84375,-16.625,-4.9375
+fraction,0,train,fifth visual maths eighth,section,-8.9375,-16.875,
+fraction,1,train,chemical sixth maths audible,visual,-9.4375,-15.8125,
+fraction,2,train,section audible tenth fourth,chemical,-9.375,-16.375,
+fraction,3,train,sixth visual maths eighth,fifth,-6.25,-16.0,
+fraction,4,train,tenth eighth audible fourth,maths,-12.5,-15.625,
+fraction,5,train,audible eighth section fifth,sixth,-5.0,-16.5,
+fraction,6,train,eighth fifth fourth section,visual,-10.4375,-15.8125,
+fraction,7,train,fifth fourth sixth eighth,maths,-12.6875,-15.625,
+fraction,0,heldout,half percent quarter three,mathematical,-11.125,-16.375,-11.8125
+fraction,1,heldout,three half mathematical piece,third,-11.125,-17.75,-8.25
+fraction,2,heldout,ninth half mathematical three,quarter,-3.4375,-15.8125,-6.5
+fraction,3,heldout,mathematical numbers percent three,ninth,-8.125,-17.0,-13.0
+fraction,4,heldout,piece numbers ninth percent,half,-7.84375,-16.5,-4.75
+living room furniture,0,train,ceiling light curtains carpet,rug,-5.65625,-17.75,
+living room furniture,1,train,ceiling pictures shelves light,plants,-9.9375,-16.0,
+living room furniture,2,train,sofa carpet curtains plants,cushions,-5.8125,-17.75,
+living room furniture,3,train,cushions blankets shelves carpet,pictures,-7.25,-17.0,
+living room furniture,4,train,pictures chair ornaments rug,blankets,-7.8125,-17.125,
+living room furniture,5,train,blankets light sofa shelves,speakers,-8.1875,-17.375,
+living room furniture,6,train,plants cushions carpet pictures,chair,-8.5625,-17.75,
+living room furniture,7,train,cushions curtains speakers carpet,light,-5.84375,-16.625,
+living room furniture,0,heldout,cupboard desk lamp wardrobe,vase,-10.625,-17.0,-9.1875
+living room furniture,1,heldout,drawers bureau wallpaper wardrobe,table,-8.0625,-17.875,-8.3125
+living room furniture,2,heldout,computer desk cupboard television,bureau,-7.21875,-17.125,-6.34375
+living room furniture,3,heldout,cupboard mirror cabinet desk,drawers,-4.84375,-17.5,-5.71875
+living room furniture,4,heldout,clock wallpaper fireplace computer,desk,-3.0625,-15.6875,-5.4375
+weather,0,train,fog cold moderate bright,tsunami,-14.3125,-15.6875,
+weather,1,train,warm fog bright thunder,sunny,-8.9375,-17.0,
+weather,2,train,foul wet cold bright,hail,-8.625,-15.0,
+weather,3,train,snow fair foul hail,bitter,-6.71875,-16.75,
+weather,4,train,warm drought moderate tsunami,hail,-8.125,-15.0,
+weather,5,train,wet drought hail cold,bitter,-8.75,-16.75,
+weather,6,train,cold drought sunny moderate,windy,-4.4375,-14.9375,
+weather,7,train,sunny warm drought moderate,hail,-8.1875,-15.0,
+weather,0,heldout,damp mild cool rainy,still,-7.03125,-18.125,-6.75
+weather,1,heldout,mild still icy hurricane,cloudy,-8.6875,-16.5,-6.59375
+weather,2,heldout,hurricane dull cool still,freezing,-9.5,-18.0,-10.75
+weather,3,heldout,rainy cloudy mild dull,icy,-8.375,-16.125,-7.1875
+weather,4,heldout,cool rainy freezing cloudy,ice,-6.71875,-16.25,-6.5625
+part of a building,0,train,rooms mortar concrete stairs,floors,-5.90625,-16.625,
+part of a building,1,train,roof pillar corridor foundations,attic,-9.3125,-16.625,
+part of a building,2,train,stove mortar attic roof,corridor,-11.5,-16.0,
+part of a building,3,train,foundations door fireplace beams,wood,-3.984375,-18.0,
+part of a building,4,train,fireplace floors tiles rooms,stairs,-7.625,-16.5,
+part of a building,5,train,wall stairs stove entrance,wood,-4.78125,-18.0,
+part of a building,6,train,stove tiles wood roof,rooms,-9.875,-15.5625,
+part of a building,7,train,stove ceiling entrance stairs,floors,-8.6875,-16.625,
+part of a building,0,heldout,floor foyer timber bathroom,sink,-7.09375,-17.125,-7.34375
+part of a building,1,heldout,office bedroom garden foyer,security,-8.4375,-16.25,-9.75
+part of a building,2,heldout,reception security lobby office,floor,-5.09375,-15.9375,-7.09375
+part of a building,3,heldout,exit reception hall bedroom,fittings,-10.625,-14.75,-11.0
+part of a building,4,heldout,pipes security foyer lobby,office,-4.5625,-16.25,-4.65625
+disease,0,train,aids depression cold flu,malaria,-7.5,-17.5,
+disease,1,train,flu arthritis herpes cancer,aids,-6.21875,-16.875,
+disease,2,train,flu measles arthritis aids,cancer,-3.734375,-15.125,
+disease,3,train,flu tb depression cancer,cold,-6.125,-17.0,
+disease,4,train,aids malaria arthritis depression,flu,-5.125,-17.375,
+disease,5,train,depression cold herpes tb,measles,-7.15625,-16.625,
+disease,6,train,measles depression cancer arthritis,aids,-7.75,-16.875,
+disease,7,train,cancer cold measles malaria,tb,-7.75,-17.625,
+disease,0,heldout,std hepatitis diabetes leukemia,plague,-9.5625,-16.125,-9.4375
+disease,1,heldout,std diabetes autoimmune plague,asthma,-9.4375,-15.875,-6.3125
+disease,2,heldout,anxiety infectious autoimmune plague,leukemia,-7.875,-15.9375,-7.4375
+disease,3,heldout,infectious asthma leukemia std,cough,-7.3125,-14.8125,-6.34375
+disease,4,heldout,anxiety std asthma leukemia,autoimmune,-6.5,-15.25,-8.6875
+science,0,train,physics medicine technology biology,psychology,-4.65625,-14.9375,
+science,1,train,astrology food technology electronics,engineering,-3.96875,-17.125,
+science,2,train,food astrology medicine technology,biology,-7.34375,-15.125,
+science,3,train,cells biology medicine astrology,engineering,-7.84375,-17.125,
+science,4,train,astrology electronics robotics physics,medicine,-5.8125,-17.375,
+science,5,train,robotics physics medicine astrology,psychology,-4.46875,-14.9375,
+science,6,train,physics electronics robotics psychology,food,-7.28125,-16.5,
+science,7,train,technology robotics astrology psychology,biology,-5.15625,-15.125,
+science,0,heldout,chemistry astronomy equations atoms,experiments,-6.6875,-16.5,-7.59375
+science,1,heldout,neuroscience chemistry astronomy equations,maths,-6.09375,-15.625,-6.125
+science,2,heldout,acid equations sociology geography,atoms,-7.53125,-17.25,-6.40625
+science,3,heldout,geography chemistry atoms sociology,neuroscience,-7.8125,-16.125,-8.25
+science,4,heldout,astronomy geography equations experiments,sociology,-9.0,-15.125,-7.59375
+positive personal quality,0,train,integrity smiling loving thoughtful,smart,-6.0625,-16.375,
+positive personal quality,1,train,friendly dedication outgoing careful,trustworthy,-5.1875,-16.125,
+positive personal quality,2,train,energetic organised dedication unique,beauty,-7.78125,-16.5,
+positive personal quality,3,train,open happy integrity bold,smiling,-8.6875,-16.75,
+positive personal quality,4,train,quirky beauty effective dedication,caring,-7.03125,-15.5,
+positive personal quality,5,train,energetic smiling organised unique,caring,-4.78125,-15.5,
+positive personal quality,6,train,forgiving refreshing beauty reassuring,energetic,-8.125,-15.6875,
+positive personal quality,7,train,smart forgiving trustworthy thoughtful,dedication,-10.3125,-17.875,
+positive personal quality,0,heldout,determined humility kind passionate,genuine,-7.125,-18.0,-7.28125
+positive personal quality,1,heldout,passionate humility forgiveness charming,creative,-6.4375,-15.4375,-6.0
+positive personal quality,2,heldout,helpful humour initiative honest,leader,-9.3125,-16.875,-9.25
+positive personal quality,3,heldout,initiative giving leader efficient,determined,-14.0,-19.25,-10.5625
+positive personal quality,4,heldout,charming passionate reliable intelligent,forgiveness,-12.5,-16.5,-11.8125
+royal title,0,train,dame monarch princess count,sir,-8.5,-16.375,
+royal title,1,train,sir dame princess duke,monarch,-9.125,-15.8125,
+royal title,2,train,duke monarch count princess,dame,-9.125,-18.125,
+royal title,3,train,duke sir monarch count,dame,-9.5,-18.125,
+royal title,4,train,count duke sir dame,princess,-5.25,-17.25,
+royal title,5,train,dame monarch count duke,princess,-4.21875,-17.25,
+royal title,6,train,dame count monarch sir,duke,-3.609375,-16.125,
+royal title,7,train,monarch princess duke sir,dame,-9.375,-18.125,
+royal title,0,heldout,king lord knight royalty,prince,-4.875,-15.75,-3.390625
+royal title,1,heldout,royalty king lady knight,prince,-5.84375,-15.75,-4.09375
+royal title,2,heldout,prince lady royalty queen,king,-4.21875,-17.5,-5.78125
+royal title,3,heldout,royalty lady lord queen,king,-4.15625,-17.5,-3.34375
+royal title,4,heldout,knight king lord queen,prince,-3.484375,-15.75,-6.34375
+negative personal quality,0,train,vile angry insensitive fighting,imperative,-12.1875,-16.625,
+negative personal quality,1,train,dominant direct rude depressed,abrupt,-7.625,-15.625,
+negative personal quality,2,train,angry dominant greedy loud,insensitive,-6.78125,-14.625,
+negative personal quality,3,train,severe loud depressed insensitive,unhappy,-9.375,-16.25,
+negative personal quality,4,train,greedy nasty arrogant anxious,rude,-7.03125,-18.125,
+negative personal quality,5,train,nasty arrogant unhappy rude,anxious,-8.625,-16.375,
+negative personal quality,6,train,insensitive loud fighting imperative,severe,-7.90625,-16.5,
+negative personal quality,7,train,fighting greedy dominant vile,depressed,-11.625,-17.625,
+negative personal quality,0,heldout,stubborn harsh selfish annoying,quiet,-7.9375,-16.25,-8.375
+negative personal quality,1,heldout,selfish ignorant dishonest sad,negative,-9.4375,-18.125,-7.46875
+negative personal quality,2,heldout,depressive aggressive ignorant stubborn,harsh,-7.53125,-15.75,-7.65625
+negative personal quality,3,heldout,sad challenging ignorant lying,selfish,-4.28125,-16.5,-7.46875
+negative personal quality,4,heldout,annoying harsh negative lying,boring,-7.9375,-17.0,-7.34375
+violent crime,0,train,torture cutting assault rape,shooting,-6.1875,-18.25,
+violent crime,1,train,killing shooting manslaughter murder,cutting,-9.6875,-15.5,
+violent crime,2,train,gun beating murder rape,shooting,-4.75,-18.25,
+violent crime,3,train,killing torture assault biting,manslaughter,-9.0625,-17.875,
+violent crime,4,train,bombing biting murder gun,shooting,-3.0625,-18.25,
+violent crime,5,train,biting gun murder torture,killing,-5.3125,-18.375,
+violent crime,6,train,cutting assault gun biting,shooting,-7.375,-18.25,
+violent crime,7,train,killing gun torture assault,biting,-10.4375,-14.875,
+violent crime,0,heldout,kidnapping arson punching scratching,genocide,-11.0,-15.1875,-10.0625
+violent crime,1,heldout,genocide fights scratching war,kidnapping,-10.8125,-16.125,-9.9375
+violent crime,2,heldout,scratching genocide war battery,robbery,-9.1875,-17.75,-8.75
+violent crime,3,heldout,battery punching terrorism theft,scratching,-12.0,-16.0,-11.0
+violent crime,4,heldout,battery robbery terrorism scratching,theft,-5.5625,-16.0,-3.5
+tool,0,train,pencils axe rulers mortar,books,-8.125,-15.0625,
+tool,1,train,hammer forks mortar knife,scissors,-5.5,-15.375,
+tool,2,train,mortar hammer pencils scissors,plane,-8.625,-18.5,
+tool,3,train,rake pencils axe scissors,rulers,-7.8125,-14.75,
+tool,4,train,axe plane ladder mortar,rulers,-10.6875,-14.75,
+tool,5,train,axe rulers scissors ladder,books,-6.4375,-15.0625,
+tool,6,train,books hammer knife saw,rulers,-10.125,-14.75,
+tool,7,train,plane forks saw ladder,hammer,-8.375,-16.75,
+tool,0,heldout,clamp paper nails ball,wrench,-8.5625,-17.125,-10.25
+tool,1,heldout,wrench clamp screws nuts,grinder,-8.75,-16.5,-7.5
+tool,2,heldout,clamp paper vice shovel,grinder,-8.0,-16.5,-7.40625
+tool,3,heldout,grinder drill pen paper,vice,-9.0,-16.25,-9.9375
+tool,4,heldout,rasp clamp paper nails,vice,-8.5625,-16.25,-9.25
+political system,0,train,democracy hierarchy fascism government,democrat,-9.5,-15.5625,
+political system,1,train,republican empire government democrat,capitalism,-6.34375,-14.9375,
+political system,2,train,hierarchy green democrat republican,right,-6.65625,-18.25,
+political system,3,train,green government hierarchy democracy,capitalism,-5.0625,-14.9375,
+political system,4,train,democrat green fascism empire,democracy,-5.6875,-15.625,
+political system,5,train,green capitalism right empire,government,-7.46875,-16.875,
+political system,6,train,capitalism fascism green government,hierarchy,-6.0,-18.125,
+political system,7,train,fascism democracy empire republican,capitalism,-5.71875,-14.9375,
+political system,0,heldout,labour conservative debating liberal,communism,-7.75,-15.4375,-6.78125
+political system,1,heldout,liberal debating left monarchy,communism,-6.0,-15.4375,-6.25
+political system,2,heldout,president labour meetings conservative,monarchy,-10.0625,-15.8125,-9.6875
+political system,3,heldout,socialism liberal monarchy communism,labour,-7.03125,-15.4375,-10.125
+political system,4,heldout,left socialism debating president,liberal,-5.625,-15.625,-4.75
+weapon,0,train,club sniper bottle shield,shotgun,-6.9375,-15.8125,
+weapon,1,train,bomb rope shield club,feet,-8.5,-16.0,
+weapon,2,train,bomb sword club feet,bottle,-9.3125,-14.5,
+weapon,3,train,feet axe bottle shotgun,sniper,-6.71875,-18.125,
+weapon,4,train,club rope bomb feet,sniper,-10.75,-18.125,
+weapon,5,train,metal rope arrow rifle,club,-8.625,-16.25,
+weapon,6,train,rope feet shield sword,axe,-5.40625,-17.0,
+weapon,7,train,sword shotgun bottle shield,feet,-9.4375,-16.0,
+weapon,0,heldout,brick tank fists bat,glass,-11.1875,-17.375,-8.5625
+weapon,1,heldout,gun catapult words fists,hammer,-5.9375,-16.75,-8.5
+weapon,2,heldout,tank gun knife brick,fists,-11.6875,-15.5,-11.0
+weapon,3,heldout,fists hammer gun dagger,brick,-8.4375,-16.625,-9.125
+weapon,4,heldout,tank spear fists rock,knife,-7.96875,-18.125,-6.46875
+kitchen appliance,0,train,teaspoon exhaust bowl blender,dryer,-7.71875,-15.625,
+kitchen appliance,1,train,teaspoon microwave extractor grill,dryer,-8.5625,-15.625,
+kitchen appliance,2,train,table knife fan bowl,dryer,-9.875,-15.625,
+kitchen appliance,3,train,tablespoon microwave pan grill,teaspoon,-8.5625,-15.8125,
+kitchen appliance,4,train,microwave knife fan bowl,fork,-9.0625,-15.9375,
+kitchen appliance,5,train,knife microwave tablespoon pot,blender,-7.125,-15.4375,
+kitchen appliance,6,train,teaspoon microwave fork bowl,tablespoon,-4.8125,-15.4375,
+kitchen appliance,7,train,pot tablespoon pan microwave,teaspoon,-4.03125,-15.8125,
+kitchen appliance,0,heldout,spoon stove plate freezer,whisk,-8.5625,-14.5625,-8.0625
+kitchen appliance,1,heldout,toaster whisk dishwasher spoon,mixer,-4.0625,-16.875,-3.125
+kitchen appliance,2,heldout,plate mixer induction dishwasher,grinder,-6.375,-16.5,-7.53125
+kitchen appliance,3,heldout,sieve kettle freezer toaster,plate,-8.9375,-18.375,-7.65625
+kitchen appliance,4,heldout,hob toaster stove induction,plate,-7.0625,-18.375,-6.65625
+unit of length,0,train,mile knots league foot,hours,-6.84375,-16.75,
+unit of length,1,train,league seconds mile knots,hours,-4.25,-16.75,
+unit of length,2,train,league mile seconds hours,foot,-11.125,-17.25,
+unit of length,3,train,seconds foot mile hours,league,-9.75,-18.125,
+unit of length,4,train,mile seconds knots hours,foot,-7.09375,-17.25,
+unit of length,5,train,hours mile knots league,seconds,-5.84375,-16.625,
+unit of length,6,train,hours foot seconds knots,mile,-5.125,-15.5625,
+unit of length,7,train,knots foot hours mile,league,-7.59375,-18.125,
+unit of length,0,heldout,minutes metre yard inches,hands,-8.9375,-15.5625,-8.75
+unit of length,1,heldout,minutes hands metre pitch,yard,-5.40625,-16.625,-6.65625
+unit of length,2,heldout,hands pitch inches metre,minutes,-8.375,-16.25,-8.0625
+unit of length,3,heldout,yard metre minutes hands,inches,-5.5625,-16.75,-5.84375
+unit of length,4,heldout,minutes metre hands inches,yard,-4.8125,-16.625,-4.875
+gardening tool,0,train,hose drill scissors flowers,bucket,-7.71875,-16.125,
+gardening tool,1,train,flowers bucket hose saw,brush,-6.75,-15.9375,
+gardening tool,2,train,drill flowers hose pesticides,bucket,-10.0625,-16.125,
+gardening tool,3,train,flowers scissors pesticides drill,bucket,-6.15625,-16.125,
+gardening tool,4,train,scissors drill flowers bucket,saw,-6.40625,-17.25,
+gardening tool,5,train,scissors hose saw bucket,flowers,-9.625,-15.625,
+gardening tool,6,train,saw flowers pesticides brush,drill,-10.5625,-15.625,
+gardening tool,7,train,bucket scissors brush flowers,pesticides,-12.375,-15.3125,
+gardening tool,0,heldout,string hoe seeds rake,axe,-9.8125,-17.0,-10.75
+gardening tool,1,heldout,axe hoe fork rake,ladder,-8.0625,-17.75,-9.125
+gardening tool,2,heldout,fork string ladder shovel,hoe,-3.890625,-16.625,-5.78125
+gardening tool,3,heldout,shovel string rake seeds,hoe,-6.0625,-16.625,-7.8125
+gardening tool,4,heldout,string fork hoe shovel,rake,-2.8125,-16.125,-4.90625
+chemical element,0,train,uranium magnesium gold potassium,nitrogen,-6.1875,-15.625,
+chemical element,1,train,fluoride magnesium uranium zinc,gold,-4.4375,-16.875,
+chemical element,2,train,sodium mercury helium nitrogen,gold,-7.0625,-16.875,
+chemical element,3,train,nitrogen mercury helium fluoride,uranium,-5.9375,-16.375,
+chemical element,4,train,lithium mercury selenium sodium,zinc,-4.1875,-15.375,
+chemical element,5,train,gold chloride bronze zinc,fluoride,-6.96875,-15.0,
+chemical element,6,train,selenium mercury gold uranium,helium,-8.25,-16.0,
+chemical element,7,train,lithium chloride mercury nitrogen,bronze,-10.0625,-16.125,
+chemical element,0,heldout,titanium calcium copper chlorine,silver,-5.84375,-15.6875,-5.28125
+chemical element,1,heldout,nickel titanium chlorine lead,acid,-5.5625,-17.125,-7.96875
+chemical element,2,heldout,platinum titanium carbon lead,silicon,-4.90625,-14.75,-5.84375
+chemical element,3,heldout,hydrogen oxygen copper neon,lead,-5.875,-16.25,-7.28125
+chemical element,4,heldout,calcium acid silver oxygen,copper,-6.78125,-17.125,-6.46875
+sport,0,train,gym golf wrestling basketball,yoga,-6.375,-15.75,
+sport,1,train,hurdles skiing skeleton surfing,hockey,-8.1875,-15.3125,
+sport,2,train,hurdles surfing hockey cycling,golf,-4.8125,-13.4375,
+sport,3,train,tennis wrestling hurdles hockey,yoga,-8.625,-15.75,
+sport,4,train,tennis skeleton yoga cycling,golf,-3.75,-13.4375,
+sport,5,train,skeleton wrestling boxing yoga,golf,-5.28125,-13.4375,
+sport,6,train,wrestling skeleton basketball yoga,surfing,-5.75,-16.625,
+sport,7,train,rugby hurdles basketball yoga,golf,-4.59375,-13.4375,
+sport,0,heldout,pool football baseball dance,shooting,-7.9375,-18.25,-8.25
+sport,1,heldout,fencing sailing jogging shooting,volleyball,-4.96875,-16.75,-6.5625
+sport,2,heldout,polo squash swimming volleyball,cricket,-3.984375,-15.5625,-4.5625
+sport,3,heldout,shooting pool sailing jogging,fencing,-6.125,-16.375,-6.125
+sport,4,heldout,fencing chess football pool,running,-7.59375,-17.875,-6.5
+carpenter's tool,0,train,bucket file cutter plane,screw,-7.84375,-15.375,
+carpenter's tool,1,train,screw wrench knife file,nails,-8.25,-15.8125,
+carpenter's tool,2,train,plane pens wood bucket,knife,-5.59375,-18.125,
+carpenter's tool,3,train,pencil wood knife pens,bucket,-9.5,-16.125,
+carpenter's tool,4,train,pencil bucket screw file,cutter,-5.75,-16.125,
+carpenter's tool,5,train,cutter nuts file nails,bucket,-9.375,-16.125,
+carpenter's tool,6,train,bucket wrench nails pencil,knife,-4.875,-18.125,
+carpenter's tool,7,train,cutter wrench pens knife,file,-5.78125,-16.625,
+carpenter's tool,0,heldout,screws toolbox bolts drill,hammer,-6.3125,-16.75,-5.90625
+carpenter's tool,1,heldout,ruler saw hands glue,toolbox,-9.4375,-17.0,-7.6875
+carpenter's tool,2,heldout,hands scissors hammer ruler,drill,-6.25,-15.625,-7.34375
+carpenter's tool,3,heldout,shovel drill screws vice,hammer,-4.84375,-16.75,-5.375
+carpenter's tool,4,heldout,bolts glue screws ruler,vice,-8.125,-16.25,-8.0625
+clothing,0,train,jacket sweater bras shirt,suit,-6.34375,-16.25,
+clothing,1,train,shirt heels cap glasses,top,-6.15625,-16.5,
+clothing,2,train,vest trainers bras jumper,bikini,-7.78125,-16.125,
+clothing,3,train,bras heels jacket suit,rings,-7.71875,-18.5,
+clothing,4,train,scarf heels pants jacket,bra,-6.15625,-16.625,
+clothing,5,train,bikini rings suit heels,trousers,-7.96875,-17.25,
+clothing,6,train,top bras glasses rings,shirt,-7.8125,-16.125,
+clothing,7,train,trousers vest shirt gloves,sweater,-4.5,-15.125,
+clothing,0,heldout,fleece skirt coat accessories,boots,-6.5625,-17.5,-5.4375
+clothing,1,heldout,socks bracelets skirt hat,converse,-7.78125,-17.25,-7.78125
+clothing,2,heldout,hoodie bracelets tie belt,skirt,-6.8125,-14.875,-7.6875
+clothing,3,heldout,dress belt tie bracelets,blouse,-6.84375,-15.5625,-6.75
+clothing,4,heldout,hat jeans converse skirt,polo,-5.28125,-18.125,-6.4375
+kitchen utensil,0,train,spoon blender teaspoon pots,bowl,-6.59375,-15.1875,
+kitchen utensil,1,train,pots kettle blender bowl,spoon,-4.0,-17.125,
+kitchen utensil,2,train,whisk teaspoon bowl pots,blender,-6.71875,-15.4375,
+kitchen utensil,3,train,kettle spoon sieve teaspoon,pots,-9.8125,-18.625,
+kitchen utensil,4,train,kettle whisk teaspoon sieve,blender,-4.5625,-15.4375,
+kitchen utensil,5,train,blender sieve kettle whisk,bowl,-4.625,-15.1875,
+kitchen utensil,6,train,kettle bowl teaspoon blender,whisk,-3.796875,-14.5625,
+kitchen utensil,7,train,sieve blender bowl spoon,teaspoon,-6.21875,-15.8125,
+kitchen utensil,0,heldout,scissors pan toaster fork,dishes,-7.40625,-17.5,-7.96875
+kitchen utensil,1,heldout,pan dishes toaster fork,scissors,-7.40625,-15.375,-9.375
+kitchen utensil,2,heldout,knife fork dishes scissors,toaster,-8.0,-17.5,-9.625
+kitchen utensil,3,heldout,scissors dishes plates pan,fork,-8.125,-15.9375,-4.03125
+kitchen utensil,4,heldout,knife scissors toaster tablespoon,plates,-9.625,-17.75,-8.4375
+military title,0,train,private authority general senior,chief,-5.3125,-17.375,
+military title,1,train,private commander senior chief,officer,-6.84375,-17.375,
+military title,2,train,commander authority officer general,chief,-5.78125,-17.375,
+military title,3,train,officer senior chief general,authority,-8.75,-18.5,
+military title,4,train,commander officer private chief,senior,-6.8125,-17.125,
+military title,5,train,private authority general officer,senior,-6.46875,-17.125,
+military title,6,train,commander chief senior general,private,-7.0,-17.75,
+military title,7,train,chief commander private general,officer,-3.90625,-17.375,
+military title,0,heldout,sergeant cruel police lieutenant,captain,-5.40625,-15.4375,-6.5
+military title,1,heldout,police major sergeant cruel,captain,-7.375,-15.4375,-5.59375
+military title,2,heldout,police soldier captain cruel,sergeant,-5.59375,-16.25,-6.84375
+military title,3,heldout,police major lieutenant soldier,captain,-4.40625,-15.4375,-4.375
+military title,4,heldout,captain major sergeant lieutenant,police,-7.90625,-16.875,-7.59375
+profession,0,train,student psychiatrist landlord presenter,professor,-6.125,-16.375,
+profession,1,train,detective author presenter scientist,librarian,-7.1875,-17.375,
+profession,2,train,chef bartender plumber cashier,cleaner,-5.46875,-16.75,
+profession,3,train,pilot scientist farmer plumber,author,-7.34375,-16.25,
+profession,4,train,scientist chef professor soldier,sales,-9.5,-16.625,
+profession,5,train,politician student sales psychiatrist,teacher,-3.859375,-18.0,
+profession,6,train,soldier engineer cleaner lecturer,sales,-7.03125,-16.625,
+profession,7,train,professor lecturer scientist lawyer,policeman,-6.25,-15.6875,
+profession,0,heldout,researcher psychologist doctor writer,architect,-6.8125,-17.875,-6.5625
+profession,1,heldout,surgeon artist nurse secretary,technician,-4.96875,-17.875,-4.84375
+profession,2,heldout,accountant secretary firefighter painter,journalist,-6.75,-15.125,-6.28125
+profession,3,heldout,secretary analyst builder businessman,painter,-7.03125,-17.625,-6.75
+profession,4,heldout,technician surgeon architect doctor,construction,-6.0,-16.875,-5.59375
+four-legged animal,0,train,panda ape fox wolf,horse,-5.0625,-15.875,
+four-legged animal,1,train,goat frog fox rat,panda,-7.03125,-17.0,
+four-legged animal,2,train,cow wolf tiger horse,rat,-5.21875,-19.75,
+four-legged animal,3,train,cat sheep frog cow,tiger,-5.8125,-17.75,
+four-legged animal,4,train,wolf horse frog rat,cat,-3.40625,-15.875,
+four-legged animal,5,train,wolf tiger goat mole,panda,-9.625,-17.0,
+four-legged animal,6,train,tiger goat mole rat,ox,-6.96875,-17.25,
+four-legged animal,7,train,ox cat ape sheep,tiger,-5.25,-17.75,
+four-legged animal,0,heldout,leopard pig deer ram,pony,-8.5625,-17.625,-8.375
+four-legged animal,1,heldout,llama camel pony bear,vole,-9.875,-17.0,-10.0
+four-legged animal,2,heldout,deer human camel llama,pig,-4.3125,-16.75,-5.59375
+four-legged animal,3,heldout,llama deer elephant bear,monkey,-5.03125,-18.25,-3.421875
+four-legged animal,4,heldout,dog human camel ram,vole,-10.0625,-17.0,-9.875
+symptom of illness,0,train,pain cold rash headache,spots,-7.78125,-16.0,
+symptom of illness,1,train,fatigue inflammation pain headache,sweating,-7.6875,-17.5,
+symptom of illness,2,train,cold pain fatigue rash,inflammation,-6.4375,-15.375,
+symptom of illness,3,train,inflammation rash spots headache,pain,-3.765625,-16.625,
+symptom of illness,4,train,sweating cold inflammation rash,spots,-5.71875,-16.0,
+symptom of illness,5,train,pain inflammation rash sweating,spots,-7.28125,-16.0,
+symptom of illness,6,train,fatigue spots pain inflammation,cold,-6.625,-17.0,
+symptom of illness,7,train,sweating inflammation spots cold,rash,-5.4375,-16.0,
+symptom of illness,0,heldout,bleeding sick blood temperature,swelling,-7.40625,-15.625,-7.90625
+symptom of illness,1,heldout,fever swelling nausea vomiting,temperature,-8.375,-17.75,-7.3125
+symptom of illness,2,heldout,fever bleeding temperature vomiting,shaking,-7.375,-18.5,-7.3125
+symptom of illness,3,heldout,blood swelling bleeding fever,temperature,-7.09375,-17.75,-8.0625
+symptom of illness,4,heldout,blood sick nausea fever,temperature,-7.40625,-17.75,-7.9375
+geometric shape,0,train,sphere circle diamond square,triangle,-2.5,-17.625,
+geometric shape,1,train,triangle diamond compound sphere,square,-3.53125,-16.875,
+geometric shape,2,train,sphere square compound triangle,circle,-2.921875,-16.25,
+geometric shape,3,train,diamond square circle triangle,compound,-9.25,-19.125,
+geometric shape,4,train,diamond sphere compound square,circle,-6.0,-16.25,
+geometric shape,5,train,diamond circle square compound,triangle,-5.375,-17.625,
+geometric shape,6,train,diamond compound circle triangle,sphere,-6.09375,-16.625,
+geometric shape,7,train,sphere circle diamond compound,triangle,-4.28125,-17.625,
+geometric shape,0,heldout,cube star oval cylinder,kite,-8.75,-16.375,-6.4375
+geometric shape,1,heldout,oval cube kite cylinder,star,-6.1875,-16.625,-6.15625
+geometric shape,2,heldout,cube kite star rectangle,cylinder,-7.75,-15.1875,-4.46875
+geometric shape,3,heldout,cylinder cube star rectangle,oval,-5.46875,-18.125,-6.625
+geometric shape,4,heldout,star oval kite rectangle,cube,-7.96875,-16.125,-9.375
+camping equipment,0,train,matches food fuel lighter,compass,-11.8125,-15.9375,
+camping equipment,1,train,torch flask pads hammer,lighter,-9.1875,-17.25,
+camping equipment,2,train,food hammer compass fire,lighter,-9.0,-17.25,
+camping equipment,3,train,hammer pads fuel rope,fire,-5.90625,-16.875,
+camping equipment,4,train,fuel rope flask matches,compass,-6.90625,-15.9375,
+camping equipment,5,train,fuel lighter rope hammer,torch,-6.21875,-15.9375,
+camping equipment,6,train,fire wood food rope,fuel,-5.65625,-14.75,
+camping equipment,7,train,fuel wood torch fire,pads,-12.0625,-17.125,
+camping equipment,0,heldout,sheet maps caravan barbecue,blanket,-9.25,-16.5,-10.125
+camping equipment,1,heldout,tent pans chairs sheet,pillow,-7.0,-16.875,-7.625
+camping equipment,2,heldout,book chairs net pots,tent,-8.5625,-17.875,-9.8125
+camping equipment,3,heldout,barbecue blanket pans maps,book,-7.09375,-16.25,-5.90625
+camping equipment,4,heldout,tent chairs barbecue net,book,-8.25,-16.25,-9.3125
+room in a house,0,train,cupboard pantry den garage,reception,-11.0,-17.75,
+room in a house,1,train,garage cupboard office cellar,study,-7.375,-14.4375,
+room in a house,2,train,kitchen den cupboard garage,office,-4.84375,-16.25,
+room in a house,3,train,office boiler den kitchen,cellar,-10.3125,-17.125,
+room in a house,4,train,office cupboard pantry reception,cellar,-10.6875,-17.125,
+room in a house,5,train,reception garage kitchen pantry,study,-4.9375,-14.4375,
+room in a house,6,train,reception diner pantry office,cupboard,-7.75,-17.125,
+room in a house,7,train,cupboard garage kitchen office,den,-7.1875,-16.375,
+room in a house,0,heldout,lounge porch bedroom entrance,hallway,-3.296875,-15.3125,-3.640625
+room in a house,1,heldout,basement hallway entrance toilet,lounge,-10.375,-15.875,-8.0
+room in a house,2,heldout,attic entrance library balcony,toilet,-7.65625,-15.25,-6.75
+room in a house,3,heldout,bedroom porch balcony lounge,entrance,-7.3125,-17.25,-6.4375
+room in a house,4,heldout,balcony attic entrance bathroom,basement,-3.328125,-17.375,-2.859375
+fruit,0,train,fig strawberry orange dates,avocado,-5.84375,-15.625,
+fruit,1,train,fig apple dates cucumber,orange,-4.9375,-16.625,
+fruit,2,train,avocado strawberry orange tomato,plum,-7.9375,-15.3125,
+fruit,3,train,banana tomato apple strawberry,cucumber,-4.28125,-17.125,
+fruit,4,train,orange banana fig strawberry,cucumber,-6.53125,-17.125,
+fruit,5,train,dates plum banana orange,cucumber,-8.0,-17.125,
+fruit,6,train,plum tomato avocado fig,strawberry,-6.625,-17.5,
+fruit,7,train,plum apple avocado dates,tomato,-6.5,-16.5,
+fruit,0,heldout,lime pineapple squash grape,prune,-11.3125,-16.75,-6.46875
+fruit,1,heldout,lemon mango grape peach,squash,-8.875,-16.625,-8.75
+fruit,2,heldout,grape peach pear prune,squash,-8.3125,-16.625,-8.4375
+fruit,3,heldout,lemon lime pear prune,squash,-7.1875,-16.625,-8.125
+fruit,4,heldout,squash coconut prune pear,mango,-4.59375,-16.75,-4.625
+supernatural being,0,train,phoenix entity nymph fairy,monster,-7.78125,-17.625,
+supernatural being,1,train,monster unicorn fairy entity,invisible,-8.625,-19.0,
+supernatural being,2,train,ghost wizard unicorn troll,invisible,-9.5,-19.0,
+supernatural being,3,train,orbs invisible monster nymph,troll,-8.25,-15.5,
+supernatural being,4,train,nymph unicorn orbs monster,invisible,-9.9375,-19.0,
+supernatural being,5,train,monster ghost alien wizard,entity,-8.625,-18.375,
+supernatural being,6,train,unicorn alien orbs troll,monster,-5.46875,-17.625,
+supernatural being,7,train,nymph troll ghost orbs,invisible,-11.0625,-19.0,
+supernatural being,0,heldout,god angel lights dragons,demon,-6.25,-17.125,-6.09375
+supernatural being,1,heldout,demon angel dragons psychic,superheroes,-9.125,-15.5,-9.125
+supernatural being,2,heldout,witches superheroes vampire dragons,psychic,-7.21875,-17.0,-8.4375
+supernatural being,3,heldout,spirits psychic zombie superheroes,angel,-8.0,-18.0,-8.125
+supernatural being,4,heldout,psychic zombie angel lights,demon,-7.71875,-17.125,-8.125
+four-wheeled vehicle,0,train,car carriage tank honda,benz,-8.5,-16.5,
+four-wheeled vehicle,1,train,benz wagon trailer carriage,honda,-8.4375,-15.875,
+four-wheeled vehicle,2,train,benz trailer wagon honda,tank,-9.8125,-17.0,
+four-wheeled vehicle,3,train,car honda carriage trailer,tractor,-7.84375,-16.5,
+four-wheeled vehicle,4,train,tractor trailer tank honda,car,-4.09375,-17.625,
+four-wheeled vehicle,5,train,tractor wagon carriage trailer,honda,-8.875,-15.875,
+four-wheeled vehicle,6,train,tractor benz honda trailer,car,-5.03125,-17.625,
+four-wheeled vehicle,7,train,honda car carriage wagon,tractor,-7.78125,-16.5,
+four-wheeled vehicle,0,heldout,plane rv truck coach,caravan,-6.84375,-15.875,-6.09375
+four-wheeled vehicle,1,heldout,taxi van truck jeep,rv,-7.3125,-17.375,-7.71875
+four-wheeled vehicle,2,heldout,rv coach plane taxi,truck,-6.625,-16.75,-6.09375
+four-wheeled vehicle,3,heldout,jeep plane coach rv,van,-5.15625,-17.0,-4.34375
+four-wheeled vehicle,4,heldout,taxi plane caravan jeep,rv,-8.625,-17.375,-7.1875
+family relationship,0,train,parents husband grandparents pet,cousin,-5.53125,-17.125,
+family relationship,1,train,niece parents grandma pet,cousin,-5.0625,-17.125,
+family relationship,2,train,cousin grandma pet niece,parents,-6.75,-15.4375,
+family relationship,3,train,grandparents pet husband niece,cousin,-4.375,-17.125,
+family relationship,4,train,husband cousin pet nephew,niece,-3.875,-16.0,
+family relationship,5,train,grandparents cousin nephew wife,brother,-3.0625,-16.375,
+family relationship,6,train,grandparents parents wife pet,cousin,-6.6875,-17.125,
+family relationship,7,train,nephew brother parents cousin,grandma,-6.03125,-15.125,
+family relationship,0,heldout,mother uncle children siblings,son,-5.71875,-17.75,-4.875
+family relationship,1,heldout,father sister siblings mother,son,-4.96875,-17.75,-4.75
+family relationship,2,heldout,children grandfather sister grandson,daughter,-3.765625,-16.625,-3.4375
+family relationship,3,heldout,siblings daughter granddaughter grandfather,children,-6.5625,-15.4375,-4.03125
+family relationship,4,heldout,children uncle grandson siblings,daughter,-5.28125,-16.625,-3.5625
+emotion,0,train,optimistic ecstatic amazed aggressive,calm,-5.75,-15.1875,
+emotion,1,train,quiet positive aggressive disturbance,curiosity,-9.5625,-15.375,
+emotion,2,train,quiet disappointment ecstatic shock,happy,-6.53125,-16.5,
+emotion,3,train,stressed peace anxious disturbance,happy,-6.96875,-16.5,
+emotion,4,train,kindness happy ecstatic sad,frustration,-7.28125,-15.8125,
+emotion,5,train,positive thrilled quiet miserable,amazed,-7.0625,-16.875,
+emotion,6,train,horrified irritation aggressive frustration,miserable,-7.5,-15.4375,
+emotion,7,train,negative aggressive cheerful lust,horrified,-14.8125,-15.625,
+emotion,0,heldout,excited laughing annoyed lonely,surprise,-7.90625,-16.75,-5.90625
+emotion,1,heldout,nostalgia content relieved awe,tired,-9.0625,-17.875,-6.5
+emotion,2,heldout,uncomfortable love nervous content,shy,-8.0625,-15.5,-7.21875
+emotion,3,heldout,awe terror ambiguous surprise,insecurity,-7.375,-17.0,-8.25
+emotion,4,heldout,grief ambiguous satisfaction content,terror,-10.5625,-15.625,-9.75
+statistical term,0,train,percentages algebra anomaly data,quantify,-12.625,-15.4375,
+statistical term,1,train,figure sample mean axes,interpolate,-11.625,-16.125,
+statistical term,2,train,sample median algebra equation,anomaly,-14.3125,-16.625,
+statistical term,3,train,variable anomaly interpolate interpret,power,-8.125,-17.25,
+statistical term,4,train,r median interpolate variable,anomaly,-12.75,-16.625,
+statistical term,5,train,power graph dependent interpret,algebra,-8.5,-15.5,
+statistical term,6,train,r graph variable figure,dependent,-9.4375,-17.75,
+statistical term,7,train,percentages fractions quantify axes,median,-9.1875,-16.875,
+statistical term,0,heldout,analysis variance theory correlation,numerical,-8.75,-16.125,-8.75
+statistical term,1,heldout,x variance regression ratio,analysis,-4.21875,-17.125,-4.21875
+statistical term,2,heldout,average addition range covariance,mode,-9.3125,-17.375,-9.4375
+statistical term,3,heldout,distribution average variance y,numerical,-10.9375,-16.125,-10.5625
+statistical term,4,heldout,variance ratio addition theory,plus,-9.5625,-17.25,-8.3125
+positive emotion,0,train,enthusiastic laughing positive helpful,willingness,-10.125,-16.625,
+positive emotion,1,train,fun happy enthusiastic joyful,success,-7.125,-17.875,
+positive emotion,2,train,proud giving relieved positive,happy,-3.9375,-16.5,
+positive emotion,3,train,delighted interested content powerful,helpful,-7.5,-15.6875,
+positive emotion,4,train,peaceful warm joyful proud,prepared,-9.125,-19.375,
+positive emotion,5,train,fun smiling success content,proud,-8.4375,-16.375,
+positive emotion,6,train,proud prepared peaceful determined,happy,-4.65625,-16.5,
+positive emotion,7,train,fun enthusiastic proud determined,interested,-8.5,-16.625,
+positive emotion,0,heldout,confident loyal uplifting excited,kind,-5.0625,-16.125,-5.375
+positive emotion,1,heldout,hopeful waving pleasure enjoyment,ecstatic,-7.25,-16.625,-6.78125
+positive emotion,2,heldout,relaxed respectful ecstatic friendly,pleasure,-9.375,-15.1875,-7.8125
+positive emotion,3,heldout,loyal mindful ecstatic waving,honest,-7.875,-17.5,-7.65625
+positive emotion,4,heldout,waving loyal respectful excited,relaxed,-7.125,-18.5,-8.75
+natural landform,0,train,volcano river hill cave,land,-6.15625,-16.875,
+natural landform,1,train,bay forest lake river,valley,-3.75,-17.875,
+natural landform,2,train,cave mountain hill streams,volcano,-7.40625,-17.375,
+natural landform,3,train,valley bay mountain sea,land,-7.5625,-16.875,
+natural landform,4,train,sea streams valley volcano,land,-5.625,-16.875,
+natural landform,5,train,mountain valley cave river,lake,-3.78125,-17.125,
+natural landform,6,train,sea streams mountain bay,lake,-4.46875,-17.125,
+natural landform,7,train,sea streams mountain valley,river,-3.3125,-19.0,
+natural landform,0,heldout,canyon marsh beaches cliff,plain,-8.5625,-18.0,-8.4375
+natural landform,1,heldout,beaches glaciers cliff plateau,plain,-7.21875,-18.0,-9.8125
+natural landform,2,heldout,glaciers cliff marsh canyon,island,-6.28125,-17.875,-6.96875
+natural landform,3,heldout,marsh glaciers desert cliff,plateau,-7.625,-17.375,-5.21875
+natural landform,4,heldout,oceans continents island canyon,plateau,-4.96875,-17.375,-5.21875
+negative emotion,0,train,worried annoyed loss rage,insecurity,-7.9375,-17.0,
+negative emotion,1,train,guilt grief negativity upset,anger,-3.859375,-16.625,
+negative emotion,2,train,disgust grief fear depressed,wrath,-9.1875,-16.375,
+negative emotion,3,train,loss insecurity fear negativity,crying,-9.3125,-14.875,
+negative emotion,4,train,fearful anger annoyed envy,rage,-5.375,-17.375,
+negative emotion,5,train,anger fearful loss guilt,grief,-4.75,-15.75,
+negative emotion,6,train,disgust sorrow upset guilt,grief,-4.4375,-15.75,
+negative emotion,7,train,depressed rage insecurity wrath,disgust,-7.34375,-16.875,
+negative emotion,0,heldout,jealousy irritated anxiety psychotic,nervous,-5.4375,-16.375,-5.375
+negative emotion,1,heldout,powerless jealousy nervous miserable,isolation,-7.8125,-15.5,-8.5
+negative emotion,2,heldout,unhappy distrust hurt confusion,despair,-5.21875,-16.875,-5.3125
+negative emotion,3,heldout,isolation devastated anxiety powerless,sadness,-5.625,-16.125,-5.15625
+negative emotion,4,heldout,confusion devastated powerless dislike,miserable,-7.4375,-15.4375,-7.4375
+social relationship,0,train,group society colleague grandfather,acquaintance,-7.625,-16.75,
+social relationship,1,train,sister father relative son,sibling,-7.03125,-16.625,
+social relationship,2,train,colleague wife society working,acquaintance,-11.4375,-16.75,
+social relationship,3,train,acquaintance son working associates,companions,-7.375,-18.875,
+social relationship,4,train,sister relationship associates parent,professional,-11.375,-16.75,
+social relationship,5,train,colleague grandma rivals competitor,group,-7.625,-16.75,
+social relationship,6,train,sibling companions parent wife,associates,-7.875,-17.125,
+social relationship,7,train,grandma parent working relative,child,-3.34375,-17.5,
+social relationship,0,heldout,married grandparents teacher uncle,friend,-5.9375,-16.875,-4.84375
+social relationship,1,heldout,engaged boyfriend friend uncle,enemy,-8.8125,-16.375,-9.0625
+social relationship,2,heldout,family husband employee married,teacher,-5.375,-18.0,-5.3125
+social relationship,3,heldout,married peers friend engaged,teacher,-9.375,-18.0,-8.6875
+social relationship,4,heldout,peers brother boyfriend cousin,teammate,-8.875,-17.375,-9.25
+drug,0,train,legal caffeine opioids heroin,alcohol,-3.46875,-15.875,
+drug,1,train,alcohol heroin caffeine opioids,mushrooms,-7.0,-15.25,
+drug,2,train,legal cannabis illegal ecstasy,alcohol,-5.5625,-15.875,
+drug,3,train,mushrooms illegal heroin alcohol,caffeine,-6.28125,-16.75,
+drug,4,train,legal caffeine ecstasy heroin,cannabis,-4.5,-14.875,
+drug,5,train,opioids ecstasy legal heroin,alcohol,-5.5625,-15.875,
+drug,6,train,illegal opioids caffeine alcohol,legal,-6.3125,-16.625,
+drug,7,train,mushrooms ecstasy illegal caffeine,legal,-4.9375,-16.625,
+drug,0,heldout,recreational speed spice nicotine,meth,-5.96875,-17.875,-7.4375
+drug,1,heldout,recreational cocaine medicine meth,antibiotics,-8.875,-15.6875,-10.8125
+drug,2,heldout,cocaine speed medicine viagra,recreational,-7.0625,-13.4375,-7.40625
+drug,3,heldout,nicotine speed insulin antibiotics,meth,-5.96875,-17.875,-5.75
+drug,4,heldout,speed cocaine nicotine insulin,antibiotics,-8.375,-15.6875,-9.8125
+non-violent crime,0,train,rape espionage stealing threat,speeding,-11.5625,-17.5,
+non-violent crime,1,train,theft stealing threat rape,fraud,-6.78125,-14.625,
+non-violent crime,2,train,stealing fraud threat espionage,theft,-4.65625,-16.0,
+non-violent crime,3,train,espionage speeding fraud stealing,rape,-7.59375,-17.0,
+non-violent crime,4,train,theft espionage threat rape,talking,-12.0625,-16.375,
+non-violent crime,5,train,threat talking theft speeding,rape,-7.78125,-17.0,
+non-violent crime,6,train,rape theft speeding fraud,threat,-9.6875,-14.375,
+non-violent crime,7,train,theft talking threat fraud,rape,-8.0625,-17.0,
+non-violent crime,0,heldout,piracy peace arson vandalism,robbery,-4.5625,-17.75,-9.4375
+non-violent crime,1,heldout,peace lying piracy dispute,burglary,-11.875,-17.125,-12.25
+non-violent crime,2,heldout,burglary piracy arson corruption,dispute,-9.8125,-14.4375,-9.375
+non-violent crime,3,heldout,robbery corruption piracy vandalism,lying,-9.4375,-19.0,-10.25
+non-violent crime,4,heldout,piracy peace corruption robbery,dispute,-8.375,-14.4375,-9.375
+reading material,0,train,paper flyer email notes,poster,-7.875,-17.5,
+reading material,1,train,report notes documents flyer,poster,-6.0,-17.5,
+reading material,2,train,paper report notes poster,documents,-9.8125,-16.75,
+reading material,3,train,fiction poster newspaper manuscript,paper,-5.03125,-16.625,
+reading material,4,train,poster email instructions notes,tablet,-13.8125,-15.625,
+reading material,5,train,notes poster paper tablet,journal,-6.59375,-16.625,
+reading material,6,train,manuscript documents blog email,notes,-6.84375,-16.125,
+reading material,7,train,magazine paper notes email,tablet,-8.75,-15.625,
+reading material,0,heldout,diary texts text script,website,-9.9375,-15.4375,-10.125
+reading material,1,heldout,website transcript novel script,article,-7.5,-15.5,-7.0
+reading material,2,heldout,poetry script texts letter,transcript,-9.375,-17.0,-8.125
+reading material,3,heldout,book novel diary review,textbook,-9.8125,-15.4375,-12.8125
+reading material,4,heldout,texts transcript letter poetry,script,-7.90625,-16.5,-8.125
+vegetable,0,train,spinach pumpkin cabbage cucumber,potato,-4.96875,-17.5,
+vegetable,1,train,potato spinach lettuce kale,pumpkin,-5.84375,-16.375,
+vegetable,2,train,cabbage potato lettuce cucumber,garlic,-5.125,-16.25,
+vegetable,3,train,spinach beans cucumber potato,kale,-4.90625,-15.3125,
+vegetable,4,train,lettuce cucumber beans kale,spinach,-3.203125,-16.5,
+vegetable,5,train,potato garlic kale cucumber,lettuce,-4.84375,-16.75,
+vegetable,6,train,potato spinach beans pumpkin,garlic,-5.6875,-16.25,
+vegetable,7,train,spinach cabbage lettuce kale,potato,-5.9375,-17.5,
+vegetable,0,heldout,onion rocket avocado pepper,broccoli,-6.25,-16.0,-6.53125
+vegetable,1,heldout,mushrooms onion tomato rocket,avocado,-5.0625,-15.625,-5.09375
+vegetable,2,heldout,onion rocket pepper mushrooms,peas,-5.96875,-15.75,-7.90625
+vegetable,3,heldout,onion avocado carrot tomato,pepper,-3.796875,-15.6875,-4.46875
+vegetable,4,heldout,pepper mushrooms tomato broccoli,avocado,-7.09375,-15.625,-6.8125
+insect,0,train,bugs slug ant snake,fly,-3.75,-15.8125,
+insect,1,train,ant slug worm snake,bugs,-7.8125,-16.5,
+insect,2,train,bugs fly slug worm,ant,-4.59375,-17.875,
+insect,3,train,spider snake fly ant,slug,-6.125,-15.6875,
+insect,4,train,bugs worm spider snake,ant,-5.125,-17.875,
+insect,5,train,ant spider slug fly,worm,-3.890625,-16.5,
+insect,6,train,fly spider worm slug,snake,-4.78125,-17.75,
+insect,7,train,worm slug snake bugs,spider,-3.890625,-16.75,
+insect,0,heldout,bee beetle flea butterfly,cricket,-5.34375,-15.5625,-6.15625
+insect,1,heldout,butterfly moth flea mosquito,cricket,-4.71875,-15.5625,-6.53125
+insect,2,heldout,beetle moth mosquito flea,cricket,-5.25,-15.5625,-5.15625
+insect,3,heldout,cricket butterfly bee flea,mosquito,-3.78125,-17.25,-4.15625
+insect,4,heldout,mosquito cricket moth butterfly,beetle,-4.46875,-16.5,-4.40625
+green vegetable,0,train,cabbage cucumber peppers rocket,basil,-6.71875,-15.75,
+green vegetable,1,train,peppers basil celery cucumber,beans,-6.5,-18.25,
+green vegetable,2,train,cucumber celery beans rocket,basil,-5.59375,-15.75,
+green vegetable,3,train,rocket basil peppers beans,cucumber,-6.21875,-17.125,
+green vegetable,4,train,basil cucumber peppers rocket,cabbage,-7.40625,-15.9375,
+green vegetable,5,train,rocket peppers basil celery,cabbage,-4.96875,-15.9375,
+green vegetable,6,train,cucumber celery beans peppers,cabbage,-4.875,-15.9375,
+green vegetable,7,train,cucumber beans basil rocket,celery,-5.78125,-17.375,
+green vegetable,0,heldout,lettuce parsley broccoli peas,kale,-4.53125,-15.3125,-3.671875
+green vegetable,1,heldout,kale spinach parsley broccoli,lettuce,-5.0,-16.75,-4.15625
+green vegetable,2,heldout,spinach peas avocado parsley,lettuce,-5.46875,-16.75,-5.34375
+green vegetable,3,heldout,peas kale avocado broccoli,parsley,-6.625,-16.5,-6.3125
+green vegetable,4,heldout,lettuce avocado kale spinach,broccoli,-3.234375,-16.0,-3.484375
+body of water,0,train,waterfall basin stream mere,pool,-2.96875,-18.0,
+body of water,1,train,swamp pool ocean iceberg,tsunami,-7.8125,-15.6875,
+body of water,2,train,basin bog pool ice,waterfall,-6.3125,-17.25,
+body of water,3,train,ocean spring bog iceberg,ice,-4.0625,-16.25,
+body of water,4,train,ice river stream swamp,spring,-5.90625,-16.25,
+body of water,5,train,river bog iceberg basin,pool,-7.03125,-18.0,
+body of water,6,train,stream basin mere ice,river,-7.34375,-19.0,
+body of water,7,train,stream waterfall ice spring,bog,-9.375,-16.0,
+body of water,0,heldout,reservoir marsh banks canal,water,-3.9375,-16.125,-3.8125
+body of water,1,heldout,tank water lake trickle,reservoir,-6.03125,-17.0,-7.34375
+body of water,2,heldout,banks tarn trickle lake,reservoir,-7.65625,-17.0,-9.5625
+body of water,3,heldout,tank dams trickle bath,water,-3.609375,-16.125,-4.1875
+body of water,4,heldout,tank dams tarn canal,lake,-4.90625,-17.125,-4.8125
+farm animal,0,train,duck fish goat dog,llama,-7.3125,-17.375,
+farm animal,1,train,duck goat fish llama,rabbit,-4.0,-17.375,
+farm animal,2,train,dog llama hen duck,rabbit,-4.09375,-17.375,
+farm animal,3,train,duck hen goat llama,dog,-4.28125,-18.0,
+farm animal,4,train,hen fish llama rabbit,lamb,-7.4375,-17.625,
+farm animal,5,train,goat duck rabbit hen,llama,-7.53125,-17.375,
+farm animal,6,train,duck hen llama lamb,rabbit,-5.0625,-17.375,
+farm animal,7,train,dog hen goat llama,duck,-3.75,-16.75,
+farm animal,0,heldout,turkey cock pig cat,cow,-4.125,-16.375,-3.40625
+farm animal,1,heldout,bull cow sheep turkey,horse,-5.0,-15.875,-2.984375
+farm animal,2,heldout,chicken bull pig horse,sheep,-3.90625,-17.5,-3.671875
+farm animal,3,heldout,pig turkey chicken cat,horse,-6.0625,-15.875,-4.96875
+farm animal,4,heldout,pig cow turkey bull,horse,-3.890625,-15.875,-2.46875
+colour,0,train,violet grey amber platinum,yellow,-5.125,-16.375,
+colour,1,train,platinum brown teal yellow,navy,-6.09375,-16.875,
+colour,2,train,orange gold platinum white,black,-2.6875,-17.125,
+colour,3,train,platinum gold white brown,violet,-8.0625,-16.875,
+colour,4,train,brown orange amber grey,teal,-5.125,-15.125,
+colour,5,train,brown grey teal orange,white,-3.078125,-17.125,
+colour,6,train,white gold black platinum,grey,-7.46875,-15.625,
+colour,7,train,black navy white brown,yellow,-3.421875,-16.375,
+colour,0,heldout,silver purple copper blue,turquoise,-4.53125,-15.5,-5.34375
+colour,1,heldout,turquoise beige green copper,cyan,-9.5625,-15.25,-7.0625
+colour,2,heldout,purple blue green bronze,cream,-6.625,-16.25,-6.15625
+colour,3,heldout,peach beige turquoise cyan,purple,-3.5,-16.75,-3.21875
+colour,4,heldout,copper bronze cyan silver,cream,-10.8125,-16.25,-15.3125
+part of the body,0,train,tongue head eyes eyebrow,veins,-10.3125,-17.125,
+part of the body,1,train,lips eyebrow elbows veins,hands,-4.90625,-15.5625,
+part of the body,2,train,nose lips stomach blood,elbows,-10.5,-15.5,
+part of the body,3,train,torso organs lips stomach,calf,-9.5625,-15.6875,
+part of the body,4,train,back shin arm stomach,head,-4.375,-17.75,
+part of the body,5,train,back nose calf arm,mouth,-5.59375,-18.0,
+part of the body,6,train,arm finger torso brain,lips,-6.21875,-15.25,
+part of the body,7,train,shin arm stomach head,tongue,-6.96875,-17.5,
+part of the body,0,heldout,bum skin hair thighs,feet,-5.09375,-16.0,-5.0
+part of the body,1,heldout,bacteria heart ankle genitals,ribs,-7.96875,-15.9375,-7.78125
+part of the body,2,heldout,bacteria hair skin genitals,shoulders,-9.875,-15.8125,-9.6875
+part of the body,3,heldout,chest thumb skeleton bowel,skin,-6.5,-18.0,-5.03125
+part of the body,4,heldout,heart skeleton skin thighs,chest,-5.53125,-17.125,-5.5625
+meat,0,train,lobster seafood heart steak,duck,-7.21875,-16.75,
+meat,1,train,steak duck lobster horse,vale,-13.75,-15.875,
+meat,2,train,lamb buffalo sheep goat,vale,-12.5,-15.875,
+meat,3,train,lamb steak seafood buffalo,pigeon,-10.125,-18.75,
+meat,4,train,pigeon beef steak buffalo,cow,-5.3125,-16.375,
+meat,5,train,duck bacon vale lobster,cow,-11.4375,-16.375,
+meat,6,train,heart seafood bacon goat,pigeon,-9.9375,-18.75,
+meat,7,train,bacon sheep horse vale,beef,-6.0625,-16.5,
+meat,0,heldout,turkey liver tongue rabbit,tuna,-9.125,-17.25,-7.59375
+meat,1,heldout,pork rabbit tuna ox,salmon,-5.21875,-17.0,-4.375
+meat,2,heldout,ox elk pork turkey,tuna,-8.75,-17.25,-7.9375
+meat,3,heldout,liver ox shrimp tongue,turkey,-6.9375,-17.125,-7.78125
+meat,4,heldout,elk tongue salmon fish,chicken,-7.84375,-17.0,-6.90625
+academic subject,0,train,sociology english latin law,statistics,-5.71875,-16.75,
+academic subject,1,train,russian german spanish french,accounting,-11.875,-16.75,
+academic subject,2,train,german law biology russian,statistics,-7.34375,-16.75,
+academic subject,3,train,biology latin german technology,russian,-5.75,-15.625,
+academic subject,4,train,english latin russian art,technology,-6.5,-16.375,
+academic subject,5,train,technology english german mechanics,latin,-7.53125,-17.0,
+academic subject,6,train,technology latin german spanish,psychology,-8.8125,-14.9375,
+academic subject,7,train,psychology german accounting art,russian,-5.8125,-15.625,
+academic subject,0,heldout,advertising healthcare history physics,chemistry,-5.5,-16.5,-6.4375
+academic subject,1,heldout,philosophy physics drama italian,maths,-9.6875,-15.625,-10.75
+academic subject,2,heldout,advertising medicine science management,music,-6.34375,-16.625,-5.03125
+academic subject,3,heldout,advertising management geography politics,history,-3.84375,-17.375,-3.28125
+academic subject,4,heldout,physics science history philosophy,chemistry,-4.5,-16.5,-4.65625
+part of a boat,0,train,deck cabins sailor steering,decking,-9.125,-15.8125,
+part of a boat,1,train,cabins decking helm back,steering,-6.875,-17.25,
+part of a boat,2,train,engine back decking deck,furnace,-11.3125,-16.875,
+part of a boat,3,train,paddle furnace decking deck,flag,-10.1875,-18.25,
+part of a boat,4,train,steering yacht furnace decking,back,-7.65625,-16.875,
+part of a boat,5,train,furnace tail paddle cannons,cabins,-13.0,-15.625,
+part of a boat,6,train,deck steering sailor furnace,cabins,-11.75,-15.625,
+part of a boat,7,train,furnace tail paddle back,engine,-9.4375,-15.9375,
+part of a boat,0,heldout,anchor windows mast hull,sail,-4.78125,-14.5,-5.40625
+part of a boat,1,heldout,cabin hull wheel windows,horn,-8.375,-17.375,-9.6875
+part of a boat,2,heldout,mast stern horn captain,hull,-8.3125,-16.75,-8.3125
+part of a boat,3,heldout,windows front aft hull,stern,-5.4375,-16.0,-5.9375
+part of a boat,4,heldout,captain horn stern bow,aft,-7.3125,-17.75,-5.71875
+furniture,0,train,stool cupboard cabinet lamp,bed,-6.5,-16.75,
+furniture,1,train,chair piano stool computer,cooker,-15.3125,-15.875,
+furniture,2,train,bed cooker piano stool,computer,-6.0,-14.5,
+furniture,3,train,desk cooker cupboard cabinet,door,-4.78125,-16.625,
+furniture,4,train,cooker door piano cupboard,stool,-8.0625,-15.4375,
+furniture,5,train,desk door lamp cooker,cabinet,-5.625,-17.875,
+furniture,6,train,door piano desk chair,lamp,-7.03125,-17.875,
+furniture,7,train,chair lamp stool bed,computer,-8.5,-14.5,
+furniture,0,heldout,tv counter table mirror,fireplace,-7.90625,-15.3125,-7.46875
+furniture,1,heldout,tv freezer table counter,drawers,-7.65625,-17.5,-7.0
+furniture,2,heldout,drawers tv mirror freezer,table,-6.625,-17.875,-7.375
+furniture,3,heldout,counter mirror shelves wardrobe,freezer,-12.125,-16.125,-13.5
+furniture,4,heldout,fireplace sofa freezer wardrobe,shelves,-6.25,-16.625,-6.875
+spice,0,train,pepper ginger cloves basil,mint,-2.921875,-16.75,
+spice,1,train,mint cloves pepper ginger,basil,-8.1875,-15.75,
+spice,2,train,mint cloves basil ginger,pepper,-4.71875,-15.6875,
+spice,3,train,pepper basil cloves mint,ginger,-4.21875,-16.0,
+spice,4,train,ginger pepper mint basil,cloves,-6.59375,-16.125,
+spice,0,heldout,cinnamon peppers parsley salt,spicy,-9.4375,-16.25,-9.0625
+spice,1,heldout,peppers spicy cinnamon salt,parsley,-7.5,-16.5,-6.96875
+spice,2,heldout,cinnamon parsley spicy salt,peppers,-7.0,-16.125,-6.84375
+spice,3,heldout,spicy peppers parsley salt,cinnamon,-6.5625,-17.5,-7.4375
+spice,4,heldout,cinnamon peppers parsley spicy,salt,-6.53125,-15.5,-3.921875
+part of a tree,0,train,flowers nests stem roots,wood,-5.96875,-18.0,
+part of a tree,1,train,nests roots fruit wood,flowers,-4.25,-15.625,
+part of a tree,2,train,nests roots flowers wood,stem,-7.53125,-16.75,
+part of a tree,3,train,roots fruit flowers nests,wood,-6.125,-18.0,
+part of a tree,4,train,stem wood flowers roots,nests,-10.9375,-18.0,
+part of a tree,5,train,roots fruit flowers wood,nests,-10.5625,-18.0,
+part of a tree,6,train,roots stem fruit nests,flowers,-4.5625,-15.625,
+part of a tree,7,train,flowers stem roots fruit,nests,-13.3125,-18.0,
+part of a tree,0,heldout,stump branch bark trunk,leaves,-4.53125,-15.9375,-4.34375
+part of a tree,1,heldout,leaves branch stump trunk,bark,-4.09375,-18.375,-4.625
+part of a tree,2,heldout,stump leaves trunk bark,seeds,-5.59375,-17.75,-5.59375
+part of a tree,3,heldout,trunk leaves branch sap,seeds,-8.3125,-17.75,-6.25
+part of a tree,4,heldout,branch trunk stump sap,seeds,-11.125,-17.75,-8.0
+bird,0,train,hawk chicken owl eagle,pigeon,-5.59375,-18.75,
+bird,1,train,pigeon eagle hawk chicken,goose,-5.1875,-16.125,
+bird,2,train,pigeon owl chicken goose,eagle,-4.6875,-17.0,
+bird,3,train,chicken pigeon hawk goose,owl,-4.25,-18.625,
+bird,4,train,goose hawk eagle pigeon,chicken,-5.71875,-17.0,
+bird,5,train,hawk goose eagle owl,chicken,-6.15625,-17.0,
+bird,6,train,goose chicken eagle hawk,pigeon,-5.0,-18.75,
+bird,7,train,pigeon goose owl hawk,eagle,-2.03125,-17.0,
+bird,0,heldout,turkey phoenix robin swallow,crow,-6.46875,-18.0,-7.84375
+bird,1,heldout,robin swallow dove turkey,crow,-4.53125,-18.0,-3.671875
+bird,2,heldout,turkey dove crow robin,phoenix,-7.875,-18.875,-7.84375
+bird,3,heldout,crow swallow duck phoenix,robin,-6.40625,-16.375,-6.84375
+bird,4,heldout,dove turkey duck crow,swallow,-8.3125,-15.125,-8.1875
+team sport,0,train,basketball polo hockey sailing,soccer,-2.6875,-15.875,
+team sport,1,train,hockey soccer cricket polo,basketball,-2.6875,-16.0,
+team sport,2,train,basketball polo cricket hockey,sailing,-7.03125,-15.625,
+team sport,3,train,sailing soccer hockey polo,cricket,-4.0625,-15.5625,
+team sport,4,train,hockey soccer cricket sailing,basketball,-3.0625,-16.0,
+team sport,5,train,soccer polo basketball sailing,cricket,-4.65625,-15.5625,
+team sport,6,train,soccer hockey sailing basketball,polo,-6.65625,-18.125,
+team sport,7,train,polo hockey basketball soccer,sailing,-8.5,-15.625,
+team sport,0,heldout,volleyball baseball football relay,tennis,-4.75,-16.375,-3.765625
+team sport,1,heldout,tennis skiing volleyball rugby,football,-2.078125,-17.375,-2.078125
+team sport,2,heldout,baseball tennis volleyball skiing,relay,-10.8125,-18.375,-10.4375
+team sport,3,heldout,skiing baseball volleyball football,tennis,-3.34375,-16.375,-3.3125
+team sport,4,heldout,baseball volleyball relay tennis,rugby,-5.75,-16.25,-6.46875
+cosmetic,0,train,lipstick powder makeup hair,mascara,-5.03125,-17.125,
+cosmetic,1,train,drug powder surgery mascara,lipstick,-5.28125,-16.375,
+cosmetic,2,train,shampoo makeup foundation mascara,lipstick,-2.28125,-16.375,
+cosmetic,3,train,foundation makeup shampoo lipstick,mascara,-3.609375,-17.125,
+cosmetic,4,train,powder foundation surgery shampoo,makeup,-5.4375,-16.75,
+cosmetic,5,train,mascara lipstick hair surgery,drug,-8.375,-15.3125,
+cosmetic,6,train,hair surgery lipstick powder,drug,-7.65625,-15.3125,
+cosmetic,7,train,makeup drug powder hair,foundation,-6.8125,-19.25,
+cosmetic,0,heldout,nails implants primer mirror,cream,-7.9375,-16.25,-7.90625
+cosmetic,1,heldout,conditioner cream nails primer,soap,-6.28125,-16.5,-8.75
+cosmetic,2,heldout,cream perfume nails conditioner,contour,-9.125,-17.125,-9.5
+cosmetic,3,heldout,perfume contour mirror primer,conditioner,-8.3125,-16.125,-8.125
+cosmetic,4,heldout,perfume implants cream contour,nails,-6.96875,-15.8125,-7.3125
+time of day,0,train,breakfast dusk dawn morning,work,-8.75,-17.625,
+time of day,1,train,evening afternoon morning work,sunset,-9.9375,-15.5,
+time of day,2,train,noon evening dusk dawn,sunset,-5.09375,-15.5,
+time of day,3,train,dusk noon work late,evening,-3.96875,-15.75,
+time of day,4,train,late dusk noon evening,afternoon,-4.25,-16.625,
+time of day,5,train,noon morning work evening,afternoon,-5.28125,-16.625,
+time of day,6,train,sunset evening dawn morning,breakfast,-9.5625,-15.0,
+time of day,7,train,work breakfast noon afternoon,evening,-1.8515625,-15.75,
+time of day,0,heldout,home dinner sunrise night,midnight,-8.1875,-16.375,-8.1875
+time of day,1,heldout,brunch nap dinner bedtime,home,-6.96875,-14.875,-6.71875
+time of day,2,heldout,dinner night bedtime home,brunch,-9.1875,-15.5,-9.25
+time of day,3,heldout,dinner brunch midnight nap,daytime,-6.84375,-15.8125,-7.21875
+time of day,4,heldout,early sunrise dinner daytime,nap,-3.78125,-17.875,-7.65625
+fuel,0,train,petrol wind diesel coal,alcohol,-7.53125,-15.875,
+fuel,1,train,coal airplane wood diesel,wind,-7.90625,-16.125,
+fuel,2,train,wind food wood diesel,airplane,-8.625,-16.0,
+fuel,3,train,petrol wind airplane alcohol,diesel,-3.75,-15.375,
+fuel,4,train,wood airplane wind food,petrol,-10.4375,-15.4375,
+fuel,5,train,alcohol food airplane diesel,petrol,-5.53125,-15.4375,
+fuel,6,train,food petrol wood alcohol,coal,-3.859375,-15.6875,
+fuel,7,train,diesel alcohol wood corn,airplane,-14.0625,-16.0,
+fuel,0,heldout,electricity propane battery hydrogen,gasoline,-6.34375,-14.625,-5.9375
+fuel,1,heldout,oil hydrogen energy propane,palm,-9.875,-16.375,-9.875
+fuel,2,heldout,oil propane gas battery,palm,-10.75,-16.375,-9.3125
+fuel,3,heldout,gas palm energy electricity,fossil,-5.75,-14.4375,-5.9375
+fuel,4,heldout,gasoline propane electricity energy,fossil,-4.625,-14.4375,-4.71875
+social gathering,0,train,bar nightclub christmas funeral,reunion,-7.71875,-16.875,
+social gathering,1,train,event drinks prom marriage,meals,-8.3125,-16.0,
+social gathering,2,train,nightclub drinks wedding meeting,gathering,-8.5,-17.875,
+social gathering,3,train,event wedding nightclub meeting,celebration,-8.9375,-16.125,
+social gathering,4,train,prom gathering meals meeting,birthday,-6.75,-16.5,
+social gathering,5,train,marriage gathering celebration meals,funeral,-7.875,-16.875,
+social gathering,6,train,wedding drinks event celebration,meals,-9.1875,-16.0,
+social gathering,7,train,gathering meals reunion event,prom,-8.25,-16.75,
+social gathering,0,heldout,ball riot pub social,disco,-10.4375,-16.75,-9.6875
+social gathering,1,heldout,disco pub ball party,concert,-7.09375,-18.125,-7.875
+social gathering,2,heldout,anniversary functions ball dance,concert,-6.4375,-18.125,-7.1875
+social gathering,3,heldout,social dinner group dance,functions,-8.9375,-15.5,-6.59375
+social gathering,4,heldout,group functions dinner disco,party,-4.3125,-16.25,-3.671875
+unit of time,0,train,days hours epoch decades,era,-7.25,-18.125,
+unit of time,1,train,era seconds hours days,milliseconds,-7.9375,-17.25,
+unit of time,2,train,milliseconds days hours era,decades,-9.375,-16.75,
+unit of time,3,train,days hours seconds epoch,milliseconds,-4.96875,-17.25,
+unit of time,4,train,hours days era epoch,decades,-9.625,-16.75,
+unit of time,5,train,era decades epoch days,hours,-4.46875,-16.75,
+unit of time,6,train,era seconds decades milliseconds,hours,-4.40625,-16.75,
+unit of time,7,train,decades hours seconds era,days,-6.0625,-15.8125,
+unit of time,0,heldout,century weeks minutes moment,months,-4.65625,-16.25,-2.90625
+unit of time,1,heldout,minutes century moment years,millennia,-6.1875,-17.125,-8.0625
+unit of time,2,heldout,millennia years months minutes,century,-7.875,-19.25,-5.96875
+unit of time,3,heldout,years score minutes weeks,century,-7.3125,-19.25,-8.625
+unit of time,4,heldout,years minutes months century,weeks,-6.9375,-17.125,-4.96875
+bird of prey,0,train,owl duck robin chicken,crow,-3.6875,-18.0,
+bird of prey,1,train,chick crow chicken duck,robin,-7.46875,-16.375,
+bird of prey,2,train,duck chick owl robin,chicken,-4.71875,-17.0,
+bird of prey,3,train,duck robin chicken chick,owl,-7.5625,-18.625,
+bird of prey,4,train,chick chicken owl crow,duck,-2.484375,-16.75,
+bird of prey,5,train,owl duck chick chicken,crow,-5.0625,-18.0,
+bird of prey,6,train,robin chicken crow owl,chick,-5.5,-16.625,
+bird of prey,7,train,duck crow chicken robin,owl,-4.3125,-18.625,
+bird of prey,0,heldout,kite hawk pigeon dove,turkey,-5.0625,-17.125,-5.25
+bird of prey,1,heldout,turkey pigeon dove kite,eagle,-4.34375,-17.0,-4.21875
+bird of prey,2,heldout,eagle dove hawk pigeon,turkey,-4.25,-17.125,-4.96875
+bird of prey,3,heldout,hawk kite turkey pigeon,eagle,-4.0,-17.0,-3.859375
+bird of prey,4,heldout,eagle dove hawk kite,turkey,-5.59375,-17.125,-5.3125
+three-dimensional shape,0,train,cube hemisphere tube bowl,triangle,-6.9375,-17.625,
+three-dimensional shape,1,train,hemisphere triangle prism tube,bowl,-9.375,-15.1875,
+three-dimensional shape,2,train,tube hemisphere cube triangle,prism,-3.921875,-15.0625,
+three-dimensional shape,3,train,tube cube bowl prism,hemisphere,-8.5,-17.125,
+three-dimensional shape,4,train,cube triangle prism hemisphere,tube,-7.25,-16.625,
+three-dimensional shape,5,train,cube bowl hemisphere prism,triangle,-4.625,-17.625,
+three-dimensional shape,6,train,cube triangle hemisphere bowl,tube,-7.03125,-16.625,
+three-dimensional shape,7,train,tube bowl cube triangle,prism,-4.8125,-15.0625,
+three-dimensional shape,0,heldout,cylinder pyramid ball cone,box,-6.78125,-15.4375,-6.3125
+three-dimensional shape,1,heldout,ball table cone box,pyramid,-7.71875,-16.25,-9.125
+three-dimensional shape,2,heldout,cylinder cone box table,ball,-5.84375,-15.8125,-4.09375
+three-dimensional shape,3,heldout,table sphere cylinder cone,ball,-6.1875,-15.8125,-5.71875
+three-dimensional shape,4,heldout,table box sphere pyramid,cone,-1.15625,-16.625,-2.15625
+legal profession,0,train,writer producer judge lawyer,magistrate,-7.625,-16.75,
+legal profession,1,train,attorney actor producer magistrate,consultant,-9.1875,-16.75,
+legal profession,2,train,magistrate actor writer lawyer,consultant,-8.5,-16.75,
+legal profession,3,train,magistrate producer lawyer judge,writer,-6.28125,-18.0,
+legal profession,4,train,producer actor judge writer,consultant,-7.65625,-16.75,
+legal profession,5,train,consultant producer judge attorney,writer,-5.6875,-18.0,
+legal profession,6,train,actor judge writer lawyer,producer,-4.8125,-17.375,
+legal profession,7,train,actor producer lawyer writer,judge,-7.03125,-16.625,
+legal profession,0,heldout,doctor policeman prosecutor cleaner,jury,-9.5,-17.0,-6.84375
+legal profession,1,heldout,clerk jury prosecutor director,legal,-7.1875,-16.625,-5.9375
+legal profession,2,heldout,cleaner legal clerk doctor,prosecutor,-8.25,-16.75,-8.875
+legal profession,3,heldout,policeman prosecutor legal clerk,jury,-6.5,-17.0,-6.25
+legal profession,4,heldout,policeman doctor legal cleaner,jury,-10.4375,-17.0,-9.1875
+art form,0,train,statue sensory performance monuments,singing,-10.25,-16.875,
+art form,1,train,touch clocks plays movies,sensory,-12.25,-15.0625,
+art form,2,train,singing portrait modern model,installation,-11.5,-16.125,
+art form,3,train,artist portrait movies sensory,touch,-6.71875,-19.125,
+art form,4,train,movies buildings drawing plays,sensory,-12.6875,-15.0625,
+art form,5,train,movies sensory drama model,performance,-7.6875,-18.25,
+art form,6,train,clocks movies buildings music,plays,-7.1875,-17.125,
+art form,7,train,portrait drama movies installation,monuments,-9.5,-15.25,
+art form,0,heldout,comedy writing textiles pottery,illustration,-5.21875,-18.125,-5.71875
+art form,1,heldout,poetry writing sketch illustration,comedy,-7.625,-16.625,-7.6875
+art form,2,heldout,literature dance pottery architecture,sketch,-9.1875,-15.6875,-8.625
+art form,3,heldout,writing literature speech photography,dance,-6.71875,-16.75,-7.78125
+art form,4,heldout,sculpture photography ceramics acrylic,theatre,-9.5,-16.125,-7.4375
+artistic movement,0,train,ballet yoga arts abstract,crafts,-8.4375,-17.875,
+artistic movement,1,train,jump dance arts ballet,yoga,-9.25,-15.75,
+artistic movement,2,train,jump crafts drama yoga,ballet,-8.25,-16.5,
+artistic movement,3,train,jump abstract arts dance,crafts,-6.625,-17.875,
+artistic movement,4,train,drama ballet arts yoga,dance,-2.265625,-16.75,
+artistic movement,5,train,drama crafts arts yoga,jump,-10.5625,-17.5,
+artistic movement,6,train,drama arts crafts jump,ballet,-10.8125,-16.5,
+artistic movement,7,train,ballet drama crafts abstract,jump,-10.875,-17.5,
+artistic movement,0,heldout,theatre realism music swirl,meditation,-9.625,-16.25,-8.9375
+artistic movement,1,heldout,swirl installations music theatre,meditation,-9.875,-16.25,-9.0
+artistic movement,2,heldout,classical painting swirl theatre,installations,-11.375,-15.1875,-12.4375
+artistic movement,3,heldout,classical realism painting music,meditation,-8.75,-16.25,-8.5625
+artistic movement,4,heldout,music swirl theatre meditation,painting,-8.375,-16.625,-7.0
+jewellery,0,train,watch crown ruby ring,piercing,-11.8125,-14.6875,
+jewellery,1,train,watch crown ring piercing,jade,-10.3125,-17.0,
+jewellery,2,train,crown piercing ring ruby,watch,-11.0625,-16.125,
+jewellery,3,train,jade watch crown ring,piercing,-10.375,-14.6875,
+jewellery,4,train,crown ruby piercing jade,ring,-4.09375,-16.125,
+jewellery,5,train,ring ruby watch piercing,crown,-8.625,-14.3125,
+jewellery,6,train,ring ruby piercing jade,crown,-9.125,-14.3125,
+jewellery,7,train,piercing ruby watch crown,ring,-4.96875,-16.125,
+jewellery,0,heldout,earrings silver diamond necklace,gold,-3.4375,-16.875,-3.5625
+jewellery,1,heldout,earrings gold diamond silver,bracelet,-4.46875,-15.75,-4.40625
+jewellery,2,heldout,silver bracelet necklace earrings,diamond,-5.875,-14.125,-5.3125
+jewellery,3,heldout,bracelet silver necklace diamond,earrings,-3.375,-16.625,-2.46875
+jewellery,4,heldout,gold bracelet diamond earrings,silver,-3.875,-15.6875,-3.75
+type of word,0,train,descriptive verb proverb title,positive,-7.8125,-18.625,
+type of word,1,train,palindrome descriptive proverb word,verb,-7.78125,-18.375,
+type of word,2,train,aggressive descriptive verb palindrome,proverb,-9.3125,-15.9375,
+type of word,3,train,palindrome descriptive positive verb,title,-8.5625,-11.9375,
+type of word,4,train,proverb positive descriptive aggressive,palindrome,-14.125,-15.6875,
+type of word,5,train,word aggressive title descriptive,positive,-7.0625,-18.625,
+type of word,6,train,positive proverb title verb,word,-5.3125,-15.875,
+type of word,7,train,palindrome verb word aggressive,title,-10.1875,-11.9375,
+type of word,0,heldout,good name noun imperative,negative,-6.96875,-18.125,-8.8125
+type of word,1,heldout,adjective imperative name noun,command,-8.75,-17.5,-8.3125
+type of word,2,heldout,noun plural name command,negative,-10.25,-18.125,-9.25
+type of word,3,heldout,plural imperative name good,negative,-8.8125,-18.125,-5.875
+type of word,4,heldout,imperative command noun plural,good,-8.875,-16.375,-9.4375
+crime,0,train,violence stealing assault harassment,arson,-7.40625,-15.3125,
+crime,1,train,violence harassment arson homicide,hacking,-11.0625,-15.875,
+crime,2,train,stealing arson drugs homicide,hacking,-10.125,-15.875,
+crime,3,train,manslaughter murder harassment drugs,homicide,-6.78125,-18.125,
+crime,4,train,harassment hacking assault stealing,murder,-5.9375,-16.25,
+crime,5,train,homicide murder manslaughter arson,violence,-7.3125,-16.75,
+crime,6,train,stealing arson hacking homicide,murder,-3.21875,-16.25,
+crime,7,train,harassment assault violence drugs,homicide,-6.59375,-18.125,
+crime,0,heldout,endorsement theft piracy battery,burglary,-6.6875,-17.125,-5.1875
+crime,1,heldout,vandalism robbery endorsement burglary,abuse,-7.53125,-16.75,-7.53125
+crime,2,heldout,piracy burglary abuse robbery,rape,-3.53125,-17.0,-3.890625
+crime,3,heldout,fraud burglary piracy abuse,massacre,-10.6875,-17.0,-11.875
+crime,4,heldout,massacre burglary abuse theft,fraud,-3.765625,-14.625,-5.125
+vehicle,0,train,jeep ship van tractor,helicopter,-9.4375,-16.375,
+vehicle,1,train,boat tractor plane coach,helicopter,-4.8125,-16.375,
+vehicle,2,train,jeep ship plane scooter,helicopter,-5.625,-16.375,
+vehicle,3,train,train plane jeep tractor,coach,-8.0625,-15.875,
+vehicle,4,train,helicopter plane tractor ship,jeep,-6.34375,-15.125,
+vehicle,5,train,jeep coach boat helicopter,tractor,-8.4375,-16.5,
+vehicle,6,train,helicopter scooter boat ship,train,-3.578125,-18.125,
+vehicle,7,train,helicopter ship scooter van,tractor,-5.8125,-16.5,
+vehicle,0,heldout,wagon jet car ambulance,taxi,-4.90625,-17.375,-6.65625
+vehicle,1,heldout,bus taxi ambulance bicycle,skateboard,-7.25,-15.125,-7.25
+vehicle,2,heldout,bus jet skateboard tram,car,-4.46875,-17.625,-4.75
+vehicle,3,heldout,tram skateboard jet ambulance,bicycle,-5.15625,-15.125,-5.71875
+vehicle,4,heldout,car taxi wagon bicycle,truck,-4.0625,-16.75,-4.125
+personal quality,0,train,cruel understanding psychotic warm,odd,-10.3125,-18.125,
+personal quality,1,train,cold positive driven knowledge,warm,-8.625,-17.625,
+personal quality,2,train,listening weird understanding negative,positive,-6.15625,-18.625,
+personal quality,3,train,mean lovely smart thoughtful,weird,-7.375,-16.625,
+personal quality,4,train,psychotic academic negative mean,optimistic,-9.125,-18.375,
+personal quality,5,train,driven love nice sympathetic,cold,-9.375,-17.0,
+personal quality,6,train,wise mean lovely outgoing,confident,-6.3125,-17.375,
+personal quality,7,train,angry thoughtful wise cold,love,-6.78125,-15.6875,
+personal quality,0,heldout,generous lazy happy loyalty,reliable,-6.84375,-16.75,-6.8125
+personal quality,1,heldout,pride hostile charismatic crazy,quiet,-8.375,-16.25,-8.1875
+personal quality,2,heldout,supportive ambitious evil kind,honest,-6.71875,-17.5,-7.34375
+personal quality,3,heldout,supportive strange nasty social,vain,-11.5,-15.8125,-9.5625
+personal quality,4,heldout,lazy generous good bullish,caring,-7.8125,-15.5,-5.1875
+injury,0,train,bleed strain burn concussion,bite,-9.875,-15.8125,
+injury,1,train,burn hospital bleed bite,wound,-3.234375,-16.375,
+injury,2,train,strain inconvenience bleed hospital,burn,-6.75,-16.125,
+injury,3,train,hospital hurt wound bleed,concussion,-8.875,-16.25,
+injury,4,train,strain bite burn inconvenience,hurt,-5.78125,-16.5,
+injury,5,train,inconvenience bleed burn bite,hurt,-5.53125,-16.5,
+injury,6,train,bleed bite wound hurt,strain,-9.75,-17.625,
+injury,7,train,hospital inconvenience wound strain,concussion,-9.5,-16.25,
+injury,0,heldout,cut pain blister fall,damage,-6.09375,-16.75,-6.3125
+injury,1,heldout,blister fracture pain damage,scar,-8.0,-16.875,-6.53125
+injury,2,heldout,stabbing pain cut damage,twists,-11.9375,-16.0,-12.625
+injury,3,heldout,damage scar blister scrape,fall,-9.375,-16.375,-9.875
+injury,4,heldout,scrape twists blister fracture,pain,-5.78125,-16.625,-5.59375
+herb,0,train,garlic marijuana mint salt,pepper,-2.171875,-15.6875,
+herb,1,train,garlic mint pepper marijuana,salt,-7.25,-15.5,
+herb,2,train,mint pepper garlic salt,marijuana,-12.875,-15.0625,
+herb,3,train,marijuana salt mint pepper,garlic,-8.0,-16.25,
+herb,4,train,pepper salt marijuana garlic,mint,-5.9375,-16.75,
+herb,0,heldout,sage parsley cinnamon lavender,basil,-3.0625,-15.75,-2.765625
+herb,1,heldout,basil sage cinnamon lavender,parsley,-4.09375,-16.5,-4.40625
+herb,2,heldout,basil parsley lavender sage,cinnamon,-5.53125,-17.5,-6.25
+herb,3,heldout,cinnamon lavender parsley basil,sage,-3.421875,-15.25,-4.1875
+herb,4,heldout,sage cinnamon basil parsley,lavender,-5.9375,-15.5,-5.96875
+hair colour,0,train,silver teal black turquoise,red,-3.875,-17.5,
+hair colour,1,train,red turquoise ginger teal,blonde,-9.6875,-14.4375,
+hair colour,2,train,orange ginger red highlights,blonde,-7.53125,-14.4375,
+hair colour,3,train,highlights turquoise silver orange,black,-3.453125,-17.125,
+hair colour,4,train,red teal blonde silver,turquoise,-4.84375,-15.5,
+hair colour,5,train,highlights ginger red blonde,orange,-5.3125,-16.625,
+hair colour,6,train,blonde red orange highlights,black,-5.15625,-17.125,
+hair colour,7,train,red turquoise ginger orange,black,-3.59375,-17.125,
+hair colour,0,heldout,blue green white yellow,pink,-3.140625,-16.5,-3.53125
+hair colour,1,heldout,white purple brunette green,yellow,-3.984375,-16.375,-4.34375
+hair colour,2,heldout,brown pink white yellow,purple,-3.40625,-16.75,-3.3125
+hair colour,3,heldout,gold purple brunette brown,grey,-4.59375,-15.625,-4.625
+hair colour,4,heldout,grey purple green yellow,brunette,-11.0625,-15.3125,-11.0625
+animal,0,train,ant camel moth rat,goose,-8.0625,-16.125,
+animal,1,train,crow moth cat vole,rabbit,-5.375,-17.375,
+animal,2,train,domestic pigeon crow pig,fish,-5.71875,-15.625,
+animal,3,train,pony fish salmon dog,pig,-9.1875,-16.75,
+animal,4,train,turkey panda duck salmon,bat,-7.6875,-16.0,
+animal,5,train,pigeon domestic wolf panda,rat,-5.03125,-19.75,
+animal,6,train,shark fish beetle crab,spiders,-6.75,-17.0,
+animal,7,train,ant dog goose vole,leopard,-7.125,-18.375,
+animal,0,heldout,bird fly ape monkey,dolphin,-5.71875,-15.5625,-5.28125
+animal,1,heldout,whale ape tiger cow,robin,-8.25,-16.375,-8.375
+animal,2,heldout,horse dolphin slug butterfly,squirrel,-5.78125,-15.9375,-6.15625
+animal,3,heldout,chicken butterfly bug monkey,whale,-9.0,-16.875,-6.15625
+animal,4,heldout,lion tiger squirrel fly,bee,-8.25,-18.375,-5.5625
+part of the face,0,train,ears neck tongue skin,forehead,-6.625,-15.6875,
+part of the face,1,train,eyes cheek neck pupils,mouth,-4.46875,-18.0,
+part of the face,2,train,neck eyes mouth forehead,ears,-3.078125,-15.25,
+part of the face,3,train,eyes forehead ears neck,beard,-6.90625,-16.125,
+part of the face,4,train,mouth neck skin forehead,cheek,-4.71875,-18.0,
+part of the face,5,train,ears mouth neck forehead,cheek,-4.90625,-18.0,
+part of the face,6,train,cheek skin neck eyes,beard,-7.75,-16.125,
+part of the face,7,train,neck skin cheek mouth,tongue,-4.5625,-17.5,
+part of the face,0,heldout,lips spots nose jaw,eyebrows,-5.875,-15.3125,-5.53125
+part of the face,1,heldout,cheeks hair chin lips,iris,-9.0625,-16.25,-8.9375
+part of the face,2,heldout,temples eyebrows jaw nose,iris,-8.1875,-16.25,-8.1875
+part of the face,3,heldout,teeth temples hair eyebrows,iris,-7.53125,-16.25,-8.0625
+part of the face,4,heldout,nose spots eyebrows cheeks,teeth,-4.46875,-15.1875,-5.375
+human dwelling,0,train,shack hut caravan hostel,condo,-8.375,-16.0,
+human dwelling,1,train,home hotel countries tent,mansion,-13.75,-17.125,
+human dwelling,2,train,caravan tent shack shed,flat,-6.71875,-17.25,
+human dwelling,3,train,countries tent palace hotel,attic,-11.3125,-16.625,
+human dwelling,4,train,palace hotel tent shed,home,-6.84375,-14.875,
+human dwelling,5,train,shack hut flat hotel,boat,-6.9375,-16.5,
+human dwelling,6,train,palace deadline tent flat,hotel,-7.53125,-17.125,
+human dwelling,7,train,deadline hostel palace caravan,attic,-9.9375,-16.625,
+human dwelling,0,heldout,house cabin romance counties,love,-5.90625,-15.6875,-5.03125
+human dwelling,1,heldout,cottage animals counties villa,cabin,-6.34375,-15.25,-8.0625
+human dwelling,2,heldout,castle cabin town affection,cities,-9.8125,-16.375,-8.4375
+human dwelling,3,heldout,villa shelter cottage cities,caves,-9.5625,-15.875,-9.9375
+human dwelling,4,heldout,village counties shelter house,apartment,-8.4375,-14.375,-7.4375
+building material,0,train,screws mortar steel bricks,insulation,-7.625,-16.5,
+building material,1,train,nails limestone slate screws,silicone,-8.5,-14.1875,
+building material,2,train,blocks mortar bricks insulation,hammer,-9.0625,-16.75,
+building material,3,train,bricks slate wood stone,glass,-3.984375,-17.375,
+building material,4,train,screws tiles copper hammer,gravel,-9.375,-15.75,
+building material,5,train,slate hammer wood asbestos,insulation,-3.984375,-16.5,
+building material,6,train,wood asbestos gravel glass,screws,-8.375,-15.25,
+building material,7,train,limestone stone wood screws,blocks,-10.4375,-18.5,
+building material,0,heldout,foundations concrete metal clay,plastic,-6.28125,-15.9375,-8.0
+building material,1,heldout,clay plaster tin shovel,iron,-6.15625,-16.0,-7.03125
+building material,2,heldout,plywood sand plaster iron,ceramic,-9.375,-15.9375,-8.8125
+building material,3,heldout,ceramic metal plastic foundations,cement,-5.78125,-16.375,-5.875
+building material,4,heldout,plastic bolts concrete aluminium,paste,-10.3125,-17.5,-10.5625
+metal,0,train,zinc silver steel brass,potassium,-9.25,-15.4375,
+metal,1,train,iron potassium zinc wire,brass,-10.125,-16.375,
+metal,2,train,brass wire iron steel,platinum,-10.6875,-15.0,
+metal,3,train,platinum magnesium silver steel,brass,-5.28125,-16.375,
+metal,4,train,brass steel platinum zinc,iron,-3.15625,-16.0,
+metal,5,train,iron silver steel wire,zinc,-7.9375,-15.375,
+metal,6,train,steel brass iron potassium,magnesium,-4.125,-15.5,
+metal,7,train,potassium brass zinc magnesium,steel,-5.46875,-15.9375,
+metal,0,heldout,gold chrome nickel aluminium,copper,-2.71875,-17.125,-2.625
+metal,1,heldout,gold aluminium tin copper,chrome,-6.15625,-16.375,-6.65625
+metal,2,heldout,titanium bronze mercury gold,aluminium,-5.9375,-15.875,-5.6875
+metal,3,heldout,tin bronze gold nickel,titanium,-4.71875,-15.5625,-5.125
+metal,4,heldout,bronze tin mercury gold,copper,-3.671875,-17.125,-2.71875
+season,0,train,operator dry wet timber,autumn,-12.0,-18.0,
+season,1,train,salt autumn flood dry,wet,-6.34375,-17.125,
+season,2,train,operator dry wet salt,flood,-11.3125,-14.8125,
+season,3,train,dry wet salt autumn,flood,-8.875,-14.8125,
+season,4,train,autumn salt timber dry,wet,-7.25,-17.125,
+season,5,train,dry flood salt timber,autumn,-9.0625,-18.0,
+season,6,train,operator wet timber autumn,salt,-9.4375,-15.5,
+season,7,train,operator flood salt dry,wet,-6.15625,-17.125,
+season,0,heldout,food mating rainy summer,pepper,-10.875,-15.6875,-9.6875
+season,1,heldout,fall spring winter summer,pepper,-12.5625,-15.6875,-12.25
+season,2,heldout,pepper spring winter summer,mating,-13.625,-16.375,-14.0
+season,3,heldout,pepper mating spring rainy,summer,-4.90625,-16.125,-5.625
+season,4,heldout,fall pepper food rainy,spring,-5.21875,-16.25,-7.0
+religious building,0,train,mosque monastery cathedral oracle,shrine,-3.6875,-16.875,
+religious building,1,train,mosque shrine oracle cathedral,monastery,-4.9375,-17.25,
+religious building,2,train,oracle mosque shrine monastery,cathedral,-5.75,-16.5,
+religious building,3,train,shrine oracle monastery cathedral,mosque,-5.40625,-15.75,
+religious building,4,train,shrine monastery mosque cathedral,oracle,-9.75,-17.5,
+religious building,0,heldout,church synagogue sanctuary temple,chapel,-5.0625,-15.5625,-3.859375
+religious building,1,heldout,temple synagogue chapel church,sanctuary,-5.6875,-15.5,-5.34375
+religious building,2,heldout,sanctuary synagogue temple chapel,church,-1.8203125,-16.375,-2.328125
+religious building,3,heldout,synagogue sanctuary chapel church,temple,-3.53125,-17.375,-2.578125
+religious building,4,heldout,chapel church temple sanctuary,synagogue,-4.875,-15.875,-4.375
+bathroom fixture,0,train,shower shelves toilet window,sink,-6.71875,-17.125,
+bathroom fixture,1,train,window shelves lamp blind,shower,-6.4375,-15.5,
+bathroom fixture,2,train,shelves lamp tap sink,blind,-9.125,-17.125,
+bathroom fixture,3,train,window blind toilet tap,sink,-4.65625,-17.125,
+bathroom fixture,4,train,shelves window sink tap,blind,-9.25,-17.125,
+bathroom fixture,5,train,toilet tap blind shower,lamp,-9.1875,-17.875,
+bathroom fixture,6,train,shelves window toilet tap,sink,-4.0,-17.125,
+bathroom fixture,7,train,sink shower window blind,tap,-10.0,-17.375,
+bathroom fixture,0,heldout,curtains hooks cabinet radiator,light,-6.84375,-16.625,-7.46875
+bathroom fixture,1,heldout,bath door hooks light,curtains,-7.1875,-15.6875,-7.46875
+bathroom fixture,2,heldout,radiator mirror light door,bath,-9.4375,-14.25,-7.28125
+bathroom fixture,3,heldout,door mirror light cabinet,hooks,-8.875,-16.25,-10.25
+bathroom fixture,4,heldout,radiator bath cupboard door,light,-7.75,-16.625,-7.0625
+tree,0,train,coconut elder fir cherry,elm,-5.53125,-17.625,
+tree,1,train,pine cherry elder coconut,plane,-11.4375,-18.5,
+tree,2,train,pine fir elder plane,coconut,-9.125,-15.0,
+tree,3,train,elder plane plum pine,cherry,-6.5,-17.875,
+tree,4,train,cherry elm fir pine,maple,-3.921875,-17.25,
+tree,5,train,pine fir plane cherry,maple,-3.71875,-17.25,
+tree,6,train,plane elm cherry fir,pine,-3.078125,-15.625,
+tree,7,train,coconut cherry fir pine,elder,-8.8125,-17.25,
+tree,0,heldout,fruit mango bush cedar,pear,-6.28125,-16.875,-7.59375
+tree,1,heldout,fruit pear lemon ash,bush,-6.9375,-16.25,-9.5625
+tree,2,heldout,cedar bush monkey lemon,mango,-10.5625,-16.75,-9.75
+tree,3,heldout,lemon ash fruit cedar,monkey,-9.8125,-18.25,-10.625
+tree,4,heldout,cedar bush pear ash,oak,-5.34375,-17.125,-4.65625
+boat,0,train,kayak canoe ferry ship,tanker,-8.625,-17.25,
+boat,1,train,canoe ferry tanker ship,kayak,-7.625,-16.5,
+boat,2,train,ferry tanker kayak ship,canoe,-6.125,-17.0,
+boat,3,train,tanker ferry canoe kayak,ship,-5.21875,-16.75,
+boat,4,train,canoe ship tanker kayak,ferry,-4.59375,-15.0625,
+boat,0,heldout,laser yacht submarine transport,cruiser,-9.0625,-15.3125,-6.71875
+boat,1,heldout,transport submarine cruiser laser,yacht,-7.9375,-15.8125,-7.875
+boat,2,heldout,submarine cruiser laser yacht,transport,-7.0,-16.5,-7.375
+boat,3,heldout,yacht submarine cruiser transport,laser,-10.75,-14.9375,-10.0
+boat,4,heldout,transport yacht laser cruiser,submarine,-7.9375,-17.0,-8.0625
+building,0,train,tower household arena cottage,synagogue,-9.5,-15.875,
+building,1,train,mall cafe cottage restaurant,hospital,-9.0625,-15.5,
+building,2,train,garage temple factory lodge,cathedral,-7.46875,-16.5,
+building,3,train,factory shop workplace mall,government,-10.0,-16.875,
+building,4,train,factory hall cafe mall,detached,-14.8125,-17.0,
+building,5,train,tower terrace shop household,synagogue,-13.375,-15.875,
+building,6,train,palace household restaurant cafe,mosque,-11.3125,-15.75,
+building,7,train,synagogue lodge hotels mansion,mall,-10.1875,-18.625,
+building,0,heldout,university school dentist airport,castle,-9.0,-17.0,-7.96875
+building,1,heldout,house shed barn college,supermarket,-10.0,-16.625,-12.0
+building,2,heldout,barn school shed prison,supermarket,-10.5625,-16.625,-9.6875
+building,3,heldout,castle historical university museum,prison,-7.8125,-16.375,-9.4375
+building,4,heldout,historical museum theatre airport,prison,-6.875,-16.375,-7.90625
+medical specialty,0,train,backs research ent pathology,psychiatrist,-12.125,-16.625,
+medical specialty,1,train,research backs psychiatrist pathology,ent,-10.4375,-17.75,
+medical specialty,2,train,statistics psychiatrist cancer backs,research,-4.40625,-16.125,
+medical specialty,3,train,cancer psychiatrist statistics research,backs,-13.1875,-16.0,
+medical specialty,4,train,psychiatrist gp pathology backs,research,-5.625,-16.125,
+medical specialty,5,train,ent research gp psychiatrist,statistics,-9.5625,-16.75,
+medical specialty,6,train,pathology ent gp backs,diagnostic,-10.375,-15.25,
+medical specialty,7,train,research gp psychiatrist diagnostic,statistics,-6.375,-16.75,
+medical specialty,0,heldout,doctor cardiac feet surgeon,nurse,-5.6875,-15.1875,-4.78125
+medical specialty,1,heldout,cardiac nurse doctor surgeon,veterinary,-9.6875,-15.3125,-9.0
+medical specialty,2,heldout,feet dentist gastro veterinary,doctor,-5.65625,-16.75,-5.65625
+medical specialty,3,heldout,cardiovascular dentist nurse feet,gastro,-9.0,-16.5,-8.1875
+medical specialty,4,heldout,cardiac doctor psychological gastro,feet,-12.9375,-16.0,-10.375

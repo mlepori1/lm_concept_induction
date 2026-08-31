@@ -1,0 +1,16 @@
+\begin{table}
+
+\caption{\label{tab:tab:model-correlations}Descriptive association between observed language model behavior and each candidate model's predictions for meta-llama_Llama-3.2-3B. Values show correlations between observed $\log p_{\mathrm{LM}}(t \mid S)$ and fitted predictions from each model on the full dataset.}
+\centering
+\begin{tabular}[t]{lcc}
+\toprule
+Model & Pearson $r$ & Spearman $\rho$\\
+\midrule
+ADA & 0.581 & 0.577\\
+Combined Baseline & 0.538 & 0.531\\
+Prototype & 0.518 & 0.515\\
+Nearest Neighbor & 0.447 & 0.469\\
+Prior Probability & 0.061 & 0.045\\
+\bottomrule
+\end{tabular}
+\end{table}

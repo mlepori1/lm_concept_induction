@@ -1,0 +1,8 @@
+{
+  "model_name": "meta-llama/Llama-3.2-1B",
+  "n_contexts": 10,
+  "support_len": 4,
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "seed": 19,
+  "data_path": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/data/categories_data.csv"
+}

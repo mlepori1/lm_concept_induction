@@ -1,0 +1,1384 @@
+category,support_id,split,context_tokens,target,log_p_target_given_context,log_p_target_bos,log_p_target_given_shuffled_context
+positive emotion,0,train,enjoyment pleasure good proud,positive,-9.241439819335938,-22.35402488708496,
+positive emotion,1,train,grateful honest uplifting respectful,waving,-21.01450538635254,-20.818132400512695,
+positive emotion,2,train,proud joyous empathetic hopeful,waving,-17.324983596801758,-20.818132400512695,
+positive emotion,3,train,approachable peaceful intrigued good,grateful,-12.478151321411133,-20.748973846435547,
+positive emotion,4,train,success excited approachable waving,good,-6.618870258331299,-19.757797241210938,
+positive emotion,5,train,intrigued waving giving uplifting,loyal,-17.595548629760742,-23.784822463989258,
+positive emotion,6,train,success giving empathetic enjoyment,waving,-23.509435653686523,-20.818132400512695,
+positive emotion,7,train,intrigued jolly honest respectful,joyous,-12.6375732421875,-22.30099105834961,
+positive emotion,0,heldout,interested delighted determined relieved,helpful,-8.699874877929688,-21.20349884033203,-9.89181137084961
+positive emotion,1,heldout,powerful prepared kind calm,interested,-15.070001602172852,-20.677263259887695,-16.712223052978516
+positive emotion,2,heldout,enthusiastic radiant forgiveness calm,interested,-17.578855514526367,-20.677263259887695,-14.001107215881348
+positive emotion,3,heldout,warm relaxed fun confident,joyful,-8.374295234680176,-21.53974151611328,-10.019307136535645
+positive emotion,4,heldout,calm fun forgiveness delighted,radiant,-9.320548057556152,-23.449119567871094,-10.280442237854004
+breed of dog,0,train,pitbull dachshund boxer poodle,terrier,-4.358264923095703,-23.336851119995117,
+breed of dog,1,train,bulldog pitbull poodle dachshund,boxer,-4.183440685272217,-20.328702926635742,
+breed of dog,2,train,poodle boxer pitbull beagle,bulldog,-4.015959739685059,-22.557262420654297,
+breed of dog,3,train,bulldog dachshund boxer pitbull,poodle,-6.43046760559082,-21.5926456451416,
+breed of dog,4,train,terrier boxer dachshund beagle,bulldog,-4.293696880340576,-22.557262420654297,
+breed of dog,5,train,bulldog terrier poodle beagle,pitbull,-4.637669086456299,-20.319908142089844,
+breed of dog,6,train,bulldog boxer beagle terrier,dachshund,-3.94443416595459,-21.0605525970459,
+breed of dog,7,train,terrier dachshund pitbull poodle,beagle,-4.153064250946045,-21.633790969848633,
+breed of dog,0,heldout,labrador husky pug collie,pointer,-8.738330841064453,-21.376205444335938,-8.447684288024902
+breed of dog,1,heldout,spaniel labrador chihuahua pug,collie,-5.225003719329834,-20.54434585571289,-5.174601078033447
+breed of dog,2,heldout,labrador pug husky spaniel,chihuahua,-4.468467712402344,-19.760940551757812,-4.468467712402344
+breed of dog,3,heldout,husky labrador chihuahua pug,spaniel,-6.040114402770996,-22.637609481811523,-6.56834602355957
+breed of dog,4,heldout,chihuahua collie spaniel husky,labrador,-3.8010871410369873,-20.552637100219727,-3.5021610260009766
+part of a building,0,train,plaster exit toilets floors,attic,-12.5172758102417,-24.54354476928711,
+part of a building,1,train,plaster roof chimney door,pipes,-10.758613586425781,-21.967100143432617,
+part of a building,2,train,plaster basement beams mortar,door,-11.265838623046875,-18.9075984954834,
+part of a building,3,train,door entrance stove mortar,pipes,-8.467281341552734,-21.967100143432617,
+part of a building,4,train,timber stove mortar toilets,basement,-12.215157508850098,-24.746841430664062,
+part of a building,5,train,office doorways plaster door,entrance,-7.800434112548828,-21.960124969482422,
+part of a building,6,train,chimney slate attic exit,entrance,-6.45305061340332,-21.960124969482422,
+part of a building,7,train,bricks lobby fireplace stone,entrance,-6.184467792510986,-21.960124969482422,
+part of a building,0,heldout,reception foyer tiles wood,insulation,-15.572245597839355,-20.84854507446289,-15.572245597839355
+part of a building,1,heldout,reception hall landing fixtures,rooms,-12.510374069213867,-22.228139877319336,-13.921119689941406
+part of a building,2,heldout,elevators concrete window wall,sink,-12.654701232910156,-21.623193740844727,-11.893388748168945
+part of a building,3,heldout,carpet cement struts bedroom,reception,-10.601616859436035,-21.746227264404297,-11.740589141845703
+part of a building,4,heldout,hall reception tiles cement,fixtures,-12.292284965515137,-21.856138229370117,-10.43803596496582
+animal,0,train,cow cheetah koala dinosaur,bird,-4.687498092651367,-22.03147315979004,
+animal,1,train,goldfish sparrow dinosaur toad,koala,-9.935656547546387,-22.53801727294922,
+animal,2,train,cockroach ostrich kangaroo flamingo,robin,-7.477041244506836,-23.41998291015625,
+animal,3,train,bat ostrich giraffe hedgehog,elephant,-3.8227202892303467,-24.573341369628906,
+animal,4,train,iguana mouse cow cockroach,hamster,-7.068306922912598,-23.233936309814453,
+animal,5,train,dolphin hens mouse gazelle,kangaroo,-5.62081241607666,-22.82925796508789,
+animal,6,train,alligator sheep human bat,whale,-4.748563289642334,-24.365848541259766,
+animal,7,train,leopard octopus pig sparrow,kangaroo,-8.00926685333252,-22.82925796508789,
+animal,0,heldout,swan ape jaguar salmon,vole,-11.391216278076172,-18.543838500976562,-8.883506774902344
+animal,1,heldout,fly frog fox salmon,snake,-3.964365005493164,-21.917936325073242,-3.964365005493164
+animal,2,heldout,reptile wasp snake jaguar,deer,-7.437964916229248,-21.396636962890625,-6.899884223937988
+animal,3,heldout,goose sloth eagle ape,vole,-11.40002727508545,-18.543838500976562,-10.451221466064453
+animal,4,heldout,swallow ape invertebrate caterpillar,goose,-9.464713096618652,-21.63606071472168,-11.059993743896484
+boat,0,train,submarine canoe ship topper,cruiser,-7.643906593322754,-22.652435302734375,
+boat,1,train,topper canoe submarine cruiser,ship,-3.5014872550964355,-20.9094295501709,
+boat,2,train,gondola ship cruiser topper,submarine,-12.90365982055664,-23.425859451293945,
+boat,3,train,submarine canoe gondola ship,cruiser,-8.425149917602539,-22.652435302734375,
+boat,4,train,gondola ship topper canoe,submarine,-18.32781219482422,-23.425859451293945,
+boat,5,train,submarine cruiser ship gondola,topper,-18.857784271240234,-22.860097885131836,
+boat,6,train,submarine cruiser ship topper,canoe,-12.712465286254883,-25.07411003112793,
+boat,7,train,cruiser canoe submarine gondola,ship,-5.132801055908203,-20.9094295501709,
+boat,0,heldout,transport kayak rafts ferry,yacht,-7.266314506530762,-24.203493118286133,-5.9249372482299805
+boat,1,heldout,tanker laser yacht kayak,rafts,-10.713794708251953,-22.406009674072266,-14.886281967163086
+boat,2,heldout,rafts kayak yacht ferry,tanker,-8.148799896240234,-23.319175720214844,-14.122861862182617
+boat,3,heldout,kayak ferry yacht tanker,laser,-15.118446350097656,-20.26030921936035,-13.236198425292969
+boat,4,heldout,laser transport kayak ferry,rafts,-14.504256248474121,-22.406009674072266,-10.83174991607666
+supernatural being,0,train,invisible werewolf monster entity,wizard,-17.36849594116211,-20.48825454711914,
+supernatural being,1,train,zombie monster werewolf invisible,vampire,-3.537590265274048,-23.56704330444336,
+supernatural being,2,train,lights nymph orbs troll,psychic,-13.356767654418945,-23.055164337158203,
+supernatural being,3,train,wizard lights vampire goblin,spirits,-10.30766773223877,-22.456710815429688,
+supernatural being,4,train,psychic monster wizard fairy,goblin,-8.08942985534668,-23.711339950561523,
+supernatural being,5,train,nymph entity orbs zombie,lights,-9.424527168273926,-20.84456443786621,
+supernatural being,6,train,werewolf troll lights invisible,orbs,-10.22307014465332,-24.027862548828125,
+supernatural being,7,train,zombie goblin wizard werewolf,invisible,-11.64227294921875,-22.200376510620117,
+supernatural being,0,heldout,devil witches ghost batman,angel,-7.5226569175720215,-22.00237464904785,-7.366449356079102
+supernatural being,1,heldout,angel satan magicians phoenix,ghost,-7.0682477951049805,-19.513010025024414,-11.285233497619629
+supernatural being,2,heldout,phoenix superheroes devil angel,dragons,-7.079352855682373,-24.99264144897461,-6.144793510437012
+supernatural being,3,heldout,oni magicians angel ghoul,batman,-11.033733367919922,-21.588062286376953,-10.87044906616211
+supernatural being,4,heldout,batman superman dragons witches,magicians,-7.386593341827393,-24.0827693939209,-10.456085205078125
+chemical element,0,train,potassium sulphur uranium tungsten,aluminium,-5.682451248168945,-23.78916358947754,
+chemical element,1,train,sulphur silver hydrogen tungsten,acid,-7.338924407958984,-20.131242752075195,
+chemical element,2,train,acid hydrogen cobalt silver,zinc,-6.091897964477539,-20.76955795288086,
+chemical element,3,train,nickel bronze carbon hydrogen,neon,-15.379453659057617,-21.559322357177734,
+chemical element,4,train,fluorine radon nickel aluminium,neon,-7.918067455291748,-21.559322357177734,
+chemical element,5,train,tungsten uranium zinc oxygen,potassium,-4.21346378326416,-21.8209228515625,
+chemical element,6,train,carbon cobalt aluminium bronze,magnesium,-9.605274200439453,-22.307918548583984,
+chemical element,7,train,oxygen cobalt silver acid,uranium,-7.719778060913086,-22.77052116394043,
+chemical element,0,heldout,iron calcium copper mercury,tin,-3.848151206970215,-19.964824676513672,-3.9931135177612305
+chemical element,1,heldout,silicon lithium arsenic cyanide,helium,-11.61285400390625,-24.831130981445312,-12.74242877960205
+chemical element,2,heldout,iodine calcium sodium copper,chloride,-3.9598443508148193,-20.359697341918945,-2.991636276245117
+chemical element,3,heldout,sodium lithium cyanide chlorine,titanium,-6.299427032470703,-23.000293731689453,-8.488511085510254
+chemical element,4,heldout,platinum selenium iodine chlorine,titanium,-5.007075786590576,-23.000293731689453,-4.63718843460083
+season,0,train,salt winter operator timber,monsoon,-19.367061614990234,-22.50625991821289,
+season,1,train,autumn food rainy winter,operator,-25.558090209960938,-21.387052536010742,
+season,2,train,rainy food timber winter,monsoon,-9.669548034667969,-22.50625991821289,
+season,3,train,autumn food timber rainy,salt,-10.125164031982422,-19.742136001586914,
+season,4,train,monsoon timber autumn winter,rainy,-5.7465033531188965,-24.463781356811523,
+season,5,train,salt rainy monsoon timber,autumn,-8.206122398376465,-20.931495666503906,
+season,6,train,operator monsoon autumn salt,food,-9.615852355957031,-19.885902404785156,
+season,7,train,food rainy salt autumn,monsoon,-7.29621696472168,-22.50625991821289,
+season,0,heldout,spring flood wet pepper,mating,-14.654000282287598,-21.983097076416016,-12.428616523742676
+season,1,heldout,spring wet pepper fall,mating,-12.526824951171875,-21.983097076416016,-13.444465637207031
+season,2,heldout,summer flood mating spring,dry,-8.581307411193848,-19.84339714050293,-6.4753642082214355
+season,3,heldout,cookware mating fall flood,dry,-8.51494312286377,-19.84339714050293,-12.699278831481934
+season,4,heldout,wet pepper spring summer,mating,-13.89079475402832,-21.983097076416016,-14.602580070495605
+profession,0,train,librarian technician presenter soldier,dentist,-10.719537734985352,-22.96881866455078,
+profession,1,train,musician lecturer librarian cleaner,solicitor,-12.741061210632324,-21.283422470092773,
+profession,2,train,landlord businessman soldier musician,lecturer,-10.873540878295898,-22.071929931640625,
+profession,3,train,clinician architect businessman mathematician,sales,-12.410862922668457,-18.998842239379883,
+profession,4,train,dentist physio baker psychologist,cleaner,-8.564271926879883,-24.33648681640625,
+profession,5,train,sales dishwasher psychiatrist mathematician,counsellor,-11.545390129089355,-23.62837791442871,
+profession,6,train,solicitor businessman cleaner dishwasher,lawyer,-4.928648948669434,-20.313570022583008,
+profession,7,train,chef dishwasher nurse teacher,student,-4.478683948516846,-21.378154754638672,
+profession,0,heldout,engineer artist tailor therapist,hairdresser,-7.188976287841797,-24.525190353393555,-8.677074432373047
+profession,1,heldout,journalist writer dancer artist,analyst,-12.414681434631348,-22.385229110717773,-10.671836853027344
+profession,2,heldout,dancer pilot construction driver,ceo,-12.60788345336914,-21.377330780029297,-12.199686050415039
+profession,3,heldout,policeman analyst accountant scientist,tailor,-7.70852518081665,-23.997970581054688,-7.351119041442871
+profession,4,heldout,hairdresser cashier scientist engineer,researcher,-7.876496315002441,-22.587432861328125,-7.535953044891357
+statistical term,0,train,probability mean correlation significance,median,-10.3562593460083,-21.430267333984375,
+statistical term,1,train,quantify y variance anomaly,ratio,-7.305953025817871,-21.236698150634766,
+statistical term,2,train,median addition mean correlation,quantify,-15.865120887756348,-21.375940322875977,
+statistical term,3,train,regression r data significance,fractions,-13.014477729797363,-23.66983413696289,
+statistical term,4,train,significance median anomaly r,fractions,-15.888592720031738,-23.66983413696289,
+statistical term,5,train,percentages correlation median data,y,-9.43800163269043,-16.04776954650879,
+statistical term,6,train,probability ratio percentages figure,equation,-12.141597747802734,-20.30890464782715,
+statistical term,7,train,independent quantify ratio correlation,fractions,-13.899779319763184,-23.66983413696289,
+statistical term,0,heldout,sample range analysis mode,proportionality,-23.2525634765625,-22.181575775146484,-24.521930694580078
+statistical term,1,heldout,average interpolate distribution algebra,axes,-17.27211570739746,-21.4294490814209,-17.27211570739746
+statistical term,2,heldout,histogram plus covariance interpolate,proportionality,-18.568017959594727,-22.181575775146484,-16.395294189453125
+statistical term,3,heldout,sample covariance variable average,graph,-10.616416931152344,-21.831443786621094,-9.195584297180176
+statistical term,4,heldout,algebra interpret variable histogram,outlier,-12.480691909790039,-24.245166778564453,-16.894807815551758
+religious building,0,train,chapel church shrine temple,islam,-12.314714431762695,-20.928321838378906,
+religious building,1,train,temple shrine islam chapel,church,-2.627049684524536,-21.68172264099121,
+religious building,2,train,chapel church islam temple,shrine,-6.082416534423828,-22.00472640991211,
+religious building,3,train,shrine church islam chapel,temple,-4.550614356994629,-22.352781295776367,
+religious building,4,train,shrine church temple islam,chapel,-11.053394317626953,-21.517518997192383,
+religious building,0,heldout,sanctuary cathedral synagogue oracle,monastery,-5.509074687957764,-23.102163314819336,-5.412167072296143
+religious building,1,heldout,synagogue oracle mosque monastery,sanctuary,-6.282295227050781,-22.04969596862793,-5.552525520324707
+religious building,2,heldout,cathedral sanctuary mosque synagogue,monastery,-6.299832344055176,-23.102163314819336,-6.205652236938477
+religious building,3,heldout,cathedral sanctuary monastery synagogue,mosque,-2.754666805267334,-23.208736419677734,-3.25285005569458
+religious building,4,heldout,monastery sanctuary synagogue oracle,mosque,-5.343416690826416,-23.208736419677734,-5.82680082321167
+herb,0,train,rosemary pepper turmeric coriander,salt,-3.7629289627075195,-19.742136001586914,
+herb,1,train,cardamom oregon turmeric lavender,salt,-6.516892433166504,-19.742136001586914,
+herb,2,train,oregon cardamom pepper turmeric,lavender,-8.195340156555176,-23.954410552978516,
+herb,3,train,dill coriander pepper cardamom,rosemary,-7.570640563964844,-24.408885955810547,
+herb,4,train,cardamom lavender salt rosemary,oregon,-15.680927276611328,-20.953664779663086,
+herb,5,train,salt rosemary pepper cardamom,coriander,-3.953394889831543,-21.43243408203125,
+herb,6,train,rosemary lavender salt saffron,cardamom,-4.849077224731445,-22.203065872192383,
+herb,7,train,turmeric salt cardamom saffron,coriander,-4.678205966949463,-21.43243408203125,
+herb,0,heldout,peppermint chilli sage oregano,garlic,-3.945005416870117,-23.919912338256836,-4.423321723937988
+herb,1,heldout,cinnamon peppermint sage mint,thyme,-6.734352111816406,-22.58951187133789,-6.680655479431152
+herb,2,heldout,parsley sage thyme paprika,oregano,-5.408367156982422,-24.37224006652832,-2.944260358810425
+herb,3,heldout,cinnamon fennel oregano thyme,chilli,-7.529723644256592,-22.37959861755371,-6.627345085144043
+herb,4,heldout,chilli paprika sage mint,fennel,-5.6264214515686035,-23.63593101501465,-5.3283233642578125
+part of the body,0,train,ankle elbows nose femur,liver,-6.816949367523193,-21.544675827026367,
+part of the body,1,train,fingers neck elbows wrist,heart,-7.696345329284668,-23.041505813598633,
+part of the body,2,train,ribs organs neck brain,thumb,-13.364949226379395,-22.038307189941406,
+part of the body,3,train,thumb heart ankle back,elbows,-10.357561111450195,-23.543514251708984,
+part of the body,4,train,forehead arm tongue intestines,eyes,-4.319622993469238,-22.415542602539062,
+part of the body,5,train,femur elbows organs brain,bacteria,-10.48021411895752,-23.896923065185547,
+part of the body,6,train,teeth liver tongue spine,pelvis,-5.9026994705200195,-24.181066513061523,
+part of the body,7,train,fingernails teeth bacteria tongue,liver,-5.722184181213379,-21.544675827026367,
+part of the body,0,heldout,shoulders heel thighs breast,head,-5.285112380981445,-19.0269832611084,-4.73872184753418
+part of the body,1,heldout,skin heel hands skeleton,head,-4.211665153503418,-19.0269832611084,-4.4007415771484375
+part of the body,2,heldout,muscles knees kidney ears,hands,-3.8955752849578857,-20.39080810546875,-4.004026889801025
+part of the body,3,heldout,heel head hair eyebrow,shoulders,-14.965675354003906,-21.952009201049805,-11.06678295135498
+part of the body,4,heldout,genitals skin tibia head,hair,-3.6251702308654785,-20.42462158203125,-5.280396461486816
+human dwelling,0,train,countries attic villa home,shelter,-13.675028800964355,-21.606975555419922,
+human dwelling,1,train,village boat dormitory town,villa,-7.262007236480713,-20.846656799316406,
+human dwelling,2,train,deadline romance shed town,tent,-14.938431739807129,-23.00850486755371,
+human dwelling,3,train,love caravan town deadline,hostel,-11.47602653503418,-24.921165466308594,
+human dwelling,4,train,love home dormitory cities,romance,-13.683553695678711,-19.67493438720703,
+human dwelling,5,train,love village caravan tent,cities,-10.758261680603027,-22.331632614135742,
+human dwelling,6,train,hostel town romance deadline,caravan,-16.26480484008789,-24.520265579223633,
+human dwelling,7,train,shed countries caravan hostel,boat,-9.61160945892334,-21.985015869140625,
+human dwelling,0,heldout,caves counties apartment affection,cabin,-13.635567665100098,-22.70032501220703,-11.86141300201416
+human dwelling,1,heldout,bungalow flat cabin castle,cottage,-3.187851667404175,-23.257038116455078,-4.457313537597656
+human dwelling,2,heldout,hotel caves condo hut,mansion,-8.199833869934082,-23.431299209594727,-7.710122108459473
+human dwelling,3,heldout,condo cabin counties animals,castle,-11.710453033447266,-22.957983016967773,-7.654815673828125
+human dwelling,4,heldout,castle apartment shack counties,cottage,-10.2359619140625,-23.257038116455078,-7.71568489074707
+vegetable,0,train,cabbage carrot onion cucumber,pepper,-3.9288268089294434,-20.629150390625,
+vegetable,1,train,cabbage eggplant onion garlic,cucumber,-4.782236099243164,-23.142314910888672,
+vegetable,2,train,chilli tomato onion eggplant,leek,-8.586636543273926,-22.33694076538086,
+vegetable,3,train,cucumber lettuce tomato onion,eggplant,-6.735652923583984,-23.358842849731445,
+vegetable,4,train,eggplant tomato kale pepper,onion,-3.67287278175354,-22.68151092529297,
+vegetable,5,train,onion chilli carrot tomato,peas,-4.610944747924805,-22.944778442382812,
+vegetable,6,train,tomato cucumber peas lettuce,leek,-8.683752059936523,-22.33694076538086,
+vegetable,7,train,garlic chilli cabbage pepper,lettuce,-8.163396835327148,-22.727970123291016,
+vegetable,0,heldout,potato beans radish avocado,sprouts,-6.428101062774658,-23.69347381591797,-5.195992946624756
+vegetable,1,heldout,asparagus avocado zucchini spinach,cauliflower,-6.671101093292236,-24.419349670410156,-6.645819664001465
+vegetable,2,heldout,spinach cauliflower mushrooms radish,avocado,-6.060273170471191,-23.69480323791504,-6.384442329406738
+vegetable,3,heldout,beetroot potato asparagus radish,broccoli,-4.206935882568359,-23.04912757873535,-3.547455310821533
+vegetable,4,heldout,cauliflower potato pumpkin beans,sprouts,-5.954745292663574,-23.69347381591797,-6.543792247772217
+psychological illness,0,train,psychosis mania autism anxiety,depression,-1.4232141971588135,-22.634716033935547,
+psychological illness,1,train,anxiety depression autism mania,psychosis,-3.44981050491333,-23.536909103393555,
+psychological illness,2,train,psychosis autism depression anxiety,mania,-6.228513240814209,-21.339982986450195,
+psychological illness,3,train,mania autism psychosis depression,anxiety,-2.045189142227173,-21.00436019897461,
+psychological illness,4,train,psychosis anxiety depression mania,autism,-6.069469928741455,-20.218141555786133,
+psychological illness,0,heldout,anorexia schizophrenia epilepsy paranoid,amnesia,-5.977060317993164,-21.748212814331055,-6.471706390380859
+psychological illness,1,heldout,schizophrenia dementia epilepsy anorexia,paranoid,-8.831320762634277,-21.63071060180664,-8.734540939331055
+psychological illness,2,heldout,amnesia anorexia epilepsy schizophrenia,dementia,-3.6219706535339355,-22.13750648498535,-3.1079344749450684
+psychological illness,3,heldout,dementia amnesia anorexia epilepsy,paranoid,-8.613424301147461,-21.63071060180664,-8.689878463745117
+psychological illness,4,heldout,schizophrenia dementia paranoid amnesia,anorexia,-8.520792007446289,-21.93903350830078,-6.140353202819824
+unit of length,0,train,kilometre foot hours minutes,fathom,-17.898359298706055,-20.500659942626953,
+unit of length,1,train,mile minutes kilometre fathom,pitch,-8.40964412689209,-20.743886947631836,
+unit of length,2,train,minutes pitch fathom kilometre,foot,-5.22348690032959,-20.44002914428711,
+unit of length,3,train,fathom pitch foot minutes,mile,-7.2444868087768555,-21.959875106811523,
+unit of length,4,train,pitch minutes foot mile,hours,-4.166615009307861,-21.90110206604004,
+unit of length,5,train,hours pitch mile kilometre,foot,-6.103737831115723,-20.44002914428711,
+unit of length,6,train,hours kilometre foot pitch,minutes,-5.809953689575195,-21.88166618347168,
+unit of length,7,train,minutes foot mile fathom,hours,-7.047820091247559,-21.90110206604004,
+unit of length,0,heldout,inches seconds knots metre,yard,-8.270732879638672,-21.52752685546875,-10.014352798461914
+unit of length,1,heldout,yard seconds league inches,hands,-9.679500579833984,-20.39080810546875,-8.793744087219238
+unit of length,2,heldout,league metre seconds knots,yard,-10.287012100219727,-21.52752685546875,-13.183274269104004
+unit of length,3,heldout,league metre inches knots,seconds,-4.679986000061035,-23.093137741088867,-4.874934673309326
+unit of length,4,heldout,knots metre hands yard,inches,-4.378829002380371,-23.051326751708984,-6.143765449523926
+cosmetic,0,train,nails lipstick highlighter implants,drug,-9.469529151916504,-19.51901626586914,
+cosmetic,1,train,shampoo eyeliner implants concealer,makeup,-3.440709352493286,-22.377470016479492,
+cosmetic,2,train,lipstick makeup concealer shampoo,foundation,-3.9375953674316406,-21.276165008544922,
+cosmetic,3,train,makeup implants lipstick nails,concealer,-7.1669464111328125,-22.098480224609375,
+cosmetic,4,train,concealer makeup highlighter eyeliner,shampoo,-9.025506019592285,-22.59344482421875,
+cosmetic,5,train,makeup hair drug eyeliner,lipstick,-3.9938297271728516,-22.85350799560547,
+cosmetic,6,train,hair highlighter makeup implants,drug,-11.039907455444336,-19.51901626586914,
+cosmetic,7,train,highlighter nails eyeliner shampoo,hair,-2.749807834625244,-20.42462158203125,
+cosmetic,0,heldout,mirror powder soap mascara,primer,-5.646515846252441,-19.236785888671875,-6.834918022155762
+cosmetic,1,heldout,mascara soap surgery cream,perfume,-9.338166236877441,-22.444629669189453,-6.629782676696777
+cosmetic,2,heldout,primer mirror eyeshadow powder,surgery,-20.60764503479004,-21.086885452270508,-14.767285346984863
+cosmetic,3,heldout,perfume mascara cream contour,soap,-8.746232986450195,-21.386741638183594,-9.224825859069824
+cosmetic,4,heldout,surgery perfume soap primer,mascara,-4.2346906661987305,-21.247913360595703,-8.039588928222656
+injury,0,train,blister inconvenience hurt fracture,pain,-2.8539044857025146,-17.69400978088379,
+injury,1,train,inconvenience blister pain fall,bruise,-10.013237953186035,-23.871803283691406,
+injury,2,train,bleed bruise fracture strain,blister,-6.966198921203613,-23.619733810424805,
+injury,3,train,bruise hurt pain fall,fracture,-5.500662803649902,-19.79800796508789,
+injury,4,train,hurt bleed inconvenience fall,bite,-9.041580200195312,-21.205806732177734,
+injury,5,train,fall damage inconvenience blister,strain,-14.529208183288574,-22.000211715698242,
+injury,6,train,fall strain bruise fracture,damage,-6.903868675231934,-18.5031681060791,
+injury,7,train,damage bleed fracture pain,hurt,-10.997910499572754,-18.57123565673828,
+injury,0,heldout,dislocation burn scab concussion,scar,-5.077415466308594,-23.16054916381836,-2.9469611644744873
+injury,1,heldout,graze concussion cut scrape,stabbing,-13.487586975097656,-22.576160430908203,-14.901376724243164
+injury,2,heldout,wound stabbing hospital dislocation,graze,-16.749786376953125,-23.43669319152832,-16.38479232788086
+injury,3,heldout,scrape scab wound stabbing,cut,-6.485992908477783,-17.588424682617188,-3.800856590270996
+injury,4,heldout,scar scab concussion hospital,twists,-20.409969329833984,-23.82723617553711,-20.20291519165039
+dairy product,0,train,butter cake buttermilk milk,eggs,-5.367372512817383,-23.474292755126953,
+dairy product,1,train,milk ghee cake butter,cheese,-5.103859901428223,-21.665607452392578,
+dairy product,2,train,eggs cheese milk buttermilk,butter,-2.849292755126953,-21.330421447753906,
+dairy product,3,train,cake ghee milk buttermilk,butter,-4.614177703857422,-21.330421447753906,
+dairy product,4,train,buttermilk butter ghee cake,milk,-5.315522193908691,-22.216211318969727,
+dairy product,5,train,milk eggs cheese ghee,cake,-10.003634452819824,-22.658905029296875,
+dairy product,6,train,eggs butter milk cake,cheese,-6.555326461791992,-21.665607452392578,
+dairy product,7,train,butter cake eggs buttermilk,ghee,-11.992979049682617,-23.531631469726562,
+dairy product,0,heldout,chocolate biscuit custard bread,cream,-8.30573558807373,-20.102039337158203,-9.39307689666748
+dairy product,1,heldout,chocolate custard bread cream,yoghurt,-13.9345064163208,-23.774662017822266,-17.013381958007812
+dairy product,2,heldout,yoghurt chocolate biscuit custard,icing,-8.706790924072266,-19.9132080078125,-8.702564239501953
+dairy product,3,heldout,biscuit cream chocolate bread,margarine,-11.047981262207031,-21.4810791015625,-9.99911880493164
+dairy product,4,heldout,custard bread yoghurt chocolate,margarine,-11.24264907836914,-21.4810791015625,-13.416753768920898
+art form,0,train,ballerina pottery buildings contemporary,acting,-14.117538452148438,-21.691051483154297,
+art form,1,train,book theatre acting singing,printing,-14.714499473571777,-20.84315299987793,
+art form,2,train,dance etching speech architecture,textiles,-14.077353477478027,-23.60101890563965,
+art form,3,train,etching acrylic theatre contemporary,acting,-10.243602752685547,-21.691051483154297,
+art form,4,train,singing ballerina acting movies,photography,-14.766572952270508,-22.99195098876953,
+art form,5,train,acrylic watercolour landscape etching,contemporary,-10.2584228515625,-19.474117279052734,
+art form,6,train,movies acrylic renaissance buildings,singing,-15.396400451660156,-23.367420196533203,
+art form,7,train,dance photography theatre renaissance,speech,-12.189953804016113,-21.03432846069336,
+art form,0,heldout,artist poetry installation plays,figurines,-21.332345962524414,-23.565643310546875,-17.222427368164062
+art form,1,heldout,monuments model illustration figurines,drawing,-8.237195014953613,-20.700944900512695,-4.461155891418457
+art form,2,heldout,poetry woodwork model drama,literature,-4.515048027038574,-20.02922248840332,-6.151580810546875
+art form,3,heldout,poetry portrait performance colouring,painting,-7.825232982635498,-20.727664947509766,-5.685255527496338
+art form,4,heldout,plays literature artist poetry,comics,-8.552024841308594,-22.560073852539062,-7.669046878814697
+geometric shape,0,train,triangle square hexagon oval,sphere,-5.9593281745910645,-21.758087158203125,
+geometric shape,1,train,triangle hexagon parallelogram sphere,oblong,-9.219413757324219,-20.62384605407715,
+geometric shape,2,train,oval parallelogram triangle hexagon,square,-2.5532572269439697,-20.09758949279785,
+geometric shape,3,train,hexagon triangle sphere square,oblong,-8.361063957214355,-20.62384605407715,
+geometric shape,4,train,parallelogram hexagon sphere oblong,oval,-3.4254531860351562,-21.935501098632812,
+geometric shape,5,train,triangle parallelogram hexagon square,oblong,-7.585143089294434,-20.62384605407715,
+geometric shape,6,train,oval hexagon sphere oblong,square,-3.227357864379883,-20.09758949279785,
+geometric shape,7,train,square triangle oblong parallelogram,oval,-6.086833477020264,-21.935501098632812,
+geometric shape,0,heldout,kite cylinder star circle,compound,-11.491661071777344,-22.113134384155273,-10.065543174743652
+geometric shape,1,heldout,diamond cylinder cube circle,kite,-10.159525871276855,-22.55994987487793,-9.086843490600586
+geometric shape,2,heldout,cube kite compound rectangle,circle,-6.416590213775635,-22.277263641357422,-5.375702857971191
+geometric shape,3,heldout,rectangle kite circle star,compound,-10.907445907592773,-22.113134384155273,-13.487361907958984
+geometric shape,4,heldout,kite cube cylinder rectangle,diamond,-6.839448928833008,-22.253376007080078,-6.839448928833008
+four-legged animal,0,train,puma gazelle bear zebra,ram,-9.475434303283691,-19.164304733276367,
+four-legged animal,1,train,llama bear tiger horse,reindeer,-7.575194358825684,-24.606948852539062,
+four-legged animal,2,train,bear bison moose reindeer,panda,-10.799464225769043,-23.029083251953125,
+four-legged animal,3,train,mouse mole giraffe horse,human,-5.871055603027344,-20.779266357421875,
+four-legged animal,4,train,hamster sheep zebra gazelle,mole,-7.150382995605469,-22.074674606323242,
+four-legged animal,5,train,dog gazelle bear llama,bison,-4.827191352844238,-24.326276779174805,
+four-legged animal,6,train,zebra llama goat bison,tiger,-6.101503372192383,-23.23238182067871,
+four-legged animal,7,train,rat goat mole antelope,hamster,-7.115780830383301,-23.233936309814453,
+four-legged animal,0,heldout,frog cow gorilla deer,monkey,-3.3444831371307373,-21.632549285888672,-3.6305575370788574
+four-legged animal,1,heldout,cat crocodile elephant ape,leopard,-5.219344139099121,-22.959745407104492,-5.2886176109313965
+four-legged animal,2,heldout,frog lion rabbit ox,leopard,-7.404282569885254,-22.959745407104492,-6.247736930847168
+four-legged animal,3,heldout,cheetah monkey camel hare,pony,-7.429993629455566,-22.165380477905273,-7.667781829833984
+four-legged animal,4,heldout,vole frog rabbit camel,leopard,-5.497132778167725,-22.959745407104492,-6.263537406921387
+three-dimensional shape,0,train,sphere table pyramid triangle,prism,-3.4807639122009277,-22.99880599975586,
+three-dimensional shape,1,train,torus cylinder table hemisphere,pyramid,-4.852080821990967,-22.24419403076172,
+three-dimensional shape,2,train,triangle pyramid prism torus,sphere,-3.1238136291503906,-21.758087158203125,
+three-dimensional shape,3,train,torus table prism sphere,hemisphere,-7.221223831176758,-25.096101760864258,
+three-dimensional shape,4,train,triangle sphere pyramid torus,table,-8.404674530029297,-18.53754997253418,
+three-dimensional shape,5,train,sphere hemisphere pyramid triangle,torus,-6.119908332824707,-24.1556453704834,
+three-dimensional shape,6,train,hemisphere pyramid sphere torus,cylinder,-3.462902784347534,-21.779537200927734,
+three-dimensional shape,7,train,prism hemisphere pyramid torus,table,-7.720809459686279,-18.53754997253418,
+three-dimensional shape,0,heldout,tube box cone oblong,cube,-8.099895477294922,-23.264774322509766,-8.099895477294922
+three-dimensional shape,1,heldout,box tube cone bowl,oblong,-16.053926467895508,-20.62384605407715,-13.84469985961914
+three-dimensional shape,2,heldout,cube cone ball box,bowl,-6.881915092468262,-23.40315055847168,-7.331918716430664
+three-dimensional shape,3,heldout,ball bowl box tube,cube,-9.839160919189453,-23.264774322509766,-9.28773021697998
+three-dimensional shape,4,heldout,cone ball bowl hexagon,box,-7.220063209533691,-18.983829498291016,-6.119847297668457
+string instrument,0,train,banjo piano ukulele viola,cello,-2.7766611576080322,-23.71388053894043,
+string instrument,1,train,cello banjo viola piano,ukulele,-5.054214000701904,-23.64326286315918,
+string instrument,2,train,flute cello viola banjo,ukulele,-2.7953786849975586,-23.64326286315918,
+string instrument,3,train,cello piano viola flute,ukulele,-8.410881996154785,-23.64326286315918,
+string instrument,4,train,piano banjo viola flute,ukulele,-5.486384391784668,-23.64326286315918,
+string instrument,5,train,banjo ukulele cello flute,viola,-4.381608963012695,-21.97181510925293,
+string instrument,6,train,banjo ukulele piano cello,flute,-3.566500186920166,-24.467506408691406,
+string instrument,7,train,flute viola ukulele banjo,piano,-3.910637855529785,-21.11562728881836,
+string instrument,0,heldout,violin harp clarinet bass,lute,-6.489416599273682,-21.513771057128906,-7.859017848968506
+string instrument,1,heldout,violin clarinet lute guitar,harp,-3.3280582427978516,-26.63844871520996,-4.718118667602539
+string instrument,2,heldout,harp guitar lute bass,clarinet,-5.469823837280273,-25.051790237426758,-4.374742031097412
+string instrument,3,heldout,fiddle lute bass violin,guitar,-3.953399896621704,-20.85354995727539,-3.0170061588287354
+string instrument,4,heldout,clarinet bass violin guitar,lute,-5.210475444793701,-21.513771057128906,-7.8293046951293945
+musical instrument,0,train,violin basso organ viola,baritone,-10.45266056060791,-23.794864654541016,
+musical instrument,1,train,viola tuba bass guitar,triangle,-9.075778007507324,-21.915287017822266,
+musical instrument,2,train,cello baritone accordion banjo,horn,-7.657460689544678,-22.65378761291504,
+musical instrument,3,train,accordion tuba violin lute,baritone,-8.70434856414795,-23.794864654541016,
+musical instrument,4,train,viola tuba bass violin,horn,-6.508695125579834,-22.65378761291504,
+musical instrument,5,train,baritone triangle lute tuba,bass,-2.823988199234009,-21.243812561035156,
+musical instrument,6,train,triangle accordion guitar cello,horn,-7.358847618103027,-22.65378761291504,
+musical instrument,7,train,accordion basso viola organ,guitar,-11.513555526733398,-20.85354995727539,
+musical instrument,0,heldout,keyboard trombone trumpet harp,percussion,-5.019920349121094,-21.708663940429688,-4.259552001953125
+musical instrument,1,heldout,keyboard alto saxophone trombone,trumpet,-1.9853570461273193,-22.659442901611328,-3.2206761837005615
+musical instrument,2,heldout,flute alto recorder piano,clarinet,-3.856750726699829,-25.051790237426758,-3.6871633529663086
+musical instrument,3,heldout,trombone piano voice alto,keyboard,-7.999449729919434,-21.612354278564453,-7.999449729919434
+musical instrument,4,heldout,trombone percussion flute piano,clarinet,-3.503714084625244,-25.051790237426758,-2.562631607055664
+type of word,0,train,aggressive palindrome descriptive positive,command,-9.86559772491455,-22.05463218688965,
+type of word,1,train,pronoun palindrome descriptive name,tenses,-19.06381607055664,-21.56324577331543,
+type of word,2,train,command positive name adverb,descriptive,-8.923255920410156,-21.336761474609375,
+type of word,3,train,command tenses name aggressive,descriptive,-9.332931518554688,-21.336761474609375,
+type of word,4,train,word tenses command positive,aggressive,-11.678804397583008,-21.795751571655273,
+type of word,5,train,tenses adverb word command,palindrome,-15.787859916687012,-22.233989715576172,
+type of word,6,train,command pronoun name palindrome,aggressive,-17.873380661010742,-21.795751571655273,
+type of word,7,train,tenses pronoun word positive,palindrome,-16.565195083618164,-22.233989715576172,
+type of word,0,heldout,adjective negative imperative proverb,plural,-8.101865768432617,-21.666120529174805,-8.720680236816406
+type of word,1,heldout,plural verb imperative title,good,-9.706624984741211,-19.757797241210938,-11.379505157470703
+type of word,2,heldout,noun adjective verb plural,title,-9.933849334716797,-19.11332893371582,-9.723539352416992
+type of word,3,heldout,negative good infinitive plural,noun,-4.8489990234375,-20.712966918945312,-3.1555521488189697
+type of word,4,heldout,verb negative good title,infinitive,-12.545352935791016,-21.26540184020996,-7.587454319000244
+fish,0,train,shark salmon clams trout,cod,-3.6130025386810303,-21.533708572387695,
+fish,1,train,cod lobster horse starfish,goldfish,-7.630126953125,-23.74553680419922,
+fish,2,train,clams crab shark starfish,lobster,-3.1633472442626953,-25.048681259155273,
+fish,3,train,trout clams shark goldfish,carp,-3.7091407775878906,-20.99691390991211,
+fish,4,train,starfish goldfish cod trout,horse,-9.41571044921875,-22.84787940979004,
+fish,5,train,salmon octopus shark crab,goldfish,-11.279865264892578,-23.74553680419922,
+fish,6,train,trout starfish octopus shrimp,carp,-8.479578971862793,-20.99691390991211,
+fish,7,train,lobster octopus salmon trout,horse,-10.944860458374023,-22.84787940979004,
+fish,0,heldout,catfish bass marlin herring,hack,-13.567066192626953,-22.134065628051758,-14.628620147705078
+fish,1,heldout,dolphin mussel marlin tuna,prawn,-7.718965530395508,-24.965343475341797,-4.870562553405762
+fish,2,heldout,squid whale dolphin jellyfish,mackerel,-7.289403915405273,-23.66950225830078,-7.113978385925293
+fish,3,heldout,bass mackerel hack tuna,marlin,-7.359888076782227,-20.2332706451416,-9.486334800720215
+fish,4,heldout,marlin catfish herring whale,jellyfish,-7.994750499725342,-24.222135543823242,-9.618745803833008
+bird of prey,0,train,falcon crow vulture chick,dove,-5.8582940101623535,-20.598169326782227,
+bird of prey,1,train,falcon chick dove vulture,crow,-4.546931266784668,-22.080724716186523,
+bird of prey,2,train,eagle chick pigeon dove,falcon,-4.90416145324707,-23.909379959106445,
+bird of prey,3,train,vulture pigeon falcon chick,crow,-6.248899459838867,-22.080724716186523,
+bird of prey,4,train,chick vulture pigeon crow,dove,-4.046171188354492,-20.598169326782227,
+bird of prey,5,train,chick crow eagle pigeon,falcon,-4.574605464935303,-23.909379959106445,
+bird of prey,6,train,falcon dove crow vulture,eagle,-2.4830141067504883,-22.645282745361328,
+bird of prey,7,train,eagle crow falcon dove,vulture,-5.217456817626953,-23.178462982177734,
+bird of prey,0,heldout,chicken hawk turkey robin,duck,-4.388689994812012,-20.555072784423828,-4.610189437866211
+bird of prey,1,heldout,robin hawk chicken owl,kite,-7.064935207366943,-22.55994987487793,-6.741901874542236
+bird of prey,2,heldout,turkey chicken duck hawk,kite,-7.022030830383301,-22.55994987487793,-10.823386192321777
+bird of prey,3,heldout,hawk owl pelican duck,turkey,-4.469786643981934,-23.296253204345703,-4.675591468811035
+bird of prey,4,heldout,pelican hawk chicken turkey,kite,-8.601175308227539,-22.55994987487793,-7.540859222412109
+violent crime,0,train,torture amputation battery shooting,bombing,-6.116642951965332,-21.557680130004883,
+violent crime,1,train,torture battery shooting killing,bombing,-6.732485294342041,-21.557680130004883,
+violent crime,2,train,torture rape punching bombing,amputation,-14.793049812316895,-23.087360382080078,
+violent crime,3,train,rape stabbing torture amputation,punching,-12.383546829223633,-20.892114639282227,
+violent crime,4,train,amputation scratching bombing fights,kidnapping,-8.28939151763916,-21.688892364501953,
+violent crime,5,train,fights torture killing battery,stabbing,-10.284612655639648,-22.576160430908203,
+violent crime,6,train,kidnapping killing shooting torture,punching,-11.878600120544434,-20.892114639282227,
+violent crime,7,train,bombing stabbing torture killing,assault,-6.20375919342041,-21.107908248901367,
+violent crime,0,heldout,war beating robbery arson,manslaughter,-7.861149311065674,-22.335119247436523,-8.170830726623535
+violent crime,1,heldout,genocide blackmail theft arson,robbery,-4.287694931030273,-22.244464874267578,-3.7338218688964844
+violent crime,2,heldout,theft robbery arson biting,murder,-3.686741352081299,-22.322406768798828,-2.1625959873199463
+violent crime,3,heldout,beating biting theft terrorism,murder,-4.268586158752441,-22.322406768798828,-5.4633917808532715
+violent crime,4,heldout,terrorism murder war genocide,cutting,-14.529631614685059,-20.488296508789062,-14.827357292175293
+reading material,0,train,book letter textbook poster,journal,-7.125798225402832,-19.53174591064453,
+reading material,1,train,comic blog fiction article,flyer,-18.37116813659668,-22.71637725830078,
+reading material,2,train,slides blog diary article,journal,-6.41880989074707,-19.53174591064453,
+reading material,3,train,flyer letter article paper,slides,-10.36656379699707,-20.911623001098633,
+reading material,4,train,book paper slides poster,novel,-11.929715156555176,-18.45572280883789,
+reading material,5,train,book text poetry poster,blog,-10.256570816040039,-20.463878631591797,
+reading material,6,train,slides diary flyer leaflets,paper,-6.0690202713012695,-18.096508026123047,
+reading material,7,train,poetry article letter leaflets,text,-9.423802375793457,-17.417407989501953,
+reading material,0,heldout,documents transcript website tablet,pamphlet,-16.080894470214844,-20.49877166748047,-20.40104103088379
+reading material,1,heldout,handout notes website manuscript,magazine,-11.655608177185059,-18.781517028808594,-14.765016555786133
+reading material,2,heldout,pamphlet transcript tablet notes,script,-6.989066123962402,-19.723581314086914,-7.540424823760986
+reading material,3,heldout,report instructions website texts,documents,-6.9260358810424805,-20.961210250854492,-8.98187255859375
+reading material,4,heldout,website notes script manuscript,newspaper,-10.535406112670898,-21.49774932861328,-15.1002779006958
+tree,0,train,mahogany cherry spruce redwood,fir,-3.9122276306152344,-19.078502655029297,
+tree,1,train,pine willow cherry oak,redwood,-6.364476203918457,-22.358827590942383,
+tree,2,train,elm monkey spruce pine,oak,-3.6551389694213867,-21.755313873291016,
+tree,3,train,fir oak lemon willow,pine,-3.1978919506073,-22.191511154174805,
+tree,4,train,redwood elder willow fir,plane,-11.982319831848145,-18.836139678955078,
+tree,5,train,cherry plane mahogany fir,pine,-3.1543474197387695,-22.191511154174805,
+tree,6,train,oak monkey laurel fir,fruit,-8.910749435424805,-23.901931762695312,
+tree,7,train,willow mahogany oak pine,elm,-5.793277740478516,-20.003332138061523,
+tree,0,heldout,holly ash pear rosewood,ivy,-10.333917617797852,-23.39202117919922,-7.914344310760498
+tree,1,heldout,hazelnut chestnut mango banana,holly,-14.343070983886719,-22.804574966430664,-14.343070983886719
+tree,2,heldout,holly evergreen mango maple,coconut,-6.835615158081055,-24.693904876708984,-11.217674255371094
+tree,3,heldout,plum chestnut maple hazel,birch,-3.2558844089508057,-23.726825714111328,-3.650244951248169
+tree,4,heldout,acorn maple mango pear,rosewood,-11.271621704101562,-23.516042709350586,-11.154680252075195
+fruit,0,train,plum durian lemon papaya,strawberry,-3.9676780700683594,-23.32016944885254,
+fruit,1,train,lime apple pineapple pomegranate,squash,-7.900210857391357,-23.24590492248535,
+fruit,2,train,strawberry pomegranate durian raspberries,peach,-4.524486541748047,-22.300472259521484,
+fruit,3,train,pomegranate pineapple squash coconut,apple,-5.288769721984863,-21.10068130493164,
+fruit,4,train,lime squash lemon grape,pomegranate,-8.294330596923828,-25.46407127380371,
+fruit,5,train,squash papaya coconut pomegranate,plum,-5.906340599060059,-20.73644256591797,
+fruit,6,train,apple fig durian squash,pineapple,-4.100746154785156,-24.211715698242188,
+fruit,7,train,lemon peach lime raspberries,grape,-7.1834211349487305,-24.20034408569336,
+fruit,0,heldout,kiwi tomato blueberries watermelon,mandarin,-7.722892761230469,-24.773605346679688,-8.09924602508545
+fruit,1,heldout,melon pear grapefruit kiwi,prune,-7.955787658691406,-23.148649215698242,-9.837346076965332
+fruit,2,heldout,raisin grapefruit mango banana,dates,-7.031656265258789,-25.14813232421875,-7.536711692810059
+fruit,3,heldout,dates orange pear melon,grapefruit,-3.9267868995666504,-24.95989990234375,-3.9267868995666504
+fruit,4,heldout,melon grapefruit dates avocado,banana,-3.561602830886841,-22.362674713134766,-4.1968793869018555
+negative personal quality,0,train,harsh stubborn arrogant imperative,bragging,-17.80308723449707,-23.08375358581543,
+negative personal quality,1,train,narcissistic selfish jealous severe,imperative,-16.679153442382812,-19.681838989257812,
+negative personal quality,2,train,severe sad jealous fighting,direct,-20.245405197143555,-19.984962463378906,
+negative personal quality,3,train,insensitive ignorant fighting rude,stubborn,-8.43057632446289,-22.676361083984375,
+negative personal quality,4,train,selfish rude insensitive arrogant,jealous,-9.77254581451416,-21.356111526489258,
+negative personal quality,5,train,severe sad jealous selfish,quiet,-9.872076034545898,-21.19452667236328,
+negative personal quality,6,train,grumpy rude sad severe,insensitive,-9.622621536254883,-21.238466262817383,
+negative personal quality,7,train,unhappy jealous narcissistic rude,sad,-7.895077705383301,-19.374391555786133,
+negative personal quality,0,heldout,depressed manipulative irritable abrupt,anxious,-5.482510089874268,-21.48415756225586,-3.6910643577575684
+negative personal quality,1,heldout,unclean irritable boring dishonest,depressive,-12.480422019958496,-23.99346923828125,-12.872472763061523
+negative personal quality,2,heldout,unclean abrupt irritable challenging,aggressive,-4.532495498657227,-21.795751571655273,-5.367505073547363
+negative personal quality,3,heldout,angry aggressive depressed manipulative,unkind,-9.935333251953125,-22.52471160888672,-10.610807418823242
+negative personal quality,4,heldout,depressive unkind mean challenging,angry,-5.062472343444824,-20.285634994506836,-7.997306823730469
+stinging insect,0,train,mosquito hornet moths bee,wasp,-2.791809558868408,-22.648340225219727,
+stinging insect,1,train,hornet mosquito moths wasp,bee,-4.004117965698242,-22.58954620361328,
+stinging insect,2,train,bee wasp moths mosquito,hornet,-8.023469924926758,-25.185855865478516,
+stinging insect,3,train,moths bee wasp hornet,mosquito,-4.478274822235107,-23.33092498779297,
+stinging insect,4,train,hornet bee wasp mosquito,moths,-10.986942291259766,-23.389907836914062,
+stinging insect,0,heldout,ants spider scorpion beetle,caterpillars,-8.114933013916016,-23.741294860839844,-8.201286315917969
+stinging insect,1,heldout,ants spider caterpillars beetle,scorpion,-5.832315444946289,-22.330522537231445,-6.452935695648193
+stinging insect,2,heldout,scorpion spider caterpillars beetle,ants,-5.643067359924316,-22.408254623413086,-4.566554069519043
+stinging insect,3,heldout,beetle ants caterpillars scorpion,spider,-3.7018001079559326,-21.49545669555664,-3.6643340587615967
+stinging insect,4,heldout,ants spider scorpion caterpillars,beetle,-4.672320365905762,-23.618005752563477,-4.358098983764648
+negative emotion,0,train,despair hatred gutted miserable,powerless,-10.094976425170898,-24.55340576171875,
+negative emotion,1,train,depressed miserable rage distraught,fearful,-6.889634132385254,-20.356468200683594,
+negative emotion,2,train,powerless disgust hurt fearful,guilt,-6.4219136238098145,-22.903575897216797,
+negative emotion,3,train,dislike sadness hurt depressed,irritated,-10.966878890991211,-21.55353546142578,
+negative emotion,4,train,loss miserable irritability depressed,dislike,-12.609633445739746,-23.149267196655273,
+negative emotion,5,train,irritated loss fearful despair,guilt,-7.4759297370910645,-22.903575897216797,
+negative emotion,6,train,fearful laziness anxiety nervous,sadness,-6.715274810791016,-22.013511657714844,
+negative emotion,7,train,loss unwell despair sadness,hurt,-4.920231342315674,-18.57123565673828,
+negative emotion,0,heldout,hopelessness devastated lonely isolation,unhappiness,-10.418906211853027,-22.474367141723633,-8.991647720336914
+negative emotion,1,heldout,confusion tiredness wrath negativity,unhappy,-11.986451148986816,-22.62293815612793,-12.97004508972168
+negative emotion,2,heldout,worried wrath sorrow jealousy,upset,-10.848360061645508,-20.45446014404297,-8.124212265014648
+negative emotion,3,heldout,sorrow anger devastated upset,pessimistic,-12.321410179138184,-23.545352935791016,-16.890775680541992
+negative emotion,4,heldout,ungrateful negativity jealousy moody,lonely,-7.745337963104248,-20.907224655151367,-9.8450927734375
+gardening tool,0,train,hoe pesticides clippers trimmer,flowers,-7.644951820373535,-22.512027740478516,
+gardening tool,1,train,flowers hoe pesticides spade,drill,-6.527215003967285,-20.549028396606445,
+gardening tool,2,train,fork cultivator drill saw,clippers,-14.166913986206055,-20.807798385620117,
+gardening tool,3,train,trimmer drill spade pesticides,hoe,-4.690232276916504,-21.523813247680664,
+gardening tool,4,train,trimmer spade saw drill,pesticides,-21.351158142089844,-24.86118507385254,
+gardening tool,5,train,shovel saw spade drill,cultivator,-9.449029922485352,-20.239858627319336,
+gardening tool,6,train,string shovel clippers hoe,saw,-5.839344024658203,-19.107810974121094,
+gardening tool,7,train,saw pesticides flowers shovel,drill,-11.712039947509766,-20.549028396606445,
+gardening tool,0,heldout,seeds chainsaw brush hatchet,scissors,-7.691564559936523,-24.080028533935547,-7.640459060668945
+gardening tool,1,heldout,chainsaw brush ladder rake,axe,-5.599735736846924,-22.089523315429688,-5.416958808898926
+gardening tool,2,heldout,ladder chainsaw axe hatchet,scissors,-10.491842269897461,-24.080028533935547,-9.262093544006348
+gardening tool,3,heldout,hatchet axe netting seeds,ladder,-10.742131233215332,-23.264171600341797,-12.863001823425293
+gardening tool,4,heldout,netting scissors seeds hatchet,ladder,-8.612300872802734,-23.264171600341797,-12.113725662231445
+hair colour,0,train,yellow burgundy gold brunette,red,-3.059967279434204,-18.664491653442383,
+hair colour,1,train,grey pink burgundy red,gold,-4.10199499130249,-20.98912239074707,
+hair colour,2,train,yellow red brunette grey,ombre,-7.747533798217773,-20.568016052246094,
+hair colour,3,train,ombre yellow ginger red,burgundy,-5.13862419128418,-23.76595687866211,
+hair colour,4,train,ginger yellow brunette red,burgundy,-6.003784656524658,-23.76595687866211,
+hair colour,5,train,brunette pink gold black,ombre,-6.03166389465332,-20.568016052246094,
+hair colour,6,train,ginger burgundy grey brunette,pink,-4.805776596069336,-21.635770797729492,
+hair colour,7,train,grey yellow burgundy red,ginger,-8.702091217041016,-20.786266326904297,
+hair colour,0,heldout,purple blonde orange teal,brown,-3.514627695083618,-20.922657012939453,-3.2926669120788574
+hair colour,1,heldout,green highlights turquoise blonde,silver,-7.130139350891113,-21.358320236206055,-5.297122955322266
+hair colour,2,heldout,brown highlights purple teal,silver,-5.869349479675293,-21.358320236206055,-6.9831976890563965
+hair colour,3,heldout,blonde orange blue highlights,purple,-7.033636569976807,-22.851675033569336,-5.830315589904785
+hair colour,4,heldout,silver teal orange purple,green,-2.6858553886413574,-19.83550262451172,-2.6858553886413574
+vehicle,0,train,lorry jeep bus car,tractor,-4.630362510681152,-21.490018844604492,
+vehicle,1,train,tractor bus skateboard plane,lorry,-8.20673942565918,-22.64653778076172,
+vehicle,2,train,car lorry van bus,wagon,-6.3270344734191895,-23.840675354003906,
+vehicle,3,train,lorry jeep bus wagon,taxi,-3.8586137294769287,-21.4810791015625,
+vehicle,4,train,jeep bus plane taxi,tractor,-8.141264915466309,-21.490018844604492,
+vehicle,5,train,motorbike helicopter lorry tractor,taxi,-5.160330295562744,-21.4810791015625,
+vehicle,6,train,wagon tractor skateboard car,taxi,-7.890363693237305,-21.4810791015625,
+vehicle,7,train,taxi bus helicopter van,car,-2.663945198059082,-15.876636505126953,
+vehicle,0,heldout,coach ambulance truck ship,jet,-6.9822893142700195,-22.414623260498047,-7.322391986846924
+vehicle,1,heldout,scooter minibus caddy ship,digger,-14.197952270507812,-23.67047119140625,-17.363710403442383
+vehicle,2,heldout,jet digger bicycle coach,boat,-7.683438301086426,-21.985015869140625,-6.856472015380859
+vehicle,3,heldout,truck jet minibus scooter,ship,-8.1625394821167,-20.9094295501709,-9.12628173828125
+vehicle,4,heldout,minibus caddy scooter truck,digger,-12.92951488494873,-23.67047119140625,-12.510540962219238
+academic subject,0,train,drama linguistics mechanics greek,languages,-6.884510517120361,-22.9536075592041,
+academic subject,1,train,ethics german drama latin,italian,-6.607641220092773,-22.616172790527344,
+academic subject,2,train,pe french politics mechanics,drama,-11.10370922088623,-19.59763526916504,
+academic subject,3,train,art italian archaeology medicine,drama,-9.595931053161621,-19.59763526916504,
+academic subject,4,train,marketing spanish latin pe,greek,-15.833006858825684,-23.418882369995117,
+academic subject,5,train,ethics russian science archaeology,art,-5.295947074890137,-18.98780632019043,
+academic subject,6,train,pe music marketing biology,russian,-14.497041702270508,-22.671422958374023,
+academic subject,7,train,ethics drama pe biology,marketing,-12.97287654876709,-20.807880401611328,
+academic subject,0,heldout,arabic management sociology economics,english,-5.0675811767578125,-22.003950119018555,-5.0675811767578125
+academic subject,1,heldout,history statistics maths dentistry,accounting,-5.094468593597412,-22.17201042175293,-4.983663558959961
+academic subject,2,heldout,physics psychology chemistry english,arabic,-7.341257095336914,-22.384033203125,-7.427667140960693
+academic subject,3,heldout,management mandarin chemistry statistics,engineering,-4.944171905517578,-21.542736053466797,-4.767080307006836
+academic subject,4,heldout,statistics management psychology economics,geography,-5.725997447967529,-22.484905242919922,-5.83255672454834
+prime number,0,train,fifteen one eleven thirteen,seventeen,-3.7736995220184326,-20.811283111572266,
+prime number,1,train,seventeen eleven fifteen one,thirteen,-4.611169815063477,-21.750865936279297,
+prime number,2,train,thirteen seventeen eleven fifteen,one,-4.698322772979736,-15.841940879821777,
+prime number,3,train,fifteen seventeen thirteen one,eleven,-4.099458694458008,-21.62554168701172,
+prime number,4,train,seventeen eleven one thirteen,fifteen,-4.012313365936279,-20.653902053833008,
+prime number,0,heldout,nineteen three five seven,nine,-2.2985377311706543,-18.651180267333984,-3.632319688796997
+prime number,1,heldout,two seven five nineteen,nine,-3.3725199699401855,-18.651180267333984,-3.149308204650879
+prime number,2,heldout,three seven nine nineteen,two,-3.2412075996398926,-18.430776596069336,-3.544520854949951
+prime number,3,heldout,three seven two five,nineteen,-8.203296661376953,-21.76997184753418,-8.46084213256836
+prime number,4,heldout,two nineteen five nine,three,-3.964710235595703,-18.449811935424805,-3.0499439239501953
+crime,0,train,drugs piracy abuse assault,homicide,-6.772362232208252,-24.23957061767578,
+crime,1,train,robbery burglary drugs piracy,arson,-4.4190826416015625,-21.665786743164062,
+crime,2,train,burglary arson perjury kidnap,piracy,-8.844857215881348,-23.35964584350586,
+crime,3,train,robbery burglary drugs murder,endorsement,-22.33517074584961,-22.15928077697754,
+crime,4,train,kidnap homicide manslaughter robbery,endorsement,-16.21894073486328,-22.15928077697754,
+crime,5,train,arson manslaughter perjury abuse,robbery,-7.522561550140381,-22.244464874267578,
+crime,6,train,burglary assault manslaughter drugs,murder,-3.004612922668457,-22.322406768798828,
+crime,7,train,homicide robbery piracy murder,assault,-3.8627753257751465,-21.107908248901367,
+crime,0,heldout,forgery theft violence trespassing,fraud,-3.1341142654418945,-21.745445251464844,-2.83548641204834
+crime,1,heldout,forgery violence hacking urination,stealing,-5.762539386749268,-21.237836837768555,-6.334996223449707
+crime,2,heldout,hacking vandalism urination harassment,forgery,-11.1524019241333,-23.90496063232422,-10.020784378051758
+crime,3,heldout,fraud battery theft violence,massacre,-12.883960723876953,-22.880233764648438,-13.635910987854004
+crime,4,heldout,violence stealing massacre trespassing,fraud,-5.649761199951172,-21.745445251464844,-5.758194446563721
+furniture,0,train,cabinet table fireplace piano,bookcase,-4.510434627532959,-21.86393165588379,
+furniture,1,train,chair lamp fireplace table,counter,-9.331674575805664,-21.262022018432617,
+furniture,2,train,fireplace lamp chair sofa,table,-2.978261947631836,-18.53754997253418,
+furniture,3,train,bookcase piano cooker tv,bed,-4.206765174865723,-17.048534393310547,
+furniture,4,train,chair piano fireplace sofa,table,-3.2810068130493164,-18.53754997253418,
+furniture,5,train,bed cabinet piano table,tv,-6.687077522277832,-20.653671264648438,
+furniture,6,train,tv fireplace bookcase cooker,sofa,-7.453601837158203,-22.9278621673584,
+furniture,7,train,drawers chair tv counter,lamp,-5.207176685333252,-21.00296401977539,
+furniture,0,heldout,ottoman stool door cupboard,bookshelf,-7.753006935119629,-21.079145431518555,-7.753006935119629
+furniture,1,heldout,bookshelf stool door mirror,cupboard,-6.384518623352051,-23.647550582885742,-5.396230697631836
+furniture,2,heldout,cupboard wardrobe door freezer,computer,-11.745322227478027,-19.6745662689209,-9.62185287475586
+furniture,3,heldout,shelves fridge stool computer,mirror,-8.63538646697998,-20.29514503479004,-6.1296186447143555
+furniture,4,heldout,freezer shelves stool door,computer,-11.643890380859375,-19.6745662689209,-14.742895126342773
+time of day,0,train,home nap noon afternoon,night,-3.06390380859375,-20.359424591064453,
+time of day,1,train,morning early afternoon noon,dinner,-3.2504796981811523,-21.27182388305664,
+time of day,2,train,sunset nap afternoon dawn,morning,-2.9730417728424072,-21.78990364074707,
+time of day,3,train,morning dawn home afternoon,nap,-7.208861351013184,-17.695653915405273,
+time of day,4,train,dinner nap afternoon noon,dawn,-12.16368579864502,-23.045751571655273,
+time of day,5,train,noon dawn afternoon night,morning,-3.635366439819336,-21.78990364074707,
+time of day,6,train,dawn dinner home night,midday,-16.178916931152344,-23.322223663330078,
+time of day,7,train,sunset night noon home,afternoon,-5.114150524139404,-22.59667205810547,
+time of day,0,heldout,dusk late evening lunchtime,brunch,-4.741271018981934,-22.145788192749023,-4.975166320800781
+time of day,1,heldout,midnight evening dusk sunrise,daytime,-6.522374153137207,-21.343740463256836,-6.354691505432129
+time of day,2,heldout,dusk breakfast lunchtime bedtime,evening,-4.15695333480835,-20.84446907043457,-3.6429903507232666
+time of day,3,heldout,evening breakfast dusk bedtime,sunrise,-8.276527404785156,-23.080408096313477,-8.794858932495117
+time of day,4,heldout,evening sunrise breakfast daytime,brunch,-6.375936508178711,-22.145788192749023,-5.02616024017334
+social relationship,0,train,friend sister brother girlfriend,partner,-5.490131855010986,-20.919309616088867,
+social relationship,1,train,peers society foes professional,mother,-12.519099235534668,-21.73201560974121,
+social relationship,2,train,child colleague competitor partner,associates,-8.597015380859375,-23.461294174194336,
+social relationship,3,train,manager married fiance partner,peers,-16.689823150634766,-21.881017684936523,
+social relationship,4,train,boyfriend friend employee professional,relative,-6.1612958908081055,-18.891618728637695,
+social relationship,5,train,relative child partner married,peers,-12.106444358825684,-21.881017684936523,
+social relationship,6,train,professional peers companions colleague,enemy,-9.409342765808105,-23.611173629760742,
+social relationship,7,train,peers friend professional colleague,boyfriend,-7.73040771484375,-20.940309524536133,
+social relationship,0,heldout,student grandma nemesis engaged,uncle,-10.934134483337402,-23.4235782623291,-8.975103378295898
+social relationship,1,heldout,uncle rivals cousin apprentice,club,-13.389451026916504,-18.88585662841797,-11.456647872924805
+social relationship,2,heldout,lovers uncle husband son,nemesis,-16.250192642211914,-20.563535690307617,-14.570287704467773
+social relationship,3,heldout,nemesis grandma working parent,son,-6.031614780426025,-16.765514373779297,-10.3290433883667
+social relationship,4,heldout,romantic relationship teammate sibling,cousin,-4.8474836349487305,-22.02526092529297,-8.981613159179688
+military title,0,train,gunner soldier senior private,police,-10.04409408569336,-19.45110511779785,
+military title,1,train,officer soldier gunner authority,general,-7.647310256958008,-17.92038917541504,
+military title,2,train,soldier private police general,senior,-7.526307106018066,-20.83964729309082,
+military title,3,train,soldier officer private commander,gunner,-7.893037796020508,-22.58594512939453,
+military title,4,train,commander general police senior,authority,-8.087624549865723,-21.066011428833008,
+military title,5,train,soldier officer general police,gunner,-11.930946350097656,-22.58594512939453,
+military title,6,train,police gunner commander senior,authority,-11.530299186706543,-21.066011428833008,
+military title,7,train,senior officer authority general,gunner,-15.977399826049805,-22.58594512939453,
+military title,0,heldout,major corporal colonel sergeant,chief,-5.185511112213135,-21.074981689453125,-4.605860710144043
+military title,1,heldout,captain major colonel lieutenant,sergeant,-5.1437225341796875,-23.669679641723633,-2.9883174896240234
+military title,2,heldout,captain chief admiral cruel,lieutenant,-5.924317359924316,-23.917295455932617,-6.72084903717041
+military title,3,heldout,cruel major captain sergeant,chief,-7.250913619995117,-21.074981689453125,-6.348245620727539
+military title,4,heldout,chief colonel major lieutenant,sergeant,-7.935593128204346,-23.669679641723633,-3.8517913818359375
+natural landform,0,train,quarries land volcano beaches,tributary,-19.163516998291016,-24.09693145751953,
+natural landform,1,train,valley tributary cave streams,volcano,-21.8028507232666,-24.2768611907959,
+natural landform,2,train,valley forest tributary quarries,volcano,-18.637042999267578,-24.2768611907959,
+natural landform,3,train,volcano land forest quarries,plateau,-10.208587646484375,-22.372295379638672,
+natural landform,4,train,streams desert plateau valley,tributary,-10.00012493133545,-24.09693145751953,
+natural landform,5,train,volcano quarries plateau desert,streams,-8.063931465148926,-21.202848434448242,
+natural landform,6,train,beaches volcano field marsh,cave,-10.290203094482422,-20.908632278442383,
+natural landform,7,train,marsh field cave plateau,glaciers,-12.899794578552246,-22.641101837158203,
+natural landform,0,heldout,island waterfalls reservoirs lake,dunes,-11.613232612609863,-24.100509643554688,-8.686457633972168
+natural landform,1,heldout,dunes mountain plain continents,island,-6.446525573730469,-22.340084075927734,-6.31472635269165
+natural landform,2,heldout,dunes continents canyon island,waterfalls,-9.26395320892334,-25.188701629638672,-9.16207218170166
+natural landform,3,heldout,dunes reservoirs canyon plain,gully,-8.900995254516602,-22.40103530883789,-6.532916069030762
+natural landform,4,heldout,dunes cliff hill island,reservoirs,-14.322293281555176,-21.978519439697266,-12.679264068603516
+royal title,0,train,duchess tsar lord sir,dame,-9.236083984375,-24.78639793395996,
+royal title,1,train,sir duchess dame king,queen,-1.6465057134628296,-22.712570190429688,
+royal title,2,train,king queen sir royalty,knight,-3.5796549320220947,-20.897607803344727,
+royal title,3,train,king dame queen sir,lord,-4.258865833282471,-22.992568969726562,
+royal title,4,train,duchess tsar king queen,dame,-8.668915748596191,-24.78639793395996,
+royal title,5,train,queen knight duchess lord,dame,-8.149397850036621,-24.78639793395996,
+royal title,6,train,sir royalty queen duchess,tsar,-7.821567535400391,-21.06222915649414,
+royal title,7,train,dame royalty duchess lord,queen,-5.4521894454956055,-22.712570190429688,
+royal title,0,heldout,earl prince lady majesty,count,-7.0721306800842285,-22.300060272216797,-8.419532775878906
+royal title,1,heldout,duke monarch princess lady,earl,-8.086402893066406,-22.441364288330078,-6.703420639038086
+royal title,2,heldout,kaiser baron prince majesty,princess,-8.572434425354004,-23.767988204956055,-7.016585350036621
+royal title,3,heldout,majesty baron duke lady,kaiser,-12.625631332397461,-19.953874588012695,-12.860011100769043
+royal title,4,heldout,baron princess duke earl,kaiser,-14.515783309936523,-19.953874588012695,-11.834827423095703
+farm animal,0,train,turkey pig alpaca fish,cock,-8.908271789550781,-20.75421714782715,
+farm animal,1,train,cow sheep pig alpaca,bull,-5.827212333679199,-21.448867797851562,
+farm animal,2,train,geese bull cow fish,pig,-4.6728363037109375,-21.21927261352539,
+farm animal,3,train,alpaca fish geese sheep,cock,-7.8592939376831055,-20.75421714782715,
+farm animal,4,train,goat alpaca pig sheep,geese,-9.613155364990234,-22.54492950439453,
+farm animal,5,train,turkey geese alpaca lamb,bull,-7.504416465759277,-21.448867797851562,
+farm animal,6,train,cow fish pig turkey,geese,-6.623639106750488,-22.54492950439453,
+farm animal,7,train,lamb alpaca goat turkey,pig,-3.2972774505615234,-21.21927261352539,
+farm animal,0,heldout,rabbit rooster dog duck,cat,-2.814192533493042,-18.598363876342773,-3.6183266639709473
+farm animal,1,heldout,hen cat duck rooster,dog,-2.276463270187378,-19.40566635131836,-3.1413674354553223
+farm animal,2,heldout,cat hamsters horse rabbit,dog,-2.3652005195617676,-19.40566635131836,-1.8555312156677246
+farm animal,3,heldout,hen rabbit rooster duck,chicken,-2.4948811531066895,-22.387367248535156,-2.6501832008361816
+farm animal,4,heldout,rooster dog horse chicken,donkey,-4.415356636047363,-23.04048728942871,-4.415356636047363
+disease,0,train,hiv std rabies eczema,aids,-5.510214805603027,-22.17621612548828,
+disease,1,train,tb measles leukemia rabies,autoimmune,-11.22780990600586,-21.782920837402344,
+disease,2,train,eczema cold tb rabies,alcoholism,-11.43735122680664,-22.743501663208008,
+disease,3,train,alcoholism measles eczema hiv,depression,-5.738132953643799,-22.634716033935547,
+disease,4,train,rabies measles tb std,hiv,-3.342391014099121,-18.791494369506836,
+disease,5,train,shingles autoimmune measles cold,arthritis,-7.9599609375,-21.269746780395508,
+disease,6,train,aids depression shingles leukemia,alcoholism,-8.917770385742188,-22.743501663208008,
+disease,7,train,autoimmune aids shingles rabies,measles,-5.129706382751465,-23.8798828125,
+disease,0,heldout,polio anxiety flu herpes,diabetes,-6.8566741943359375,-19.35319709777832,-6.586329460144043
+disease,1,heldout,syphilis cough addictions tumour,cholera,-10.945697784423828,-22.67197036743164,-6.519405364990234
+disease,2,heldout,diabetes polio tumour cough,tetanus,-10.192266464233398,-24.106767654418945,-17.503110885620117
+disease,3,heldout,polio syphilis flu osteoporosis,addictions,-15.668460845947266,-23.343006134033203,-15.668460845947266
+disease,4,heldout,tumour addictions flu migraines,osteoporosis,-10.231590270996094,-21.6273250579834,-10.250893592834473
+building,0,train,cottage warehouses factory garage,temple,-13.015313148498535,-22.352781295776367,
+building,1,train,school private homestead hall,synagogue,-16.295862197875977,-23.402427673339844,
+building,2,train,supermarket blocks synagogue cabin,temple,-12.298993110656738,-22.352781295776367,
+building,3,train,homestead government shop blocks,synagogue,-19.378948211669922,-23.402427673339844,
+building,4,train,private airport hall castle,government,-14.65505313873291,-20.872325897216797,
+building,5,train,hotels supermarket blocks cottage,pub,-9.065444946289062,-20.340139389038086,
+building,6,train,homestead warehouses theatre cinema,supermarket,-9.050337791442871,-22.187044143676758,
+building,7,train,factory theatre pub castle,supermarket,-14.663612365722656,-22.187044143676758,
+building,0,heldout,flats bungalow palace church,lodge,-7.576285362243652,-23.563751220703125,-10.840550422668457
+building,1,heldout,lodge cafe skyscraper prison,mosque,-11.529754638671875,-23.208736419677734,-9.33158016204834
+building,2,heldout,villa house college museum,detached,-14.744226455688477,-20.154199600219727,-17.425119400024414
+building,3,heldout,museum flats dentist workplace,offices,-6.806150913238525,-20.506668090820312,-7.0219502449035645
+building,4,heldout,gym college bungalow workplace,flats,-7.921968936920166,-21.11993980407715,-10.434404373168945
+weather,0,train,humid moderate cool breezy,icy,-10.983964920043945,-21.358369827270508,
+weather,1,train,gale hail cold stormy,humid,-7.630688667297363,-23.4075927734375,
+weather,2,train,snow gale tsunami dull,moderate,-13.771728515625,-20.411834716796875,
+weather,3,train,drizzle stormy ice mild,hail,-7.5061774253845215,-21.51958656311035,
+weather,4,train,cloudy mild gale breezy,snow,-5.9602861404418945,-20.55561065673828,
+weather,5,train,tsunami mild thunder stormy,damp,-10.647344589233398,-23.45146942138672,
+weather,6,train,thunder snow icy temperate,stormy,-7.717058181762695,-24.256271362304688,
+weather,7,train,temperate cold gloomy gale,tsunami,-21.330421447753906,-23.47528076171875,
+weather,0,heldout,drought foul fair thunderstorm,hurricane,-4.804744720458984,-24.2921142578125,-9.412249565124512
+weather,1,heldout,flooding fair wet windy,bitter,-10.255224227905273,-21.5074462890625,-12.726318359375
+weather,2,heldout,flooding wet sunny dry,overcast,-5.457285404205322,-23.76946258544922,-5.567012786865234
+weather,3,heldout,thunderstorm sunny fog windy,bright,-6.0500335693359375,-20.037324905395508,-6.006680011749268
+weather,4,heldout,drought windy overcast hurricane,freezing,-8.364884376525879,-21.581180572509766,-6.286489486694336
+four-wheeled vehicle,0,train,trolley jeep tractor coach,rv,-7.524007797241211,-19.97100067138672,
+four-wheeled vehicle,1,train,plane lorry honda minibus,pram,-12.83968734741211,-24.236783981323242,
+four-wheeled vehicle,2,train,tractor pram lorry jeep,minibus,-8.335862159729004,-24.722232818603516,
+four-wheeled vehicle,3,train,pram rv honda plane,tractor,-8.427961349487305,-21.490018844604492,
+four-wheeled vehicle,4,train,coach rv trailer plane,honda,-10.130970001220703,-21.029014587402344,
+four-wheeled vehicle,5,train,coach honda plane pram,tractor,-10.76425552368164,-21.490018844604492,
+four-wheeled vehicle,6,train,lorry minibus honda coach,trailer,-6.531268119812012,-20.80080795288086,
+four-wheeled vehicle,7,train,trolley honda coach plane,trailer,-6.001741409301758,-20.80080795288086,
+four-wheeled vehicle,0,heldout,bus van tank taxi,truck,-5.642148494720459,-20.790569305419922,-1.8158636093139648
+four-wheeled vehicle,1,heldout,tank wagon taxi van,atv,-16.61200523376465,-18.891828536987305,-15.664777755737305
+four-wheeled vehicle,2,heldout,bus limo wagon caravan,atv,-12.510047912597656,-18.891828536987305,-13.245450019836426
+four-wheeled vehicle,3,heldout,car limo bus taxi,atv,-15.10727596282959,-18.891828536987305,-13.883357048034668
+four-wheeled vehicle,4,heldout,benz bus truck taxi,caravan,-10.83740520477295,-24.520265579223633,-11.716407775878906
+science,0,train,maths sociology epidemiology ecology,psychology,-3.129796028137207,-23.312278747558594,
+science,1,train,neuroscience technology alkali cosmology,equations,-12.308333396911621,-21.107078552246094,
+science,2,train,epidemiology maths sociology alkali,electronics,-10.486637115478516,-22.1039981842041,
+science,3,train,alkali psychology electronics astrology,technology,-6.465020179748535,-20.382165908813477,
+science,4,train,ecology electronics astrology cosmology,engineering,-5.893691062927246,-21.542736053466797,
+science,5,train,engineering alkali astrology technology,atoms,-18.91130828857422,-21.56854820251465,
+science,6,train,sociology cosmology electronics equations,epidemiology,-7.265741348266602,-22.814956665039062,
+science,7,train,sociology epidemiology cosmology alkali,psychology,-5.834612846374512,-23.312278747558594,
+science,0,heldout,geography experiments physics biochemistry,medicine,-5.6503586769104,-19.995019912719727,-8.038287162780762
+science,1,heldout,robotics botany geography acid,chemistry,-3.992908477783203,-22.133014678955078,-3.6675517559051514
+science,2,heldout,botany geology physics biochemistry,biology,-2.822786808013916,-21.66979217529297,-2.9473445415496826
+science,3,heldout,geography experiments medicine botany,astronomy,-3.047062397003174,-23.57012367248535,-3.368673324584961
+science,4,heldout,acid radiology physics biology,medicine,-3.672787666320801,-19.995019912719727,-3.3184139728546143
+flower,0,train,violets rose fuchsia tulip,viola,-9.21712875366211,-21.97181510925293,
+flower,1,train,viola lily rose tulip,violets,-8.975180625915527,-22.645841598510742,
+flower,2,train,fuchsia lily viola violets,tulip,-6.908754348754883,-23.597715377807617,
+flower,3,train,fuchsia violets sunflower tulip,viola,-5.958134174346924,-21.97181510925293,
+flower,4,train,violets tulip lily rose,sunflower,-4.802173137664795,-24.797269821166992,
+flower,5,train,sunflower viola lily violets,rose,-4.559412956237793,-22.573715209960938,
+flower,6,train,fuchsia rose sunflower viola,tulip,-6.5704426765441895,-23.597715377807617,
+flower,7,train,rose tulip violets sunflower,viola,-8.688203811645508,-21.97181510925293,
+flower,0,heldout,poppy daisy lavender hibiscus,clover,-5.943592548370361,-21.9636287689209,-6.7859206199646
+flower,1,heldout,lavender clover hibiscus orchid,poppy,-4.363443374633789,-23.836763381958008,-4.738950729370117
+flower,2,heldout,clover orchid hibiscus poppy,daisy,-4.168021202087402,-23.738239288330078,-3.9035634994506836
+flower,3,heldout,clover dandelion hibiscus daisy,lavender,-5.160135269165039,-23.954410552978516,-4.778447151184082
+flower,4,heldout,clover orchid poppy lavender,dandelion,-5.403868198394775,-23.598846435546875,-5.030503749847412
+fraction,0,train,quarter eleventh mathematical seventh,half,-6.300914764404297,-20.982635498046875,
+fraction,1,train,eleventh numbers third fifth,seventh,-2.2808990478515625,-23.122835159301758,
+fraction,2,train,sixth maths mathematical fifth,chemical,-11.31568717956543,-22.647611618041992,
+fraction,3,train,half fourth seventh fifth,mathematical,-13.768930435180664,-21.356836318969727,
+fraction,4,train,mathematical eleventh half fourth,numbers,-8.903867721557617,-22.508251190185547,
+fraction,5,train,third quarter maths fourth,half,-8.251741409301758,-20.982635498046875,
+fraction,6,train,seventh chemical eleventh fourth,maths,-15.412772178649902,-24.205434799194336,
+fraction,7,train,eleventh fifth sixth chemical,numbers,-10.042593002319336,-22.508251190185547,
+fraction,0,heldout,audible tenth ninth visual,thirteenth,-6.172173500061035,-23.463790893554688,-7.798813819885254
+fraction,1,heldout,visual tenth sixteenth eighth,audible,-12.133251190185547,-19.301586151123047,-8.426553726196289
+fraction,2,heldout,ninth section percent eighth,piece,-9.132041931152344,-18.196788787841797,-10.499969482421875
+fraction,3,heldout,thirteenth fourteenth percent three,twelfth,-8.342949867248535,-23.3131160736084,-2.487250566482544
+fraction,4,heldout,thirteenth ninth three tenth,fourteenth,-3.667987823486328,-23.061677932739258,-3.418403387069702
+personal quality,0,train,cooperative harsh odd outgoing,supportive,-10.346334457397461,-23.38552474975586,
+personal quality,1,train,hardworking crazy cooperative humble,hostile,-18.0059814453125,-21.097091674804688,
+personal quality,2,train,selfless good pessimistic silly,negative,-6.443479537963867,-22.238685607910156,
+personal quality,3,train,open crazy helpful cooperative,odd,-13.510700225830078,-19.639596939086914,
+personal quality,4,train,good compassionate kind negative,personable,-13.048059463500977,-20.882892608642578,
+personal quality,5,train,cold kind weird positive,pessimistic,-15.506024360656738,-23.545352935791016,
+personal quality,6,train,knowledge driven annoying hostile,wise,-12.285545349121094,-22.075815200805664,
+personal quality,7,train,brave helpful driven engaging,warm,-5.43019962310791,-19.557401657104492,
+personal quality,0,heldout,lazy loving reliable thoughtful,confident,-6.996363639831543,-22.226774215698242,-6.572576522827148
+personal quality,1,heldout,beautiful happy thoughtful nice,honest,-4.928476810455322,-18.965309143066406,-5.053073883056641
+personal quality,2,heldout,confident nervous fun selfish,beautiful,-7.669193267822266,-20.554161071777344,-6.675698280334473
+personal quality,3,heldout,reserved pride academic angry,cheerful,-14.080976486206055,-21.8492374420166,-8.321296691894531
+personal quality,4,heldout,honest lovely sympathetic angry,nervous,-5.698629856109619,-20.84650993347168,-9.487918853759766
+sport,0,train,diving skiing baseball golf,fencing,-6.888725280761719,-24.131378173828125,
+sport,1,train,squash badminton baseball skiing,wrestling,-5.118971824645996,-22.901798248291016,
+sport,2,train,skeleton wrestling baseball boxing,polo,-7.642387390136719,-19.545162200927734,
+sport,3,train,hockey badminton skeleton fencing,darts,-7.499931335449219,-22.1684627532959,
+sport,4,train,skeleton gymnastics polo swimming,squash,-4.418692111968994,-23.24590492248535,
+sport,5,train,hockey fencing darts volleyball,skeleton,-11.842252731323242,-22.221405029296875,
+sport,6,train,curling skeleton skiing polo,fencing,-6.462770462036133,-24.131378173828125,
+sport,7,train,kayaking skiing gymnastics darts,wrestling,-5.359238624572754,-22.901798248291016,
+sport,0,heldout,lacrosse pool equestrian tennis,shooting,-5.969379425048828,-20.46451187133789,-5.900201797485352
+sport,1,heldout,lacrosse rowing cricket sailing,equestrian,-5.474382400512695,-23.74021339416504,-7.3744282722473145
+sport,2,heldout,pool cycling cricket tennis,rugby,-4.91478967666626,-23.684127807617188,-5.0518646240234375
+sport,3,heldout,lacrosse running sailing rowing,equestrian,-6.71125602722168,-23.74021339416504,-7.0847272872924805
+sport,4,heldout,dance shooting handball cycling,cricket,-5.020102500915527,-22.555540084838867,-6.4307732582092285
+water bird,0,train,flamingo swan eagles goose,teal,-6.808173656463623,-23.411325454711914,
+water bird,1,train,teal goose eagles swan,flamingo,-7.405124187469482,-24.97837257385254,
+water bird,2,train,teal flamingo goose swan,eagles,-14.652481079101562,-23.90650749206543,
+water bird,3,train,teal flamingo swan stork,goose,-3.273266553878784,-21.63606071472168,
+water bird,4,train,goose stork flamingo teal,swan,-2.7246317863464355,-24.178251266479492,
+water bird,5,train,swan eagles flamingo stork,goose,-3.640963554382324,-21.63606071472168,
+water bird,6,train,teal swan goose stork,flamingo,-5.3860578536987305,-24.97837257385254,
+water bird,7,train,stork flamingo goose swan,eagles,-10.492877006530762,-23.90650749206543,
+water bird,0,heldout,heron penguin duck gull,pelican,-4.5610270500183105,-23.136154174804688,-4.602961540222168
+water bird,1,heldout,pelican hummingbird gull penguin,heron,-4.760933876037598,-20.94489097595215,-4.970089912414551
+water bird,2,heldout,penguin gull drake heron,pelican,-6.255332946777344,-23.136154174804688,-5.4591169357299805
+water bird,3,heldout,drake hummingbird heron gull,pelican,-4.6834716796875,-23.136154174804688,-5.251504898071289
+water bird,4,heldout,heron drake gull pelican,duck,-4.554127216339111,-20.555072784423828,-2.918804168701172
+rodent,0,train,mouse cockroach hamster rat,rabbit,-1.8618769645690918,-21.56209373474121,
+rodent,1,train,rat ferret rabbit cockroach,mouse,-2.91420841217041,-21.767475128173828,
+rodent,2,train,slugs rat mouse ferret,hamster,-4.360141754150391,-23.233936309814453,
+rodent,3,train,mouse rabbit hamster ferret,rat,-3.1214687824249268,-20.05050277709961,
+rodent,4,train,slugs hamster rabbit mouse,cockroach,-6.21754264831543,-25.024417877197266,
+rodent,5,train,ferret mouse rat rabbit,cockroach,-8.077777862548828,-25.024417877197266,
+rodent,6,train,slugs rat rabbit hamster,mouse,-2.255049228668213,-21.767475128173828,
+rodent,7,train,rabbit rat slugs cockroach,ferret,-10.424125671386719,-22.908140182495117,
+rodent,0,heldout,snails squirrel bats fleas,raccoon,-11.912137985229492,-24.567350387573242,-5.2726006507873535
+rodent,1,heldout,bats raccoon squirrel fleas,mole,-8.832866668701172,-22.074674606323242,-7.037665367126465
+rodent,2,heldout,mole bats snails squirrel,raccoon,-7.691901683807373,-24.567350387573242,-5.78300142288208
+rodent,3,heldout,mole fleas ant bats,snails,-7.371894836425781,-23.89206886291504,-7.092117786407471
+rodent,4,heldout,ant snails fleas mole,raccoon,-15.366480827331543,-24.567350387573242,-15.065306663513184
+healthcare profession,0,train,technician receptionist psychologist dental,gp,-17.94607925415039,-20.898832321166992,
+healthcare profession,1,train,carer physio receptionist gp,orthodontic,-13.430726051330566,-25.099021911621094,
+healthcare profession,2,train,psychologist technician orthodontic nurse,gp,-11.272366523742676,-20.898832321166992,
+healthcare profession,3,train,carer physio technician nurse,therapist,-5.611933708190918,-23.802734375,
+healthcare profession,4,train,dental receptionist orthodontic psychologist,nurse,-4.532674789428711,-22.62306022644043,
+healthcare profession,5,train,technician gp carer orthodontic,psychologist,-10.559843063354492,-22.34347915649414,
+healthcare profession,6,train,carer orthodontic dental psychologist,technician,-8.254913330078125,-23.050369262695312,
+healthcare profession,7,train,technician orthodontic psychologist dental,carer,-13.039219856262207,-23.065837860107422,
+healthcare profession,0,heldout,consultant midwife dermatologist surgeon,psychiatrist,-3.9445488452911377,-22.78554916381836,-4.831379413604736
+healthcare profession,1,heldout,dermatologist healer psychiatrist physician,consultant,-7.593097686767578,-23.54922103881836,-7.092025279998779
+healthcare profession,2,heldout,surgeon physician midwife pharmacist,dentist,-2.3514115810394287,-22.96881866455078,-3.820183277130127
+healthcare profession,3,heldout,dermatologist midwife psychiatrist healer,consultant,-7.519479274749756,-23.54922103881836,-9.065253257751465
+healthcare profession,4,heldout,surgeon pharmacist doctor healer,coroner,-13.661843299865723,-21.750534057617188,-12.44972038269043
+emotion,0,train,aggressive down grief uncomfortable,negative,-9.373263359069824,-22.238685607910156,
+emotion,1,train,curiosity kindness annoyed rage,down,-12.437012672424316,-19.91111946105957,
+emotion,2,train,negative ecstatic peace down,euphoria,-17.061017990112305,-21.854568481445312,
+emotion,3,train,curiosity euphoria anxious grief,distress,-7.453558444976807,-23.597606658935547,
+emotion,4,train,uncomfortable down calm nostalgia,annoyed,-15.835668563842773,-21.054410934448242,
+emotion,5,train,shock cheerful irritation amazed,elated,-11.065656661987305,-20.877893447875977,
+emotion,6,train,moved grief lust curiosity,distress,-10.082172393798828,-23.597606658935547,
+emotion,7,train,moved aggressive elated optimistic,lust,-13.0392427444458,-21.923912048339844,
+emotion,0,heldout,horrified worried stressed insecurity,relieved,-9.869989395141602,-21.21506118774414,-9.251638412475586
+emotion,1,heldout,nervous satisfaction positive boredom,miserable,-12.901930809020996,-21.531740188598633,-13.802571296691895
+emotion,2,heldout,impatience content frustration surprise,fear,-3.4657158851623535,-20.003889083862305,-5.191206932067871
+emotion,3,heldout,nervous wondrous sad joy,jolly,-13.656882286071777,-22.64872169494629,-13.656882286071777
+emotion,4,heldout,insecurity relieved quiet joy,glee,-15.714584350585938,-22.625694274902344,-11.179450988769531
+drug,0,train,aspirin caffeine antibiotics speed,morphine,-12.736483573913574,-23.9068660736084,
+drug,1,train,antibiotics mushrooms caffeine alcohol,antidepressants,-8.36607551574707,-23.86590576171875,
+drug,2,train,illegal cannabis mushrooms aspirin,morphine,-10.415875434875488,-23.9068660736084,
+drug,3,train,antidepressants morphine illegal antibiotics,meth,-5.789374351501465,-21.307464599609375,
+drug,4,train,alcohol aspirin meth caffeine,illegal,-8.903536796569824,-21.932687759399414,
+drug,5,train,alcohol mushrooms cannabis illegal,antibiotics,-13.830622673034668,-24.470762252807617,
+drug,6,train,ibuprofen meth aspirin caffeine,speed,-10.240972518920898,-20.337745666503906,
+drug,7,train,alcohol caffeine speed antibiotics,antidepressants,-6.306440353393555,-23.86590576171875,
+drug,0,heldout,recreational ecstasy viagra nicotine,penicillin,-18.207273483276367,-23.164772033691406,-16.312881469726562
+drug,1,heldout,opium heroin nicotine penicillin,legal,-10.354484558105469,-18.897005081176758,-9.230374336242676
+drug,2,heldout,heroin ecstasy opium spice,viagra,-5.873558521270752,-18.49882698059082,-5.7911057472229
+drug,3,heldout,legal penicillin ecstasy recreational,insulin,-17.134929656982422,-20.19638442993164,-15.852669715881348
+drug,4,heldout,viagra ecstasy opioids heroin,insulin,-12.46249008178711,-20.19638442993164,-11.485054016113281
+building material,0,train,boards clay glass nails,screws,-3.7099251747131348,-22.282564163208008,
+building material,1,train,plywood clay silicone asbestos,paste,-8.840298652648926,-22.287458419799805,
+building material,2,train,timber tin screws stone,paste,-10.856637954711914,-22.287458419799805,
+building material,3,train,sand tin paste bricks,copper,-13.333656311035156,-22.814626693725586,
+building material,4,train,cladding sand stone paste,steel,-9.264646530151367,-20.128421783447266,
+building material,5,train,steel asbestos shovel bricks,timber,-14.798807144165039,-21.703990936279297,
+building material,6,train,stone timber steel plastic,tiles,-9.671491622924805,-21.62215232849121,
+building material,7,train,sand timber stone paste,bricks,-5.664851188659668,-22.520030975341797,
+building material,0,heldout,insulation hammer mortar iron,wood,-5.929389953613281,-20.1489315032959,-6.984012603759766
+building material,1,heldout,bolts gravel foundations metal,aluminium,-14.37014389038086,-23.78916358947754,-14.817747116088867
+building material,2,heldout,wood plaster hammer bamboo,aluminium,-13.50973129272461,-23.78916358947754,-14.713937759399414
+building material,3,heldout,wood screwdriver cement concrete,gravel,-7.30797004699707,-22.944332122802734,-8.261468887329102
+building material,4,heldout,aluminium insulation plaster bamboo,gravel,-12.697040557861328,-22.944332122802734,-13.910090446472168
+living room furniture,0,train,ceiling sideboard telephone curtains,plants,-6.916428089141846,-21.762731552124023,
+living room furniture,1,train,shelves plants bureau lamp,drawers,-9.037942886352539,-24.42597007751465,
+living room furniture,2,train,frame bookshelf plants television,bureau,-10.712316513061523,-22.30066680908203,
+living room furniture,3,train,telephone curtains rug plants,sideboard,-11.042387962341309,-21.721172332763672,
+living room furniture,4,train,lamp speakers bureau plants,curtains,-8.854939460754395,-21.725618362426758,
+living room furniture,5,train,television curtains bookshelf rug,computer,-7.084014415740967,-19.6745662689209,
+living room furniture,6,train,frame wallpaper computer television,lamp,-5.60408353805542,-21.00296401977539,
+living room furniture,7,train,drawers telephone shelves frame,speakers,-7.396591663360596,-22.706443786621094,
+living room furniture,0,heldout,light wardrobe chair sofa,blankets,-12.062535285949707,-24.13461685180664,-13.187729835510254
+living room furniture,1,heldout,sofa cushions vase blankets,cupboard,-11.426170349121094,-23.647550582885742,-11.497265815734863
+living room furniture,2,heldout,chair vase bookcase table,mirror,-4.323214054107666,-20.29514503479004,-5.065643787384033
+living room furniture,3,heldout,armchair bookcase desk pictures,sofa,-5.686850547790527,-22.9278621673584,-5.592584609985352
+living room furniture,4,heldout,cabinet blankets carpet vase,wardrobe,-10.427818298339844,-19.20037269592285,-8.474030494689941
+room in a house,0,train,entrance bathroom garage basement,toilet,-6.671502113342285,-22.949356079101562,
+room in a house,1,train,bathroom diner conservatory garage,library,-9.037940979003906,-21.016521453857422,
+room in a house,2,train,basement kitchen conservatory diner,entrance,-6.50628137588501,-21.960124969482422,
+room in a house,3,train,diner garage kitchen library,den,-5.816038608551025,-18.42633628845215,
+room in a house,4,train,study basement den library,kitchen,-12.470787048339844,-20.510719299316406,
+room in a house,5,train,diner office study kitchen,conservatory,-13.32852554321289,-24.276391983032227,
+room in a house,6,train,kitchen bathroom den entrance,conservatory,-10.775444030761719,-24.276391983032227,
+room in a house,7,train,diner toilet study bathroom,office,-5.804034233093262,-18.11480712890625,
+room in a house,0,heldout,lounge balcony bedroom pantry,boiler,-11.657844543457031,-22.93680763244629,-12.974028587341309
+room in a house,1,heldout,hallway cupboard pantry attic,boiler,-8.19515323638916,-22.93680763244629,-10.264103889465332
+room in a house,2,heldout,cellar pantry balcony lounge,bedroom,-3.5423524379730225,-19.523908615112305,-3.9255146980285645
+room in a house,3,heldout,reception cupboard cellar stairway,lounge,-6.704416751861572,-21.632896423339844,-10.298046112060547
+room in a house,4,heldout,boiler balcony cupboard pantry,cellar,-6.46204948425293,-24.37256622314453,-8.856502532958984
+kitchen appliance,0,train,kettle whisk flan table,spatula,-7.561854362487793,-24.614147186279297,
+kitchen appliance,1,train,dishwasher grill plate tablespoon,fan,-12.410501480102539,-18.625709533691406,
+kitchen appliance,2,train,plate fan blender stove,flan,-19.79897117614746,-20.530698776245117,
+kitchen appliance,3,train,dishwasher teaspoon cutlery exhaust,toaster,-8.168883323669434,-21.940494537353516,
+kitchen appliance,4,train,spoon exhaust teaspoon ladle,grill,-9.892581939697266,-21.358448028564453,
+kitchen appliance,5,train,dishwasher spatula whisk stove,plate,-6.5899200439453125,-20.935033798217773,
+kitchen appliance,6,train,whisk exhaust teaspoon blender,dishwasher,-11.182036399841309,-25.213253021240234,
+kitchen appliance,7,train,teaspoon ladle table plate,blender,-10.08702564239502,-22.348787307739258,
+kitchen appliance,0,heldout,cupboards bowl microwave grinder,induction,-7.95488977432251,-21.735868453979492,-7.676565170288086
+kitchen appliance,1,heldout,induction pot pan grinder,bowl,-6.363000869750977,-23.40315055847168,-10.71029281616211
+kitchen appliance,2,heldout,tongs grinder dryer freezer,oven,-4.065459728240967,-23.591442108154297,-5.654699325561523
+kitchen appliance,3,heldout,grinder bowl knife pot,fridge,-15.301629066467285,-23.60333251953125,-14.563753128051758
+kitchen appliance,4,heldout,grinder knife fridge extractor,microwave,-7.161844253540039,-23.513700485229492,-6.402099609375
+positive personal quality,0,train,friendly confident fortitude unique,attractive,-8.881814956665039,-21.447772979736328,
+positive personal quality,1,train,compassionate leader careful unique,understanding,-5.4308271408081055,-20.942569732666016,
+positive personal quality,2,train,smiling independent organised friendly,cheerful,-5.747759819030762,-21.8492374420166,
+positive personal quality,3,train,loyal compassionate commitment efficient,fortitude,-17.209367752075195,-22.83564567565918,
+positive personal quality,4,train,organised loving creative independent,humility,-18.937883377075195,-23.629636764526367,
+positive personal quality,5,train,independent caring commitment creative,integrity,-6.348123073577881,-23.345823287963867,
+positive personal quality,6,train,generous creative caring smart,commitment,-8.988471984863281,-20.298168182373047,
+positive personal quality,7,train,charming loving humble independent,understanding,-8.392572402954102,-20.942569732666016,
+positive personal quality,0,heldout,forgiveness refreshing hardworking warming,quirky,-12.592166900634766,-20.322221755981445,-12.481143951416016
+positive personal quality,1,heldout,open intelligent initiative reliable,giving,-13.060041427612305,-17.606958389282227,-13.8880033493042
+positive personal quality,2,heldout,positive kind dedication trustworthy,thoughtful,-7.769464492797852,-22.465017318725586,-13.4566650390625
+positive personal quality,3,heldout,literate warming thoughtful gentle,genuine,-9.867416381835938,-20.88480567932129,-9.729246139526367
+positive personal quality,4,heldout,assertive open stubborn patient,empathy,-11.173967361450195,-22.92447853088379,-11.173967361450195
+gemstone,0,train,garnet onyx topaz geodes,amethyst,-4.932990074157715,-23.033702850341797,
+gemstone,1,train,garnet emerald amethyst ruby,opal,-4.434842586517334,-23.87813377380371,
+gemstone,2,train,topaz ruby garnet onyx,opal,-3.1507248878479004,-23.87813377380371,
+gemstone,3,train,emerald onyx opal ruby,amethyst,-4.960515975952148,-23.033702850341797,
+gemstone,4,train,garnet emerald opal onyx,geodes,-11.631173133850098,-22.040510177612305,
+gemstone,5,train,garnet geodes emerald ruby,amethyst,-4.308812141418457,-23.033702850341797,
+gemstone,6,train,onyx opal ruby geodes,topaz,-12.553787231445312,-22.70526885986328,
+gemstone,7,train,garnet geodes onyx ruby,topaz,-4.961958885192871,-22.70526885986328,
+gemstone,0,heldout,quartz amber diamond turquoise,pearl,-4.892199993133545,-24.031850814819336,-9.054927825927734
+gemstone,1,heldout,sapphire obsidian amber pearl,quartz,-3.7915749549865723,-22.643741607666016,-4.365279197692871
+gemstone,2,heldout,turquoise crystal sapphire quartz,pearl,-7.751198768615723,-24.031850814819336,-5.825072765350342
+gemstone,3,heldout,turquoise obsidian pearl diamond,quartz,-6.3633036613464355,-22.643741607666016,-4.367246627807617
+gemstone,4,heldout,quartz amber turquoise obsidian,sapphire,-5.545112133026123,-22.539939880371094,-5.809924125671387
+part of a tree,0,train,wood nests chlorophyll stem,stump,-12.497371673583984,-24.325511932373047,
+part of a tree,1,train,fruit wood chlorophyll nests,trunk,-16.289287567138672,-24.971567153930664,
+part of a tree,2,train,stem wood chlorophyll stump,trunk,-7.31111478805542,-24.971567153930664,
+part of a tree,3,train,fruit nests chlorophyll stump,wood,-5.816723346710205,-20.1489315032959,
+part of a tree,4,train,trunk nests fruit stump,chlorophyll,-22.9592342376709,-23.525026321411133,
+part of a tree,5,train,nests wood fruit stump,trunk,-6.019887924194336,-24.971567153930664,
+part of a tree,6,train,stump stem wood trunk,chlorophyll,-14.718634605407715,-23.525026321411133,
+part of a tree,7,train,stump nests trunk chlorophyll,wood,-6.784208297729492,-20.1489315032959,
+part of a tree,0,heldout,roots twigs seeds branch,sap,-6.080772399902344,-20.409427642822266,-7.303274154663086
+part of a tree,1,heldout,sap bark leaves twigs,flowers,-2.868669033050537,-22.512027740478516,-3.1012439727783203
+part of a tree,2,heldout,roots bark branch leaves,sap,-6.083840370178223,-20.409427642822266,-6.083840370178223
+part of a tree,3,heldout,leaves seeds twigs sap,branch,-7.188873767852783,-20.365713119506836,-5.675884246826172
+part of a tree,4,heldout,leaves branch bark seeds,sap,-5.773505210876465,-20.409427642822266,-5.644832134246826
+non-violent crime,0,train,robbery vandalism fraud rape,theft,-3.094655990600586,-22.25874900817871,
+non-violent crime,1,train,robbery fraud theft rape,arson,-4.055981159210205,-21.665786743164062,
+non-violent crime,2,train,theft vandalism threat rape,arson,-4.113582611083984,-21.665786743164062,
+non-violent crime,3,train,arson stealing robbery fraud,theft,-2.875391721725464,-22.25874900817871,
+non-violent crime,4,train,rape trespassing threat vandalism,arson,-3.9958746433258057,-21.665786743164062,
+non-violent crime,5,train,robbery vandalism stealing rape,theft,-4.752003192901611,-22.25874900817871,
+non-violent crime,6,train,theft trespassing threat rape,vandalism,-5.113372802734375,-22.51984214782715,
+non-violent crime,7,train,trespassing arson theft rape,vandalism,-4.094351768493652,-22.51984214782715,
+non-violent crime,0,heldout,speeding lying peace dispute,corruption,-9.722110748291016,-23.49561882019043,-13.012506484985352
+non-violent crime,1,heldout,burglary piracy corruption talking,espionage,-11.580873489379883,-22.3768253326416,-6.551521301269531
+non-violent crime,2,heldout,lying speeding burglary corruption,talking,-14.450201034545898,-20.582338333129883,-11.5739107131958
+non-violent crime,3,heldout,talking speeding corruption piracy,lying,-6.4779744148254395,-19.802839279174805,-6.344792366027832
+non-violent crime,4,heldout,piracy talking lying corruption,burglary,-11.719575881958008,-22.671287536621094,-13.451593399047852
+carpenter's tool,0,train,chainsaw bucket screw pliers,drill,-7.6339263916015625,-20.549028396606445,
+carpenter's tool,1,train,pencil vice scissors pliers,knife,-4.85509729385376,-22.136926651000977,
+carpenter's tool,2,train,plane screw vice knife,pliers,-5.416297435760498,-21.72823715209961,
+carpenter's tool,3,train,chainsaw scissors drill bucket,knife,-7.246476173400879,-22.136926651000977,
+carpenter's tool,4,train,plane pliers drill knife,scissors,-3.859020471572876,-24.080028533935547,
+carpenter's tool,5,train,plane file cutter nails,chainsaw,-13.081554412841797,-22.360580444335938,
+carpenter's tool,6,train,screw vice pencil cutter,file,-6.490216255187988,-17.808137893676758,
+carpenter's tool,7,train,knife drill pliers bucket,plane,-7.610627174377441,-18.836139678955078,
+carpenter's tool,0,heldout,toolbox shovel nuts wood,chisel,-4.889889717102051,-21.497827529907227,-5.851565837860107
+carpenter's tool,1,heldout,glue nuts saw hands,shovel,-11.613526344299316,-21.336851119995117,-11.613526344299316
+carpenter's tool,2,heldout,wrench pens chisel workbench,bolts,-8.120820999145508,-22.069950103759766,-8.120820999145508
+carpenter's tool,3,heldout,workbench pens nuts axe,glue,-7.955056190490723,-21.90338134765625,-7.381590366363525
+carpenter's tool,4,heldout,screwdriver workbench hands wrench,axe,-11.405040740966797,-22.089523315429688,-9.832308769226074
+hat,0,train,nike bonnet beret fedora,snapback,-6.06858491897583,-20.262102127075195,
+hat,1,train,beret snapback nike bonnet,fedora,-9.281766891479492,-22.117647171020508,
+hat,2,train,beret bonnet fedora snapback,nike,-8.167658805847168,-19.80943489074707,
+hat,3,train,snapback bonnet nike fedora,beret,-10.419865608215332,-24.214092254638672,
+hat,4,train,beret nike snapback fedora,bonnet,-10.362263679504395,-22.731346130371094,
+hat,0,heldout,adidas cap crown beanie,cowboy,-15.093605041503906,-21.874332427978516,-15.794835090637207
+hat,1,heldout,crown cap cowboy beanie,adidas,-9.805670738220215,-17.985673904418945,-9.576641082763672
+hat,2,heldout,adidas cowboy sombrero crown,beanie,-9.93391227722168,-22.493732452392578,-8.085606575012207
+hat,3,heldout,crown beanie sombrero adidas,cap,-6.1226396560668945,-19.709901809692383,-4.504272937774658
+hat,4,heldout,cap cowboy crown sombrero,beanie,-7.57766056060791,-22.493732452392578,-8.430445671081543
+part of the face,0,train,mouth chin pupils beard,eyelashes,-4.679544925689697,-23.920448303222656,
+part of the face,1,train,moustache temples chin pupils,ears,-3.9882843494415283,-23.115751266479492,
+part of the face,2,train,eyelashes moustache chin teeth,pupils,-9.007610321044922,-22.1429500579834,
+part of the face,3,train,ears pupils chin jaw,moustache,-7.476680755615234,-23.693140029907227,
+part of the face,4,train,pupils temples moustache iris,eyes,-2.783587694168091,-22.415542602539062,
+part of the face,5,train,teeth iris pupils eyes,moustache,-11.836792945861816,-23.693140029907227,
+part of the face,6,train,ears beard pupils jaw,chin,-5.232696533203125,-21.65599822998047,
+part of the face,7,train,pupils forehead iris eyelashes,mouth,-4.370400905609131,-20.1099910736084,
+part of the face,0,heldout,lips neck hairline skin,hair,-3.8111023902893066,-20.42462158203125,-3.6055381298065186
+part of the face,1,heldout,eyelids skin nostrils tongue,hairline,-10.42369270324707,-21.43242835998535,-10.005041122436523
+part of the face,2,heldout,spots cheeks nostrils hairline,eyebrows,-2.823399305343628,-23.111473083496094,-4.197028636932373
+part of the face,3,heldout,lips cheek skin eyelids,eyebrows,-2.993593692779541,-23.111473083496094,-3.891645669937134
+part of the face,4,heldout,cheeks spots cheek hairline,lips,-6.457444667816162,-21.60183334350586,-6.457444667816162
+fuel,0,train,energy emissions electricity kerosene,gasoline,-3.5435996055603027,-22.809358596801758,
+fuel,1,train,gas battery electricity kerosene,gasoline,-4.03298282623291,-22.809358596801758,
+fuel,2,train,gas petrol electricity battery,kerosene,-12.359360694885254,-23.641294479370117,
+fuel,3,train,gasoline electricity battery emissions,kerosene,-11.694245338439941,-23.641294479370117,
+fuel,4,train,electricity gasoline wood energy,coal,-3.5804569721221924,-21.854358673095703,
+fuel,5,train,emissions wood gasoline petrol,energy,-5.9636945724487305,-20.70455551147461,
+fuel,6,train,battery petrol kerosene emissions,electricity,-6.585010051727295,-22.243459701538086,
+fuel,7,train,coal gas hydrogen gasoline,emissions,-10.438380241394043,-22.55479621887207,
+fuel,0,heldout,oil fossil wind octane,diesel,-3.615368366241455,-20.7855281829834,-3.614180326461792
+fuel,1,heldout,alcohol airplane food wind,fossil,-16.336559295654297,-22.86374282836914,-16.336559295654297
+fuel,2,heldout,diesel propane palm airplane,food,-7.2805023193359375,-19.885902404785156,-10.070699691772461
+fuel,3,heldout,alcohol octane paraffin food,oil,-1.9275181293487549,-20.3215389251709,-4.526971817016602
+fuel,4,heldout,diesel fossil food alcohol,corn,-7.785737037658691,-21.197402954101562,-7.805070877075195
+legal profession,0,train,judge cleaner producer jury,prosecutor,-8.006518363952637,-21.788692474365234,
+legal profession,1,train,judge policeman writer fireman,jury,-12.325919151306152,-20.831899642944336,
+legal profession,2,train,cleaner writer producer policeman,jury,-11.405145645141602,-20.831899642944336,
+legal profession,3,train,producer policeman jury judge,fireman,-8.856881141662598,-22.72867202758789,
+legal profession,4,train,fireman prosecutor producer cleaner,writer,-4.905952453613281,-20.29336929321289,
+legal profession,5,train,judge prosecutor producer solicitor,fireman,-12.08270263671875,-22.72867202758789,
+legal profession,6,train,judge fireman cleaner producer,jury,-13.94486141204834,-20.831899642944336,
+legal profession,7,train,fireman policeman judge solicitor,attorney,-3.9474399089813232,-20.565587997436523,
+legal profession,0,heldout,doctor lawyer postman magistrate,actor,-6.346772193908691,-19.140153884887695,-6.419816017150879
+legal profession,1,heldout,lawyer magistrate actor legal,consultant,-3.9553611278533936,-23.54922103881836,-9.369765281677246
+legal profession,2,heldout,barrister legal actor lawyer,doctor,-6.93984842300415,-19.601966857910156,-8.136375427246094
+legal profession,3,heldout,legal clerk doctor magistrate,lawyer,-3.007437229156494,-20.313570022583008,-4.714468479156494
+legal profession,4,heldout,receptionist lawyer consultant clerk,doctor,-5.280395030975342,-19.601966857910156,-7.206584453582764
+tool,0,train,nails nuts shovel pliers,mortar,-9.033771514892578,-20.883647918701172,
+tool,1,train,shovel shears chisel digger,nails,-10.411521911621094,-23.577301025390625,
+tool,2,train,drill screwdriver nuts screws,scissors,-13.94324779510498,-24.080028533935547,
+tool,3,train,plane ball screws digger,drill,-4.361135959625244,-20.549028396606445,
+tool,4,train,screwdriver nuts scissors shovel,nails,-6.4452714920043945,-23.577301025390625,
+tool,5,train,screwdriver plane screws digger,drill,-3.882589101791382,-20.549028396606445,
+tool,6,train,nails plane shovel saw,screwdriver,-6.657322883605957,-22.549102783203125,
+tool,7,train,shears sandpaper spoons nails,digger,-18.17630958557129,-23.67047119140625,
+tool,0,heldout,bolts knife axe paper,pen,-4.687139987945557,-18.11948585510254,-7.895529747009277
+tool,1,heldout,paper pen ladder wrench,rake,-9.859447479248047,-22.089977264404297,-7.141909122467041
+tool,2,heldout,books bolts chainsaw hammer,knife,-5.084146499633789,-22.136926651000977,-6.608514785766602
+tool,3,heldout,grinder paper books hammer,knife,-8.8106050491333,-22.136926651000977,-5.576799392700195
+tool,4,heldout,hammer rasp ladder books,spatula,-14.54486083984375,-24.614147186279297,-15.660736083984375
+body of water,0,train,saltwater reservoir tsunami banks,tarn,-23.047096252441406,-21.36688232421875,
+body of water,1,train,tank puddle tarn canal,pond,-4.2796196937561035,-20.176528930664062,
+body of water,2,train,reservoir iceberg puddle canal,tarn,-18.150741577148438,-21.36688232421875,
+body of water,3,train,bath trickle banks bog,pond,-6.046231269836426,-20.176528930664062,
+body of water,4,train,bath tarn iceberg reservoir,tank,-6.830170631408691,-19.192546844482422,
+body of water,5,train,puddle iceberg bog marsh,pond,-3.3540987968444824,-20.176528930664062,
+body of water,6,train,bog spring reservoir canal,iceberg,-21.035329818725586,-24.094623565673828,
+body of water,7,train,tank tarn puddle bog,pond,-4.294283390045166,-20.176528930664062,
+body of water,0,heldout,europa lune ocean river,basin,-7.043246269226074,-21.623207092285156,-6.226437568664551
+body of water,1,heldout,swamp river water stream,mere,-15.383489608764648,-22.383556365966797,-15.068181037902832
+body of water,2,heldout,stream europa river pool,ocean,-14.208513259887695,-21.388389587402344,-7.121088027954102
+body of water,3,heldout,dams ice waterfall lagoon,stream,-7.485279560089111,-19.535829544067383,-7.712256908416748
+body of water,4,heldout,ice lagoon dams pool,water,-2.632657766342163,-17.44251251220703,-7.5910491943359375
+part of a boat,0,train,starboard back front anchor,cannons,-16.694469451904297,-22.488483428955078,
+part of a boat,1,train,front oar galley tail,anchor,-8.965991973876953,-21.30161476135254,
+part of a boat,2,train,cabins steering port paddle,front,-9.734540939331055,-19.482967376708984,
+part of a boat,3,train,flag starboard chimneys rudder,tail,-7.41799783706665,-21.836599349975586,
+part of a boat,4,train,flag cannons port chimneys,galley,-8.891498565673828,-22.40566635131836,
+part of a boat,5,train,oar starboard bow front,rudder,-7.2317633628845215,-22.105897903442383,
+part of a boat,6,train,paddle starboard bow cabins,decking,-19.547149658203125,-21.714189529418945,
+part of a boat,7,train,rudder port decking anchor,cabins,-12.70405387878418,-23.982038497924805,
+part of a boat,0,heldout,cabin captain deck stern,keel,-8.722373008728027,-24.60347557067871,-12.155084609985352
+part of a boat,1,heldout,jib furnace keel sailor,aft,-9.186260223388672,-22.363204956054688,-8.447989463806152
+part of a boat,2,heldout,hull furnace wheel cabin,jib,-15.782532691955566,-21.759994506835938,-13.7140531539917
+part of a boat,3,heldout,aft captain yacht hull,windows,-7.13863468170166,-20.91732406616211,-9.561578750610352
+part of a boat,4,heldout,keel engine sail hull,horn,-18.250892639160156,-22.65378761291504,-15.353933334350586
+symptom of illness,0,train,cold rash temperature lethargy,spots,-11.749065399169922,-19.99504852294922,
+symptom of illness,1,train,coughing nausea cold sneezing,cramps,-8.965250015258789,-20.977022171020508,
+symptom of illness,2,train,sweating coughing sick temperature,nausea,-5.056950092315674,-23.574153900146484,
+symptom of illness,3,train,temperature nausea cold fever,lethargy,-7.633846759796143,-23.276508331298828,
+symptom of illness,4,train,cold fever sick temperature,sneezing,-11.787508964538574,-21.57366180419922,
+symptom of illness,5,train,temperature lethargy fever spots,sick,-10.75381851196289,-22.282495498657227,
+symptom of illness,6,train,drowsiness cold sweating inflammation,sneezing,-7.689939498901367,-21.57366180419922,
+symptom of illness,7,train,inflammation sick coughing sweating,cramps,-6.977499961853027,-20.977022171020508,
+symptom of illness,0,heldout,swelling fatigue aching shivering,redness,-8.302390098571777,-23.329933166503906,-4.979526519775391
+symptom of illness,1,heldout,aching blood redness shaking,vomiting,-8.462556838989258,-22.528100967407227,-6.569380283355713
+symptom of illness,2,heldout,fainting headache bleeding vomiting,shivering,-8.171589851379395,-23.098894119262695,-7.068397521972656
+symptom of illness,3,heldout,bleeding tiredness fatigue shivering,fainting,-6.768463134765625,-23.14484977722168,-5.2321672439575195
+symptom of illness,4,heldout,aching shivering blood fainting,vomiting,-6.986025810241699,-22.528100967407227,-5.177374362945557
+camping equipment,0,train,compass maps wood net,rope,-8.283876419067383,-21.598024368286133,
+camping equipment,1,train,wood rucksack compass pillow,lighter,-9.090266227722168,-22.82295036315918,
+camping equipment,2,train,maps pegs barbecue rucksack,wood,-6.909648418426514,-20.1489315032959,
+camping equipment,3,train,maps rucksack pots pillow,wood,-10.69405460357666,-20.1489315032959,
+camping equipment,4,train,caravan barbecue pots net,compass,-18.180654525756836,-22.318819046020508,
+camping equipment,5,train,barbecue maps rucksack rope,pegs,-8.20551586151123,-21.95648193359375,
+camping equipment,6,train,rope barbecue net caravan,compass,-16.081998825073242,-22.318819046020508,
+camping equipment,7,train,rope rucksack pegs wood,caravan,-10.094694137573242,-24.520265579223633,
+camping equipment,0,heldout,matches book flask tent,torch,-10.884859085083008,-23.213443756103516,-7.83260440826416
+camping equipment,1,heldout,food fire flask hammer,blanket,-13.209356307983398,-22.116390228271484,-10.85001277923584
+camping equipment,2,heldout,fuel matches blanket book,sheet,-11.676488876342773,-20.949668884277344,-8.723503112792969
+camping equipment,3,heldout,fuel blanket pans pads,cutlery,-19.7247257232666,-23.042783737182617,-12.504073143005371
+camping equipment,4,heldout,matches hammer torch fuel,sheet,-9.570026397705078,-20.949668884277344,-12.4627103805542
+green vegetable,0,train,celery cabbage lettuce basil,broccoli,-5.9071245193481445,-23.04912757873535,
+green vegetable,1,train,celery lettuce peas broccoli,beans,-3.4066429138183594,-23.172344207763672,
+green vegetable,2,train,cabbage peas celery broccoli,lettuce,-3.9991095066070557,-22.727970123291016,
+green vegetable,3,train,beans lettuce cucumber celery,rocket,-11.949189186096191,-20.958419799804688,
+green vegetable,4,train,rocket lettuce peas cabbage,beans,-3.949976682662964,-23.172344207763672,
+green vegetable,5,train,celery peas beans cabbage,broccoli,-2.9680936336517334,-23.04912757873535,
+green vegetable,6,train,broccoli cabbage basil cucumber,lettuce,-3.1721365451812744,-22.727970123291016,
+green vegetable,7,train,beans rocket broccoli cucumber,cabbage,-4.437342643737793,-22.33561134338379,
+green vegetable,0,heldout,chilli parsley kale spinach,avocado,-5.2054123878479,-23.69480323791504,-5.078674793243408
+green vegetable,1,heldout,sprouts spinach parsley avocado,leek,-10.245291709899902,-22.33694076538086,-11.664798736572266
+green vegetable,2,heldout,avocado chilli sprouts leek,spinach,-5.099333763122559,-23.466350555419922,-5.812179088592529
+green vegetable,3,heldout,leek sprouts asparagus spinach,parsley,-5.178501129150391,-23.932374954223633,-5.407605171203613
+green vegetable,4,heldout,spinach avocado sprouts chilli,leek,-12.707632064819336,-22.33694076538086,-12.707632064819336
+team sport,0,train,lacrosse basketball skiing hockey,polo,-6.560432434082031,-19.545162200927734,
+team sport,1,train,basketball lacrosse polo football,hockey,-3.0523667335510254,-23.058460235595703,
+team sport,2,train,hockey polo cricket snowboarding,football,-3.3831095695495605,-20.679718017578125,
+team sport,3,train,football skiing cricket sailing,lacrosse,-6.196176052093506,-22.281225204467773,
+team sport,4,train,football sailing hockey cricket,lacrosse,-4.180315017700195,-22.281225204467773,
+team sport,5,train,sailing snowboarding polo cricket,lacrosse,-4.608870506286621,-22.281225204467773,
+team sport,6,train,cricket basketball hockey snowboarding,football,-2.7869956493377686,-20.679718017578125,
+team sport,7,train,skiing polo football hockey,snowboarding,-4.491498947143555,-24.088497161865234,
+team sport,0,heldout,rugby baseball badminton soccer,volleyball,-3.0480031967163086,-23.950471878051758,-2.7021236419677734
+team sport,1,heldout,relay volleyball baseball rowing,handball,-5.15847110748291,-22.515274047851562,-5.62047004699707
+team sport,2,heldout,volleyball rugby baseball relay,soccer,-4.048349857330322,-22.771915435791016,-4.4056549072265625
+team sport,3,heldout,relay handball soccer badminton,tennis,-2.538916826248169,-21.686744689941406,-4.085382461547852
+team sport,4,heldout,relay soccer rugby volleyball,handball,-4.088709831237793,-22.515274047851562,-5.011988639831543
+jewellery,0,train,piercing jade watch ring,bracelet,-7.161458969116211,-22.454788208007812,
+jewellery,1,train,watch bangle locket ring,jade,-10.43808364868164,-21.668832778930664,
+jewellery,2,train,watch crown bangle piercing,jade,-12.500519752502441,-21.668832778930664,
+jewellery,3,train,ring jade earrings crown,piercing,-7.536968231201172,-21.433958053588867,
+jewellery,4,train,bracelet bangle ring piercing,earrings,-2.52846097946167,-22.350849151611328,
+jewellery,5,train,earrings crown ring bangle,piercing,-7.2553205490112305,-21.433958053588867,
+jewellery,6,train,locket bracelet earrings jade,piercing,-9.3053617477417,-21.433958053588867,
+jewellery,7,train,piercing crown bangle jade,earrings,-4.428374290466309,-22.350849151611328,
+jewellery,0,heldout,choker ruby gold tiara,brooch,-5.262401103973389,-22.913164138793945,-4.131821632385254
+jewellery,1,heldout,diamond silver tiara sapphire,choker,-6.402248859405518,-22.91615867614746,-6.59932279586792
+jewellery,2,heldout,necklace diamond tiara ruby,sapphire,-3.5973806381225586,-22.539939880371094,-5.904969215393066
+jewellery,3,heldout,sapphire diamond choker brooch,silver,-6.778538703918457,-21.358320236206055,-6.72244119644165
+jewellery,4,heldout,gold choker sapphire brooch,necklace,-3.8794050216674805,-23.407075881958008,-2.027419090270996
+political system,0,train,labour fascism president anarchy,right,-7.264392852783203,-18.53470230102539,
+political system,1,train,fascism elections labour monarchy,liberal,-5.4317216873168945,-19.875049591064453,
+political system,2,train,labour empire monarchy president,communism,-7.986261367797852,-26.128263473510742,
+political system,3,train,fascism president liberal communism,left,-4.540290832519531,-20.26413917541504,
+political system,4,train,empire communism president elections,labour,-10.067304611206055,-24.573530197143555,
+political system,5,train,right anarchy labour communism,empire,-10.065337181091309,-21.34815788269043,
+political system,6,train,president anarchy labour empire,communism,-7.434785842895508,-26.128263473510742,
+political system,7,train,elections empire anarchy monarchy,fascism,-5.249621868133545,-24.308578491210938,
+political system,0,heldout,socialism democrat conservative green,debating,-17.642574310302734,-22.704330444335938,-17.12214469909668
+political system,1,heldout,conservative government meetings democrat,dictatorship,-10.891901016235352,-22.445632934570312,-12.25988483428955
+political system,2,heldout,vassal democrat conservative dictatorship,debating,-18.993215560913086,-22.704330444335938,-20.68083381652832
+political system,3,heldout,debating conservative democrat government,hierarchy,-16.942014694213867,-21.87435531616211,-16.942014694213867
+political system,4,heldout,hierarchy meetings republican dictatorship,green,-13.389442443847656,-19.83550262451172,-13.786860466003418
+alcoholic drink,0,train,tiger whiskey vodka martini,port,-13.55813980102539,-19.859481811523438,
+alcoholic drink,1,train,gin spirits mixers cider,shots,-6.247006893157959,-21.757863998413086,
+alcoholic drink,2,train,brandy port sherry mixers,tequila,-10.395635604858398,-23.03586769104004,
+alcoholic drink,3,train,shots mixers gin cider,whiskey,-3.6211905479431152,-22.867202758789062,
+alcoholic drink,4,train,cider port mixers tiger,whiskey,-7.197741985321045,-22.867202758789062,
+alcoholic drink,5,train,tiger martini gin spirits,cider,-13.062677383422852,-22.019474029541016,
+alcoholic drink,6,train,tiger mixers tequila martini,sherry,-12.800334930419922,-23.021039962768555,
+alcoholic drink,7,train,tequila port vodka shots,cider,-13.518404006958008,-22.019474029541016,
+alcoholic drink,0,heldout,cocktail lager rum archers,liqueur,-10.618192672729492,-23.99104118347168,-11.071455955505371
+alcoholic drink,1,heldout,cocktail wine rum lager,estrella,-18.95488166809082,-20.380271911621094,-18.43175506591797
+alcoholic drink,2,heldout,lager liqueur estrella cocktail,bitter,-8.45072078704834,-21.5074462890625,-10.292865753173828
+alcoholic drink,3,heldout,beer ale bitter cocktail,rum,-6.418107509613037,-20.94074058532715,-11.078487396240234
+alcoholic drink,4,heldout,estrella rum cocktail mead,tonic,-11.604182243347168,-21.964282989501953,-11.604182243347168
+weapon,0,train,catapult bottle glass bayonet,pike,-14.4359130859375,-23.40508270263672,
+weapon,1,train,metal catapult dagger pike,brick,-15.787511825561523,-19.7412052154541,
+weapon,2,train,machete catapult bayonet sword,sniper,-8.084108352661133,-21.383323669433594,
+weapon,3,train,glass catapult words dagger,tank,-9.947134017944336,-19.192546844482422,
+weapon,4,train,axe pike catapult tank,machete,-13.671818733215332,-24.730403900146484,
+weapon,5,train,axe gun sniper bayonet,catapult,-12.675027847290039,-22.44812774658203,
+weapon,6,train,dagger glass machete gun,axe,-8.09221363067627,-22.089523315429688,
+weapon,7,train,sword glass brick axe,pike,-14.218804359436035,-23.40508270263672,
+weapon,0,heldout,baton katana knife crossbow,bat,-7.82791805267334,-18.85213279724121,-4.877435684204102
+weapon,1,heldout,bat knife rock mace,spear,-4.799821853637695,-22.402647018432617,-3.74847412109375
+weapon,2,heldout,rifle rope feet crossbow,spear,-8.408205032348633,-22.402647018432617,-9.31595230102539
+weapon,3,heldout,fists bat rock bomb,katana,-13.248494148254395,-21.98932456970215,-18.77533721923828
+weapon,4,heldout,bomb mace baton fists,shotgun,-7.015388488769531,-20.072669982910156,-5.688615322113037
+insect,0,train,cricket fly ant snail,grasshopper,-6.328289985656738,-22.486948013305664,
+insect,1,train,worm caterpillar grasshopper dragonfly,termite,-7.409603118896484,-23.632362365722656,
+insect,2,train,snail dragonfly termite fly,grasshopper,-4.021636009216309,-22.486948013305664,
+insect,3,train,snail moth grasshopper cricket,ant,-3.82252836227417,-17.846590042114258,
+insect,4,train,dragonfly moth grasshopper ant,worm,-6.342804908752441,-23.538042068481445,
+insect,5,train,cricket termite ant moth,snail,-7.565176963806152,-22.732715606689453,
+insect,6,train,moth fly worm ant,grasshopper,-4.596242904663086,-22.486948013305664,
+insect,7,train,cricket worm moth ant,snail,-7.300383567810059,-22.732715606689453,
+insect,0,heldout,flea butterfly bugs wasp,spider,-3.6041834354400635,-21.49545669555664,-5.459835052490234
+insect,1,heldout,bee butterfly wasp spider,beetle,-3.5949296951293945,-23.618005752563477,-3.470329523086548
+insect,2,heldout,snake bugs bee mosquito,flea,-7.072786808013916,-25.008960723876953,-6.05196475982666
+insect,3,heldout,butterfly wasp flea beetle,cockroach,-8.457107543945312,-25.024417877197266,-7.701148986816406
+insect,4,heldout,flea cockroach snake bugs,wasp,-5.985016822814941,-22.648340225219727,-4.461416721343994
+colour,0,train,bronze navy teal cream,scarlet,-12.535013198852539,-24.338748931884766,
+colour,1,train,teal purple violet scarlet,cream,-7.2931928634643555,-20.102039337158203,
+colour,2,train,cream bronze magenta burgundy,purple,-3.2161142826080322,-22.851675033569336,
+colour,3,train,sapphire orange magenta teal,copper,-6.937586307525635,-22.814626693725586,
+colour,4,train,copper purple cream yellow,teal,-8.709059715270996,-23.411325454711914,
+colour,5,train,bronze magenta burgundy navy,purple,-3.0426418781280518,-22.851675033569336,
+colour,6,train,yellow scarlet orange magenta,cream,-7.616888999938965,-20.102039337158203,
+colour,7,train,burgundy cream white yellow,navy,-5.52484655380249,-23.774709701538086,
+colour,0,heldout,emerald cyan maroon brown,indigo,-5.423046112060547,-23.56775665283203,-5.277259826660156
+colour,1,heldout,fuchsia pink cyan beige,indigo,-6.542087554931641,-23.56775665283203,-6.542087554931641
+colour,2,heldout,amber emerald red grey,platinum,-7.197396278381348,-22.28719139099121,-7.908412456512451
+colour,3,heldout,blue beige indigo peach,silver,-6.176196575164795,-21.358320236206055,-6.664817810058594
+colour,4,heldout,indigo turquoise fuchsia beige,lilac,-5.466818809509277,-22.751815795898438,-5.391017913818359
+spice,0,train,turmeric fennel oregano basil,parsley,-2.84663987159729,-23.932374954223633,
+spice,1,train,thyme parsley cloves peppers,oregano,-4.034557342529297,-24.37224006652832,
+spice,2,train,turmeric fennel cloves peppers,paprika,-5.483368873596191,-21.528005599975586,
+spice,3,train,paprika oregano parsley turmeric,fennel,-5.5562849044799805,-23.63593101501465,
+spice,4,train,parsley ginger fennel thyme,cloves,-5.890281677246094,-24.111248016357422,
+spice,5,train,oregano turmeric cloves ginger,basil,-5.182188987731934,-22.072528839111328,
+spice,6,train,turmeric fennel peppers paprika,ginger,-3.6096465587615967,-20.786266326904297,
+spice,7,train,basil fennel cloves peppers,thyme,-4.759335994720459,-22.58951187133789,
+spice,0,heldout,salt spicy nutmeg chilli,cinnamon,-6.588772773742676,-23.128910064697266,-6.588772773742676
+spice,1,heldout,rosemary nutmeg mint spicy,cumin,-7.250473976135254,-23.39159393310547,-7.737189292907715
+spice,2,heldout,chilli nutmeg spicy rosemary,cinnamon,-3.4916679859161377,-23.128910064697266,-4.886287689208984
+spice,3,heldout,spicy rosemary coriander salt,mint,-11.97224235534668,-21.1552677154541,-6.340944290161133
+spice,4,heldout,mint chilli cardamom spicy,pepper,-6.276153564453125,-20.629150390625,-6.250191688537598
+two-dimensional shape,0,train,hexagon kite parallelogram star,diamond,-4.392297744750977,-22.253376007080078,
+two-dimensional shape,1,train,star kite diamond parallelogram,hexagon,-6.9325971603393555,-22.770885467529297,
+two-dimensional shape,2,train,star parallelogram diamond hexagon,kite,-6.144189357757568,-22.55994987487793,
+two-dimensional shape,3,train,star hexagon kite diamond,parallelogram,-6.928342819213867,-24.444576263427734,
+two-dimensional shape,4,train,kite diamond hexagon parallelogram,star,-4.632895469665527,-18.265504837036133,
+two-dimensional shape,0,heldout,square crescent circle triangle,rectangle,-3.0075647830963135,-21.927141189575195,-3.2610387802124023
+two-dimensional shape,1,heldout,triangle polygon rectangle circle,square,-2.141648769378662,-20.09758949279785,-1.5777894258499146
+two-dimensional shape,2,heldout,triangle square rectangle crescent,polygon,-6.3031535148620605,-21.873586654663086,-6.319060802459717
+two-dimensional shape,3,heldout,crescent square polygon rectangle,triangle,-1.959736704826355,-21.915287017822266,-2.142864942550659
+two-dimensional shape,4,heldout,crescent rectangle circle polygon,triangle,-2.663533926010132,-21.915287017822266,-2.831094980239868
+metal,0,train,steel wire bronze platinum,potassium,-8.7083158493042,-21.8209228515625,
+metal,1,train,titanium steel bronze copper,platinum,-8.868424415588379,-22.28719139099121,
+metal,2,train,copper nickel aluminium wire,potassium,-22.97454261779785,-21.8209228515625,
+metal,3,train,nickel aluminium wire titanium,steel,-3.761563777923584,-20.128421783447266,
+metal,4,train,bronze platinum copper wire,potassium,-23.251861572265625,-21.8209228515625,
+metal,5,train,platinum wire tin nickel,copper,-4.3032331466674805,-22.814626693725586,
+metal,6,train,nickel titanium aluminium bronze,potassium,-18.4621524810791,-21.8209228515625,
+metal,7,train,aluminium copper steel tin,titanium,-4.2839765548706055,-23.000293731689453,
+metal,0,heldout,cadmium sodium chrome cobalt,gold,-4.580475807189941,-20.98912239074707,-6.733795166015625
+metal,1,heldout,mercury zinc cadmium silver,gold,-2.765932083129883,-20.98912239074707,-3.6494922637939453
+metal,2,heldout,silver mercury chrome zinc,brass,-4.2987446784973145,-22.33143424987793,-4.972354412078857
+metal,3,heldout,silver brass zinc gold,sodium,-9.088661193847656,-22.188615798950195,-11.497246742248535
+metal,4,heldout,sodium mercury gold silver,zinc,-4.171830177307129,-20.76955795288086,-3.8617398738861084
+fabric,0,train,leather velvet fur nylon,satin,-5.484850883483887,-22.752338409423828,
+fabric,1,train,net hemp silk velvet,leather,-7.670180797576904,-22.86114501953125,
+fabric,2,train,corduroy lycra linen velvet,wool,-3.5152587890625,-24.847116470336914,
+fabric,3,train,linen leather satin wool,corduroy,-5.852377891540527,-22.61802101135254,
+fabric,4,train,satin fur leather lycra,silk,-6.113062858581543,-22.570175170898438,
+fabric,5,train,cotton corduroy leather nylon,silk,-5.247319221496582,-22.570175170898438,
+fabric,6,train,nylon leather hemp cotton,lycra,-6.820627212524414,-22.715274810791016,
+fabric,7,train,net wool velvet leather,nylon,-7.4743547439575195,-22.00811004638672,
+fabric,0,heldout,elastic felt polyester denim,sequins,-10.78260612487793,-24.61903953552246,-11.095606803894043
+fabric,1,heldout,polyester thread chiffon plastic,latex,-8.437071800231934,-23.478443145751953,-8.594627380371094
+fabric,2,heldout,felt latex sequins tweed,plastic,-11.264873504638672,-20.7031307220459,-7.208487033843994
+fabric,3,heldout,denim chiffon tulle elastic,latex,-9.736894607543945,-23.478443145751953,-10.738749504089355
+fabric,4,heldout,polyester cashmere tweed plastic,felt,-6.353456497192383,-19.152433395385742,-6.353456497192383
+unit of time,0,train,seconds century era epoch,minutes,-9.911991119384766,-21.88166618347168,
+unit of time,1,train,decades months epoch minutes,century,-5.049474239349365,-23.256811141967773,
+unit of time,2,train,months decades seconds minutes,era,-8.989395141601562,-18.931425094604492,
+unit of time,3,train,seconds weeks minutes epoch,decades,-7.01499080657959,-21.723125457763672,
+unit of time,4,train,century weeks era minutes,seconds,-2.913813352584839,-23.093137741088867,
+unit of time,5,train,era epoch seconds decades,weeks,-6.190103054046631,-20.726943969726562,
+unit of time,6,train,century weeks epoch era,minutes,-8.40075397491455,-21.88166618347168,
+unit of time,7,train,epoch weeks decades months,seconds,-4.863056659698486,-23.093137741088867,
+unit of time,0,heldout,moment days years fortnight,score,-12.204334259033203,-21.291759490966797,-9.140056610107422
+unit of time,1,heldout,score millennia fortnight years,hours,-6.927770137786865,-21.90110206604004,-8.190958976745605
+unit of time,2,heldout,fortnight hours milliseconds days,millennia,-10.400590896606445,-23.074953079223633,-11.678208351135254
+unit of time,3,heldout,moment days millennia score,fortnight,-15.690834999084473,-21.655075073242188,-15.261018753051758
+unit of time,4,heldout,years hours score millennia,days,-5.093320846557617,-20.132877349853516,-6.182703018188477
+infectious disease,0,train,cholera fever hiv polio,plague,-6.214179039001465,-24.002330780029297,
+infectious disease,1,train,fever sepsis cholera shingles,aids,-7.558215618133545,-22.17621612548828,
+infectious disease,2,train,polio aids hiv fever,sepsis,-10.996597290039062,-23.306859970092773,
+infectious disease,3,train,shingles polio cholera sepsis,fever,-5.541488170623779,-22.501487731933594,
+infectious disease,4,train,cholera sepsis hiv plague,fever,-6.389261245727539,-22.501487731933594,
+infectious disease,5,train,polio aids cholera fever,shingles,-10.56131362915039,-23.41936492919922,
+infectious disease,6,train,polio cholera aids hiv,sepsis,-11.67448616027832,-23.306859970092773,
+infectious disease,7,train,aids shingles fever plague,polio,-7.370950698852539,-24.3143253326416,
+infectious disease,0,heldout,measles cold tb flu,smallpox,-7.719629764556885,-22.317134857177734,-4.33289909362793
+infectious disease,1,heldout,tb herpes smallpox typhoid,cold,-7.277641296386719,-21.712265014648438,-7.001265048980713
+infectious disease,2,heldout,cold typhoid flu malaria,herpes,-7.688910961151123,-22.06099510192871,-7.688910961151123
+infectious disease,3,heldout,smallpox measles malaria herpes,cold,-4.014647483825684,-21.712265014648438,-7.627981185913086
+infectious disease,4,heldout,herpes tb typhoid malaria,coughs,-13.294905662536621,-21.764501571655273,-12.812710762023926
+unit of weight,0,train,ton kilogram centimetres gram,stone,-8.75820255279541,-19.089357376098633,
+unit of weight,1,train,ton kilogram big pound,stone,-6.506958961486816,-19.089357376098633,
+unit of weight,2,train,pound ton gram kilogram,stone,-6.397230625152588,-19.089357376098633,
+unit of weight,3,train,big ton centimetres pound,stone,-6.841880798339844,-19.089357376098633,
+unit of weight,4,train,stone ton centimetres big,pound,-11.58168888092041,-23.179168701171875,
+unit of weight,5,train,centimetres kilogram pound ton,stone,-6.858669281005859,-19.089357376098633,
+unit of weight,6,train,stone big gram pound,ton,-10.574112892150879,-19.37696647644043,
+unit of weight,7,train,ton pound gram stone,kilogram,-3.4010672569274902,-20.457748413085938,
+unit of weight,0,heldout,heavy volume cups litre,teaspoon,-11.138642311096191,-23.094514846801758,-10.061923027038574
+unit of weight,1,heldout,cups pints litre volume,heavy,-13.988031387329102,-21.708843231201172,-11.527406692504883
+unit of weight,2,heldout,cups litre pints tablespoon,volume,-7.565242767333984,-20.47774887084961,-7.0076775550842285
+unit of weight,3,heldout,volume pints heavy teaspoon,tablespoon,-3.1562294960021973,-23.579486846923828,-7.501716136932373
+unit of weight,4,heldout,volume ounce pints cups,litre,-7.046151161193848,-23.695661544799805,-5.741979598999023
+bathroom fixture,0,train,light mirror bidet bath,cabinet,-4.821072578430176,-23.252643585205078,
+bathroom fixture,1,train,shower cupboard mirror light,tap,-8.501456260681152,-22.67154884338379,
+bathroom fixture,2,train,cupboard bath lamp shower,light,-1.731930136680603,-18.423450469970703,
+bathroom fixture,3,train,mirror light lamp cupboard,cabinet,-3.4116897583007812,-23.252643585205078,
+bathroom fixture,4,train,mirror cabinet lamp light,cupboard,-8.3572359085083,-23.647550582885742,
+bathroom fixture,5,train,lamp cupboard tap mirror,shower,-4.973309516906738,-21.5402774810791,
+bathroom fixture,6,train,cabinet cupboard tap lamp,shower,-8.392134666442871,-21.5402774810791,
+bathroom fixture,7,train,light shower cupboard cabinet,lamp,-8.464597702026367,-21.00296401977539,
+bathroom fixture,0,heldout,hooks radiator shelves blind,door,-7.558553695678711,-18.9075984954834,-5.199415683746338
+bathroom fixture,1,heldout,shelves sink toilet blind,radiator,-9.495135307312012,-21.904788970947266,-10.604720115661621
+bathroom fixture,2,heldout,hooks radiator blind window,door,-5.638880729675293,-18.9075984954834,-7.8657073974609375
+bathroom fixture,3,heldout,shelves door curtains radiator,toilet,-6.907186508178711,-22.949356079101562,-8.34160041809082
+bathroom fixture,4,heldout,curtains shelves toilet sink,door,-5.257017135620117,-18.9075984954834,-5.257017135620117
+book genre,0,train,novel classical travel action,factual,-19.82757568359375,-21.716793060302734,
+book genre,1,train,contemporary classical drama gothic,factual,-18.46700096130371,-21.716793060302734,
+book genre,2,train,contemporary reference fiction utopian,history,-6.242258071899414,-19.64459800720215,
+book genre,3,train,novel history fiction reality,reference,-10.924381256103516,-20.472301483154297,
+book genre,4,train,biography reality classical tragic,utopian,-14.132721900939941,-22.743762969970703,
+book genre,5,train,travel illustrated history contemporary,utopian,-14.785895347595215,-22.743762969970703,
+book genre,6,train,reality travel contemporary illustrated,novel,-4.277557373046875,-18.45572280883789,
+book genre,7,train,epic travel tragic novel,reference,-18.755029678344727,-20.472301483154297,
+book genre,0,heldout,humour mystery science politics,historical,-10.392539024353027,-21.78112030029297,-6.72889518737793
+book genre,1,heldout,romance comic mystery political,fantasy,-5.078714370727539,-21.973003387451172,-5.556493282318115
+book genre,2,heldout,humour science period funny,horror,-9.3873929977417,-21.093158721923828,-11.998530387878418
+book genre,3,heldout,politics engineering political fantasy,feminist,-15.039685249328613,-24.26352882385254,-13.359749794006348
+book genre,4,heldout,science feminist period thriller,horror,-7.1970109939575195,-21.093158721923828,-7.1970109939575195
+kitchen utensil,0,train,pots bowl spoon scissors,wok,-14.243264198303223,-21.95191192626953,
+kitchen utensil,1,train,tongs sieve pan pots,whisk,-9.354440689086914,-23.235626220703125,
+kitchen utensil,2,train,scissors dishes pan tongs,skewers,-8.80475902557373,-22.801694869995117,
+kitchen utensil,3,train,pots scissors pan sieve,spoon,-3.282548427581787,-22.76629066467285,
+kitchen utensil,4,train,scissors pots wok bowl,tongs,-5.591926574707031,-24.844058990478516,
+kitchen utensil,5,train,wok pan dishes tongs,spoon,-4.490762710571289,-22.76629066467285,
+kitchen utensil,6,train,pots sieve wok dishes,whisk,-8.104247093200684,-23.235626220703125,
+kitchen utensil,7,train,wok bowl spoon pots,skewers,-13.620823860168457,-22.801694869995117,
+kitchen utensil,0,heldout,teaspoon tablespoon spatula saucepan,tupperware,-12.538328170776367,-21.998943328857422,-12.398351669311523
+kitchen utensil,1,heldout,tablespoon fork blender plates,spatula,-8.300049781799316,-24.614147186279297,-6.433720588684082
+kitchen utensil,2,heldout,saucepan teaspoon toaster spatula,kettle,-9.182062149047852,-24.278902053833008,-7.5191969871521
+kitchen utensil,3,heldout,kettle tablespoon blender tupperware,teaspoon,-7.989480018615723,-23.094514846801758,-4.97478723526001
+kitchen utensil,4,heldout,ladle fork blender tablespoon,plates,-11.035208702087402,-22.680011749267578,-8.696464538574219
+nut,0,train,peanut roasted walnut salted,almonds,-2.5986671447753906,-24.463930130004883,
+nut,1,train,walnut roasted almonds peanut,salted,-6.964881420135498,-22.65821075439453,
+nut,2,train,walnut almonds peanut salted,roasted,-4.948216438293457,-22.69795799255371,
+nut,3,train,walnut roasted almonds salted,peanut,-5.272865295410156,-22.11723518371582,
+nut,4,train,salted peanut almonds roasted,walnut,-9.691938400268555,-23.993133544921875,
+nut,0,heldout,hazelnut acorn chestnut raisin,coconut,-5.557880401611328,-24.693904876708984,-5.356107711791992
+nut,1,heldout,acorn hazelnut chestnut coconut,raisin,-6.938241004943848,-26.09334373474121,-6.771590709686279
+nut,2,heldout,hazelnut acorn coconut raisin,chestnut,-5.035764694213867,-24.542131423950195,-4.994239807128906
+nut,3,heldout,acorn coconut pistachio hazelnut,raisin,-6.8603949546813965,-26.09334373474121,-6.861886978149414
+nut,4,heldout,raisin coconut chestnut acorn,pistachio,-6.685303688049316,-23.216447830200195,-5.930192947387695
+artistic movement,0,train,ballet painting dance crafts,gothic,-16.978824615478516,-22.32386589050293,
+artistic movement,1,train,choreography ballet theatre happenings,painting,-7.493119239807129,-20.727664947509766,
+artistic movement,2,train,meditation happenings gothic classical,gymnastics,-15.631587982177734,-24.79134178161621,
+artistic movement,3,train,yoga meditation gymnastics dance,happenings,-20.960359573364258,-21.513919830322266,
+artistic movement,4,train,crafts theatre gymnastics gothic,happenings,-14.437705993652344,-21.513919830322266,
+artistic movement,5,train,dance gymnastics meditation gothic,crafts,-9.186911582946777,-21.775314331054688,
+artistic movement,6,train,gothic dance happenings yoga,theatre,-11.584306716918945,-22.32777214050293,
+artistic movement,7,train,meditation painting ballet choreography,gothic,-14.365458488464355,-22.32386589050293,
+artistic movement,0,heldout,dada installations music renaissance,calligraphy,-14.537591934204102,-25.227128982543945,-13.997200012207031
+artistic movement,1,heldout,music jump renaissance realism,baroque,-5.636220455169678,-23.70411491394043,-9.676102638244629
+artistic movement,2,heldout,abstract installations renaissance jump,realism,-13.03531551361084,-23.51392936706543,-10.181313514709473
+artistic movement,3,heldout,baroque arts dada swirl,installations,-16.98607635498047,-21.040321350097656,-11.868036270141602
+artistic movement,4,heldout,arts drama installations pilates,abstract,-12.301891326904297,-18.70472526550293,-12.301891326904297
+bird,0,train,sparrow phoenix canary crow,raven,-4.561529159545898,-23.447917938232422,
+bird,1,train,flamingo crow canary vulture,vulcan,-14.239923477172852,-19.8618221282959,
+bird,2,train,woodpecker flamingo stork vulcan,vulture,-6.933233261108398,-23.178462982177734,
+bird,3,train,woodpecker falcon owl eagle,vulcan,-16.565587997436523,-19.8618221282959,
+bird,4,train,raven stork sparrow falcon,vulture,-3.787970781326294,-23.178462982177734,
+bird,5,train,flamingo parrot ostrich goose,raven,-6.363701820373535,-23.447917938232422,
+bird,6,train,raven woodpecker canary goose,phoenix,-10.86767864227295,-23.27050018310547,
+bird,7,train,woodpecker owl vulcan parrot,canary,-7.430569648742676,-23.644746780395508,
+bird,0,heldout,cuckoo hawk pelican robin,emu,-9.282751083374023,-21.80756950378418,-7.939229965209961
+bird,1,heldout,jay swan thrush cuckoo,chicken,-8.77767276763916,-22.387367248535156,-8.21809196472168
+bird,2,heldout,duck pelican swan swallow,pheasant,-7.047793388366699,-22.188989639282227,-6.085255146026611
+bird,3,heldout,turkey pelican dove duck,cuckoo,-10.783456802368164,-22.102943420410156,-14.142332077026367
+bird,4,heldout,turkey pelican duck thrush,cuckoo,-5.837238788604736,-22.102943420410156,-8.059741020202637
+month,0,train,april march january october,september,-1.8537216186523438,-17.61526870727539,
+month,1,train,january june march september,october,-1.6185104846954346,-19.627763748168945,
+month,2,train,october january march september,april,-2.5991382598876953,-18.2094669342041,
+month,3,train,june april march october,january,-3.844430923461914,-20.811506271362305,
+month,4,train,october january september june,april,-3.210719585418701,-18.2094669342041,
+month,5,train,october june march september,april,-2.6900930404663086,-18.2094669342041,
+month,6,train,september june april january,march,-2.76649808883667,-21.32621192932129,
+month,7,train,april september october june,march,-4.369402885437012,-21.32621192932129,
+month,0,heldout,december august may july,february,-3.4891467094421387,-21.10028839111328,-5.01088809967041
+month,1,heldout,december november july may,february,-3.521073818206787,-21.10028839111328,-3.070066213607788
+month,2,heldout,december august february july,may,-2.9319117069244385,-16.93552589416504,-3.799060583114624
+month,3,heldout,december august february may,november,-2.4761528968811035,-17.562664031982422,-3.0209834575653076
+month,4,heldout,february november august july,may,-2.908613681793213,-16.93552589416504,-3.898500680923462
+clothing,0,train,swimwear socks underwear bras,tights,-5.027332305908203,-24.64617156982422,
+clothing,1,train,top headband bracelets swimwear,cardigan,-10.184162139892578,-21.22995948791504,
+clothing,2,train,trainers bracelets necklaces jumper,headband,-8.272663116455078,-22.601823806762695,
+clothing,3,train,necklaces beanie socks dress,trainers,-10.543572425842285,-23.207260131835938,
+clothing,4,train,gilet trainers sweatshirt jumper,necklaces,-13.241474151611328,-24.07973289489746,
+clothing,5,train,socks jumper tights poncho,trainers,-9.029935836791992,-23.207260131835938,
+clothing,6,train,skirt waistcoat underwear polo,bras,-11.161423683166504,-19.230144500732422,
+clothing,7,train,polo top headband belt,socks,-7.62618350982666,-24.165008544921875,
+clothing,0,heldout,coat tie tuxedo jacket,sportswear,-12.899457931518555,-23.34175682067871,-13.031079292297363
+clothing,1,heldout,tie shorts jeans pyjamas,chinos,-7.847784996032715,-21.918407440185547,-10.697229385375977
+clothing,2,heldout,tie leggings coat shoes,jacket,-4.793659687042236,-18.117015838623047,-4.381551742553711
+clothing,3,heldout,leggings sportswear vest pants,sweater,-8.00843620300293,-21.113981246948242,-5.761469841003418
+clothing,4,heldout,cap kimono blouse pyjamas,jacket,-6.312687873840332,-18.117015838623047,-8.001220703125
+family relationship,0,train,daughter siblings sister godfather,grandchild,-7.23580265045166,-22.947092056274414,
+family relationship,1,train,grandfather daughter nephew godfather,grandchild,-6.373205661773682,-22.947092056274414,
+family relationship,2,train,sister siblings father niece,grandchild,-8.24885368347168,-22.947092056274414,
+family relationship,3,train,daughter grandparents nephew grandchild,godfather,-7.98698616027832,-23.860912322998047,
+family relationship,4,train,grandfather niece grandchild nephew,grandma,-6.35420036315918,-24.116275787353516,
+family relationship,5,train,grandchild father grandparents grandma,siblings,-7.056705474853516,-20.401058197021484,
+family relationship,6,train,siblings grandchild grandparents godfather,daughter,-6.431506156921387,-19.541250228881836,
+family relationship,7,train,siblings daughter grandchild grandma,father,-5.438046455383301,-20.90339469909668,
+family relationship,0,heldout,wife brother uncle grandson,son,-2.4785759449005127,-16.765514373779297,-2.921565532684326
+family relationship,1,heldout,parents uncle wife son,granddaughter,-6.353951454162598,-21.83010482788086,-6.39210319519043
+family relationship,2,heldout,husband wife son parents,pet,-8.699618339538574,-19.065889358520508,-9.807500839233398
+family relationship,3,heldout,uncle children husband granddaughter,parents,-4.8684186935424805,-21.413068771362305,-4.736591339111328
+family relationship,4,heldout,cousin uncle son pet,parents,-5.384556293487549,-21.413068771362305,-5.11142635345459
+meat,0,train,snails chicken zebra ox,cow,-3.287874460220337,-22.07143211364746,
+meat,1,train,kangaroo lobster crocodile cow,chicken,-4.284269332885742,-22.387367248535156,
+meat,2,train,steak sheep shrimp kangaroo,beef,-3.3517093658447266,-21.904048919677734,
+meat,3,train,crocodile zebra ox seafood,pigeon,-8.66291332244873,-21.72295379638672,
+meat,4,train,snails crocodile pigeon sheep,goat,-3.2715704441070557,-23.36411476135254,
+meat,5,train,chicken goat crocodile tongue,heart,-8.232383728027344,-23.041505813598633,
+meat,6,train,steak sheep heart sausages,goat,-10.94481372833252,-23.36411476135254,
+meat,7,train,shrimp cow sausages crocodile,pigeon,-12.309172630310059,-21.72295379638672,
+meat,0,heldout,pheasant mutton frog chorizo,veal,-6.628777503967285,-22.725563049316406,-7.160755634307861
+meat,1,heldout,lamb veal liver deer,mutton,-4.7059173583984375,-24.189434051513672,-4.920596122741699
+meat,2,heldout,ostrich mutton duck elk,frog,-7.247486591339111,-23.6546630859375,-7.149620056152344
+meat,3,heldout,veal rabbit deer liver,salmon,-5.494315147399902,-23.77035140991211,-6.066556930541992
+meat,4,heldout,lamb veal rabbit duck,ostrich,-6.613295555114746,-24.827043533325195,-5.448133945465088
+social gathering,0,train,drinks concert prom meeting,reunion,-12.477302551269531,-22.09278106689453,
+social gathering,1,train,prom party reunion lunch,dance,-4.65794038772583,-19.875947952270508,
+social gathering,2,train,event party meeting concert,prom,-6.795962333679199,-19.496322631835938,
+social gathering,3,train,anniversary prom dance gathering,ball,-13.824723243713379,-20.238849639892578,
+social gathering,4,train,gathering nightclub reunion event,anniversary,-12.852840423583984,-23.02888298034668,
+social gathering,5,train,event group meeting ball,concert,-10.116469383239746,-20.89791488647461,
+social gathering,6,train,anniversary functions lunch ball,dance,-3.9948740005493164,-19.875947952270508,
+social gathering,7,train,ball meeting lunch nightclub,functions,-9.781888961791992,-20.640153884887695,
+social gathering,0,heldout,disco meals riot club,funeral,-12.081883430480957,-18.628204345703125,-15.151329040527344
+social gathering,1,heldout,bar wedding birthday easter,celebration,-4.760746002197266,-20.772903442382812,-4.529441833496094
+social gathering,2,heldout,easter riot disco birthday,social,-10.247434616088867,-17.32508659362793,-9.39016342163086
+social gathering,3,heldout,riot dinner wedding social,society,-7.927739143371582,-20.856712341308594,-8.163920402526855
+social gathering,4,heldout,social birthday christmas meals,wedding,-5.708919525146484,-21.135719299316406,-3.3702621459960938
+medical specialty,0,train,oncology doctor psychological dentist,research,-8.51842975616455,-18.634084701538086,
+medical specialty,1,train,doctor pathology oncology psychological,dentist,-10.461355209350586,-22.96881866455078,
+medical specialty,2,train,doctor pathology veterinary statistics,psychological,-10.443249702453613,-21.09571075439453,
+medical specialty,3,train,dentist veterinary pathology oncology,research,-4.140829086303711,-18.634084701538086,
+medical specialty,4,train,statistics dentist cardiovascular pathology,cancer,-5.656455039978027,-19.64980125427246,
+medical specialty,5,train,cancer statistics oncology veterinary,doctor,-8.480701446533203,-19.601966857910156,
+medical specialty,6,train,cancer veterinary statistics research,chiropractic,-15.50548267364502,-21.658506393432617,
+medical specialty,7,train,ent chiropractic oncology cancer,doctor,-5.293475151062012,-19.601966857910156,
+medical specialty,0,heldout,backs nurse cardiac diagnostic,gastro,-14.190902709960938,-21.5655517578125,-13.96752643585205
+medical specialty,1,heldout,gp nurse cardiac psychiatrist,backs,-19.785503387451172,-23.61177635192871,-19.209951400756836
+medical specialty,2,heldout,feet gastro cardiac gp,radiology,-9.930590629577637,-23.68044090270996,-8.64380931854248
+medical specialty,3,heldout,midwife nurse backs gastro,surgeon,-5.231305122375488,-24.05526351928711,-11.69526481628418
+medical specialty,4,heldout,backs gastro feet nurse,surgeon,-9.359610557556152,-24.05526351928711,-13.092975616455078

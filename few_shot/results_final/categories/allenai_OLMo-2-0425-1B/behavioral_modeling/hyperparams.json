@@ -1,0 +1,9 @@
+{
+  "model_name": "allenai/OLMo-2-0425-1B",
+  "save_root": "/oscar/data/epavlick/mlepori/projects/rerepresentation/few_shot/results_final/categories",
+  "fit_intercept": false,
+  "lbfgs_max_iter": 100,
+  "lbfgs_lr": 1.0,
+  "row_chunk_size": 256,
+  "leave_one_concept_out": true
+}

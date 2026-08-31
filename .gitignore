@@ -1,0 +1,10 @@
+*.pyc
+"__pycache__"
+
+few_shot/slurm/logs/*.out
+few_shot/slurm/logs/*.err
+few_shot/.claude
+few_shot/analysis/.ipynb_checkpoints
+
+*.pt
+*.npy
